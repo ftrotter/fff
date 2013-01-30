@@ -1,0 +1,3 @@
+Its all AGPL unless it is a library from another project. Then that projects license applies...
+
+

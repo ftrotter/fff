@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>3 Layer CSS Menu</title>
+<style type="text/css">
+@import "util/css/stylesheet-vertical.css";
+/* my inline styles for selected list items */
+li.save {
+	background: url('util/images/icon_save.gif') 10px center no-repeat;
+}
+</style>
+</head>
+<body>
+<ul id="navigation">
+	<li><a href="">File</a>
+		<ul>
+			<li>New tab</li>
+			<li>New window</li>
+			<li class="divider"><hr /></li>
+			<li>Open...</li>
+			<li>Close tab</li>
+			<li class="save">Save as..</li>
+			<li class="divider"><hr /></li>
+			<li>Sessions &raquo;
+				<ul>
+					<li>Save this session...</li>
+					<li>Manage sessions...</li>
+				</ul>
+			</li>
+			<li>Import/Export</li>
+			<li class="divider"><hr /></li>
+			<li>Print...</li>
+			<li>Print options...</li>
+			<li>Print preview</li>
+			<li class="divider"><hr /></li>
+			<li>Synchronize Opera...</li>
+			<li>Work offline</li>
+			<li class="divider"><hr /></li>
+			<li>Exit</li>
+		</ul>
+	</li>
+	<li>Edit
+		<ul>
+			<li>Undo</li>
+			<li>Redo</li>
+			<li class="divider"><hr /></li>
+			<li>Cut</li>
+			<li>Copy</li>
+			<li>Copy to note</li>
+			<li>Paste</li>
+			<li class="divider"><hr /></li>
+			<li>Select all</li>
+			<li class="divider"><hr /></li>
+			<li>Check spelling</li>
+			<li class="divider"><hr /></li>
+			<li>Find...</li>
+			<li>Find next</li>
+		</ul>
+	</li>
+	<li>View
+		<ul>
+			<li>Toolbars &raquo;
+				<ul style="width: 180px;">
+					<li>Panels</li>
+					<li>Main bar</li>
+					<li>Personal bar</li>
+					<li>Tab bar</li>
+					<li>Status bar</li>
+					<li>Address bar</li>
+					<li>Navigation bar</li>
+					<li class="divider"><hr /></li>
+					<li>Customize</li>
+				</ul>
+			</li>
+			<li class="divider"><hr /></li>
+			<li>Zoom &raquo;
+				<ul>
+					<li>50%</li>
+					<li>80%</li>
+					<li>90%</li>
+					<li class="divider"><hr /></li>
+					<li>100%</li>
+					<li>120%</li>
+					<li>150%</li>
+					<li>200%</li>
+					<li class="divider"><hr /></li>
+					<li>-100%</li>
+					<li>+100%</li>
+					<li>-10%</li>
+					<li>+10%</li>
+				</ul>
+			</li>
+			<li>Images &raquo;
+				<ul style="width: 190px;">
+					<li>Show images</li>
+					<li>Cached images</li>
+					<li>No images</li>
+				</ul>
+			</li>
+			<li class="divider"><hr /></li>
+			<li>Source</li>
+			<li class="divider"><hr /></li>
+			<li>Small screen</li>
+			<li>Fit to screen</li>
+			<li>Full screen</li>
+		</ul>
+	</li>
+	<li>External Links
+		<ul>
+			<li>My website &raquo;
+				<ul style="width: 170px;">
+					<li><a href="http://www.chuckcerrillo.com">Home</a></li>
+					<li><a href="http://blog.chuckcerrillo.com">Blog</a></li>
+					<li><a href="http://thedirtlab.chuckcerrillo.com">TheDirtLab</a></li>
+					<li class="divider"><hr /></li>
+					<li><a href="http://rchuck.multiply.com">My Multiply page</a></li>
+					<li><a href="http://www.youtube.com/rchuck">My Youtube page</a></li>
+					<li><a href="http://www.facebook.com/rupertchuck">My Facebook page</a></li>
+				</ul>
+			</li>
+			<li>Work &raquo;
+				<ul style="width: 280px;">
+					<li><a href="http://www.zallas.com">Zallas Technologies, Incorporated</a></li>
+					<li><a href="http://www.zallas.ph">Zallas Technologies, Inc - Philippines</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+<div>
+	<p>This is a sample 3 layer horizontal navigation bar done purely in CSS, no JavaScript at all!</p>
+	<p>In case you were wondering, the menus I shown here are based off the menus in Opera. I can't think of anything
+	to display so I thought of just emulating some of my browser's menu bars.</p>
+	<p>I left out two sub-menus in the View menu though - Style and Encoding. They had too many child content and I
+	didn't feel like adding them all, haha!</p>
+	<p>Some panels might be quite lacking in width, for those you'd want to use an inline width adjustment. If you'd
+	view the source code of this page, you'd see me do the inline width adjustment at line number 64 for the &quot;Toolbars&quot;
+	and line 95 for the &quot;Images&quot; sub-menu.</p>
+	<p>I also applied a basic skin just to show that this can be easily customized using your own CSS declarations.</p>
+	<p>Read about this entry in my blog - <a href="http://blog.chuckcerrillo.com/2009/08/a-neat-and-clean-css-menu/">A neat and clean CSS menu</a></p>
+<div>
+</body>
+</html>
