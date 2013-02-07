@@ -7,515 +7,91 @@
 /Fields [
 <<
 /V ()
-/T (license_0_number)
->> 
-<<
-/V ()
-/T (address_home_line1)
->> 
-<<
-/V ()
-/T (hospital_1_type_of_privileges)
->> 
-<<
-/V ()
-/T (address_country)
->> 
-<<
-/V ()
-/T (degree_0_city)
+/T (practice_0_non_physician_provider_0_designation)
 >> 
 <<
 /V /
-/T (specialty_1_pos_listed_yes)
->> 
-<<
-/V /
-/T (post_1_is_teaching_position_yes)
->> 
-<<
-/V /
-/T (is_more_formerhospitals)
->> 
-<<
-/V /
-/T (license_2_is_practice_in_state_no)
->> 
-<<
-/V ()
-/T (workhistory_2_gap_date_explanation)
->> 
-<<
-/V ()
-/T (type_of_professional)
->> 
-<<
-/V ()
-/T (name_middle)
->> 
-<<
-/V ()
-/T (reference_0_phone)
->> 
-<<
-/V /
-/T (is_military_public_health_no)
->> 
-<<
-/V ()
-/T (postgrad_0_address_line1)
->> 
-<<
-/V /
-/T (specialty_0_hmo_listed_yes)
->> 
-<<
-/V /
-/T (formerhospital_0_is_have_full_privileges_yes)
->> 
-<<
-/V /
-/T (specialty_2_ppo_listed_no)
->> 
-<<
-/V ()
-/T (military_date_of_service_end_date)
->> 
-<<
-/V ()
-/T (license_1_number)
->> 
-<<
-/V ()
-/T (phone_home)
->> 
-<<
-/V /
-/T (post_2_is_teaching_position_yes)
->> 
-<<
-/V ()
-/T (work_3_practice_employer_name)
->> 
-<<
-/V ()
-/T (address_correspondence_postal)
->> 
-<<
-/V ()
-/T (reference_1_address_country)
->> 
-<<
-/V ()
-/T (postgrad_0_address_country)
->> 
-<<
-/V ()
-/T (license_1_type)
->> 
-<<
-/V ()
-/T (speciality_2_type)
->> 
-<<
-/V ()
-/T (speciality_1_date_start)
->> 
-<<
-/V ()
-/T (workhistory_0_gap_date)
->> 
-<<
-/V ()
-/T (formerhospital_0_address_country)
->> 
-<<
-/V ()
-/T (other_cds_number)
->> 
-<<
-/V ()
-/T (reference_0_address_state)
->> 
-<<
-/V ()
-/T (formerhospital_0_affiliation_end_date)
->> 
-<<
-/V /
-/T (specialty_1_is_board_certified_yes)
->> 
-<<
-/V ()
-/T (specialty_2_certifying_board)
->> 
-<<
-/V ()
-/T (work_1_address_country)
->> 
-<<
-/V /
-/T (hospital_0_is_have_temp_privileges_yes)
->> 
-<<
-/V ()
-/T (speciality_1_recertification_date)
->> 
-<<
-/V /
-/T (is_male)
->> 
-<<
-/V ()
-/T (postgrad_1_attendance_start_date)
->> 
-<<
-/V /
-/T (specialty_0_is_board_certified_no)
->> 
-<<
-/V /
-/T (specialty_0_is_intending_sit_boards_yes)
+/T (practice_0_is_xray_services_list_cert_yes)
 >> 
 <<
 /V ()
 /T (work_1_address_city)
 >> 
 <<
-/V /
-/T (is_military_public_health_yes)
->> 
-<<
 /V ()
-/T (postgrad_0_address_state)
+/T (practice_0_provider_cert_adv_trauma_life_support_expire_date)
 >> 
 <<
 /V /
-/T (formerhospital_0_is_have_full_privileges_no)
+/T (practice_0_is_childcare_services_yes)
 >> 
 <<
 /V /
-/T (dea_number_is_exist_yes)
+/T (specialty_1_pos_listed_yes)
 >> 
 <<
 /V ()
-/T (dps_number_issue_date)
+/T (practice_0_address_postal)
 >> 
 <<
 /V ()
-/T (formerhospital_0_address_city)
->> 
-<<
-/V ()
-/T (other_cds_type)
+/T (disclosure_16_number)
 >> 
 <<
 /V /
-/T (hospital_0_is_have_temp_privileges_no)
+/T (practice_0_accepts_all_new_patients_is_yes)
 >> 
 <<
 /V ()
-/T (work_2_practice_employer_name)
+/T (disclosure_17_number)
 >> 
 <<
 /V ()
-/T (medicare_number)
+/T (postgrad_0_program_director_then)
 >> 
 <<
 /V ()
-/T (work_3_address_postal)
+/T (managed_care_company_hospital_entity)
+>> 
+<<
+/V ()
+/T (practice_0_limitations_age_top)
 >> 
 <<
 /V /
-/T (ecfmg_is_foreign_medical_grad_no)
->> 
-<<
-/V ()
-/T (name_maiden_range_end_date)
->> 
-<<
-/V ()
-/T (license_1_issue_date)
+/T (disclosure_21_is_yes)
 >> 
 <<
 /V /
-/T (is_additional_postgrad_yes)
+/T (practice_0_is_provider_cert_advanced_ob_life_support_yes)
 >> 
 <<
 /V /
-/T (ecfmg_is_foreign_medical_grad_na)
+/T (practice_0_is_lab_services_following_yes)
 >> 
 <<
 /V ()
-/T (hospital_1_address_line1)
->> 
-<<
-/V ()
-/T (hospital_0_email)
->> 
-<<
-/V ()
-/T (name_first)
->> 
-<<
-/V ()
-/T (reference_0_address_line1)
->> 
-<<
-/V ()
-/T (license_0_type)
->> 
-<<
-/V ()
-/T (hospital_0_name)
->> 
-<<
-/V ()
-/T (othergrad_0_end_date)
+/T (license_0_expiration_date)
 >> 
 <<
 /V /
-/T (specialty_2_is_board_certified_yes)
->> 
-<<
-/V ()
-/T (other_cds_expiration_date)
->> 
-<<
-/V ()
-/T (reference_0_address_postal)
->> 
-<<
-/V ()
-/T (hospital_0_ifnotadmit_privileges)
->> 
-<<
-/V ()
-/T (hospital_0_type_of_privileges)
->> 
-<<
-/V /
-/T (formerhospital_0_is_have_temp_privileges_yes)
->> 
-<<
-/V ()
-/T (speciality_0_recertification_date)
->> 
-<<
-/V ()
-/T (name_suffix)
->> 
-<<
-/V ()
-/T (license_2_state)
->> 
-<<
-/V /
-/T (is_eligible_to_work_no)
->> 
-<<
-/V /
-/T (post_1_is_fellowship_yes)
->> 
-<<
-/V ()
-/T (license_2_number)
->> 
-<<
-/V /
-/T (specialty_0_pos_listed_yes)
->> 
-<<
-/V ()
-/T (hospital_1_fax)
->> 
-<<
-/V ()
-/T (hospital_0_admission_precent)
->> 
-<<
-/V ()
-/T (degree_0_state)
->> 
-<<
-/V ()
-/T (work_1_start_date)
->> 
-<<
-/V ()
-/T (postgrad_0_speciality)
->> 
-<<
-/V ()
-/T (work_1_end_date)
->> 
-<<
-/V ()
-/T (othergrad_0_start_date)
->> 
-<<
-/V /
-/T (post_2_is_internship_yes)
->> 
-<<
-/V ()
-/T (hospital_1_start_date)
->> 
-<<
-/V ()
-/T (speciality_0_date_start)
->> 
-<<
-/V ()
-/T (hospital_0_address_country)
->> 
-<<
-/V /
-/T (specialty_2_hmo_listed_no)
->> 
-<<
-/V ()
-/T (work_1_practice_employer_name)
->> 
-<<
-/V ()
-/T (reference_1_title)
->> 
-<<
-/V /
-/T (specialty_0_pos_listed_no)
->> 
-<<
-/V ()
-/T (address_home_city)
->> 
-<<
-/V ()
-/T (formerhospital_0_address_postal)
->> 
-<<
-/V ()
-/T (hospital_1_address_state)
->> 
-<<
-/V /
-/T (medicaid_is_participating_provider_no)
->> 
-<<
-/V /
-/T (license_0_is_practice_in_state_yes)
->> 
-<<
-/V /
-/T (medicaid_is_participating_provider_yes)
->> 
-<<
-/V /
-/T (specialty_1_is_intending_sit_boards_yes)
->> 
-<<
-/V ()
-/T (workhistory_1_gap_date_explanation)
->> 
-<<
-/V /
-/T (specialty_1_ppo_listed_yes)
->> 
-<<
-/V ()
-/T (service_branch)
->> 
-<<
-/V ()
-/T (work_3_address_country)
->> 
-<<
-/V ()
-/T (hospital_0_fax)
->> 
-<<
-/V ()
-/T (hospital_1_name)
->> 
-<<
-/V ()
-/T (degree_0_country)
->> 
-<<
-/V /
-/T (hospital_0_is_have_privileges_no)
->> 
-<<
-/V ()
-/T (work_3_address_state)
->> 
-<<
-/V /
-/T (specialty_2_is_board_certified_no)
->> 
-<<
-/V /
-/T (medicare_is_participating_provider_no)
->> 
-<<
-/V ()
-/T (othergrad_0_address_postal)
->> 
-<<
-/V /
-/T (license_1_is_practice_in_state_yes)
+/T (practice_0_is_osteopathic_manipulations_services_yes)
 >> 
 <<
 /V ()
 /T (citizenship_visa)
 >> 
 <<
-/V ()
-/T (postgrad_1_address_line1)
+/V /
+/T (disclosure_9_is_no)
 >> 
 <<
 /V /
-/T (is_eligible_to_work_yes)
->> 
-<<
-/V ()
-/T (citizenship_status)
+/T (practice_0_billing_company_bill_electronic_is_no)
 >> 
 <<
 /V /
-/T (dps_number_is_exist_yes)
->> 
-<<
-/V ()
-/T (postgrad_1_institution)
->> 
-<<
-/V ()
-/T (othergrad_0_address_city)
->> 
-<<
-/V ()
-/T (hospital_0_address_state)
->> 
-<<
-/V /
-/T (hospital_0_is_have_full_privileges_no)
->> 
-<<
-/V ()
-/T (reference_1_address_city)
->> 
-<<
-/V ()
-/T (work_3_address_city)
->> 
-<<
-/V /
-/T (license_2_is_practice_in_state_yes)
->> 
-<<
-/V ()
-/T (work_0_address_postal)
+/T (hospital_1_is_have_temp_privileges_yes)
 >> 
 <<
 /Kids [
@@ -523,331 +99,75 @@
 /Kids [
 <<
 /V ()
-/T (TextField2[11])
+/T (INITIAL_CERTIFICATION_DATE_MMYYYY[5])
+>> 
+<<
+/V ()
+/T (INITIAL_CERTIFICATION_DATE_MMYYYY[0])
+>> 
+<<
+/V ()
+/T (INITIAL_CERTIFICATION_DATE_MMYYYY[1])
+>> 
+<<
+/V ()
+/T (INITIAL_CERTIFICATION_DATE_MMYYYY[2])
+>> 
+<<
+/V ()
+/T (INITIAL_CERTIFICATION_DATE_MMYYYY[3])
+>> 
+<<
+/V ()
+/T (INITIAL_CERTIFICATION_DATE_MMYYYY[4])
+>>]
+/T (Page3[0])
+>> 
+<<
+/Kids [
+<<
+/V /
+/T (Cop[0])
 >> 
 <<
 /V /
-/T (practice_yes[14])
+/T (Copies_of_radio[0])
 >> 
 <<
 /V /
-/T (practice_yes[2])
->> 
-<<
-/V ()
-/T (TextField2[9])
+/T (Copy_of_workers_compensation_cert[0])
 >> 
 <<
 /V /
-/T (directory_yes[2])
->> 
-<<
-/V ()
-/T (zip[0])
->> 
-<<
-/V ()
-/T (TextField2[3])
->> 
-<<
-/V ()
-/T (state[4])
+/T (Copy_of_DEA_or_state_DPS_Control[0])
 >> 
 <<
 /V /
-/T (soloprimary[0])
->> 
-<<
-/V ()
-/T (phone[5])
->> 
-<<
-/V ()
-/T (TextField2[18])
+/T (Copy_of_current_professional_liab[0])
 >> 
 <<
 /V /
-/T (practice_yes[9])
->> 
-<<
-/V ()
-/T (groupname[0])
->> 
-<<
-/V ()
-/T (TextField2[12])
+/T (Copy_of_other_Control[0])
 >> 
 <<
 /V /
-/T (practice_yes[13])
+/T (Copy_of_DD214__record_of_m[0])
 >> 
 <<
 /V /
-/T (practice_yes[3])
+/T (Copy_of_CLIA_certif[0])
+>>]
+/T (Page12[0])
 >> 
 <<
-/V /
-/T (practice_yes[19])
->> 
-<<
-/V ()
-/T (city[4])
->> 
+/Kids [
 <<
 /V ()
-/T (TextField2[4])
->> 
-<<
-/V ()
-/T (zip[1])
->> 
-<<
-/V /
-/T (primary[0])
->> 
-<<
-/V ()
-/T (state[3])
->> 
-<<
-/V ()
-/T (phone[6])
->> 
-<<
-/V ()
-/T (TextField2[19])
->> 
-<<
-/V ()
-/T (credentialing[2])
->> 
-<<
-/V /
-/T (groupsingle[0])
->> 
-<<
-/V ()
-/T (phone[0])
->> 
-<<
-/V ()
-/T (grouptaxid[0])
->> 
-<<
-/V ()
-/T (TextField2[13])
->> 
-<<
-/V /
-/T (practice_yes[4])
->> 
-<<
-/V /
-/T (practice_yes[12])
->> 
-<<
-/V ()
-/T (managerfax[0])
->> 
-<<
-/V ()
-/T (adress[2])
->> 
-<<
-/V /
-/T (practice_yes[18])
->> 
-<<
-/V ()
-/T (city[3])
->> 
-<<
-/V ()
-/T (email[2])
->> 
-<<
-/V ()
-/T (TextField2[5])
->> 
-<<
-/V ()
-/T (zip[2])
->> 
-<<
-/V ()
-/T (groupnumber[0])
->> 
-<<
-/V ()
-/T (state[2])
->> 
-<<
-/V /
-/T (directory_no[2])
->> 
-<<
-/V ()
-/T (credentialing[1])
->> 
-<<
-/V ()
-/T (numberof[0])
->> 
-<<
-/V ()
-/T (fax[0])
->> 
-<<
-/V ()
-/T (phone[1])
+/T (TextField2[17])
 >> 
 <<
 /V ()
 /T (TextField2[14])
->> 
-<<
-/V /
-/T (groupmulti[0])
->> 
-<<
-/V /
-/T (practice_yes[5])
->> 
-<<
-/V /
-/T (practice_yes[11])
->> 
-<<
-/V ()
-/T (managerphone[0])
->> 
-<<
-/V ()
-/T (medicaid[0])
->> 
-<<
-/V /
-/T (solospecialty[0])
->> 
-<<
-/V ()
-/T (adress[1])
->> 
-<<
-/V /
-/T (practice_yes[17])
->> 
-<<
-/V ()
-/T (city[2])
->> 
-<<
-/V ()
-/T (officemanager[0])
->> 
-<<
-/V ()
-/T (email[1])
->> 
-<<
-/V ()
-/T (zip[3])
->> 
-<<
-/V ()
-/T (TextField2[6])
->> 
-<<
-/V ()
-/T (corporate[0])
->> 
-<<
-/V ()
-/T (TextField2[0])
->> 
-<<
-/V ()
-/T (state[1])
->> 
-<<
-/V /
-/T (directory_no[1])
->> 
-<<
-/V /
-/T (practice_yes[20])
->> 
-<<
-/V ()
-/T (credentialing[0])
->> 
-<<
-/V ()
-/T (phone[2])
->> 
-<<
-/V ()
-/T (fax[1])
->> 
-<<
-/V ()
-/T (TextField2[15])
->> 
-<<
-/V /
-/T (practice_yes[10])
->> 
-<<
-/V /
-/T (practice_yes[6])
->> 
-<<
-/V ()
-/T (adress[0])
->> 
-<<
-/V /
-/T (practice_yes[16])
->> 
-<<
-/V /
-/T (practice_yes[0])
->> 
-<<
-/V ()
-/T (city[1])
->> 
-<<
-/V ()
-/T (email[0])
->> 
-<<
-/V ()
-/T (TextField2[7])
->> 
-<<
-/V ()
-/T (zip[4])
->> 
-<<
-/V /
-/T (directory_yes[0])
->> 
-<<
-/V /
-/T (groupprimary[0])
->> 
-<<
-/V ()
-/T (TextField2[1])
->> 
-<<
-/V ()
-/T (state[0])
->> 
-<<
-/V /
-/T (directory_no[0])
 >> 
 <<
 /V ()
@@ -855,39 +175,43 @@
 >> 
 <<
 /V ()
-/T (phone[3])
+/T (TextField2[11])
 >> 
 <<
 /V ()
-/T (fax[2])
+/T (TextField2[9])
+>> 
+<<
+/V ()
+/T (numberof[0])
+>> 
+<<
+/V ()
+/T (TextField2[6])
+>> 
+<<
+/V ()
+/T (TextField2[3])
+>> 
+<<
+/V ()
+/T (TextField2[0])
+>> 
+<<
+/V ()
+/T (TextField2[19])
 >> 
 <<
 /V ()
 /T (TextField2[16])
 >> 
 <<
-/V /
-/T (practice_yes[7])
->> 
-<<
 /V ()
-/T (taxid[0])
+/T (TextField2[13])
 >> 
 <<
 /V ()
 /T (TextField2[10])
->> 
-<<
-/V /
-/T (practice_yes[1])
->> 
-<<
-/V /
-/T (practice_yes[15])
->> 
-<<
-/V ()
-/T (city[0])
 >> 
 <<
 /V ()
@@ -895,11 +219,7 @@
 >> 
 <<
 /V ()
-/T (TextField2[20])
->> 
-<<
-/V /
-/T (directory_yes[1])
+/T (TextField2[5])
 >> 
 <<
 /V ()
@@ -907,27 +227,31 @@
 >> 
 <<
 /V ()
-/T (backofficephone[0])
+/T (TextField2[18])
 >> 
 <<
 /V ()
-/T (startdate[0])
+/T (TextField2[15])
 >> 
 <<
 /V ()
-/T (phone[4])
+/T (TextField2[12])
 >> 
 <<
 /V ()
-/T (fax[3])
+/T (TextField2[7])
 >> 
 <<
 /V ()
-/T (TextField2[17])
+/T (TextField2[4])
 >> 
 <<
-/V /
-/T (practice_yes[8])
+/V ()
+/T (TextField2[1])
+>> 
+<<
+/V ()
+/T (TextField2[20])
 >>]
 /T (Page6[0])
 >> 
@@ -1327,51 +651,11 @@
 /Kids [
 <<
 /V /
-/T (If_yes__please_check_th[0])
->> 
-<<
-/V /
-/T (RadioButtonList[1])
->> 
-<<
-/V /
-/T (RadioButtonList[4])
->> 
-<<
-/V /
-/T (RadioButtonList[7])
->> 
-<<
-/V /
-/T (RadioButtonList[2])
->> 
-<<
-/V /
-/T (RadioButtonList[10])
->> 
-<<
-/V /
-/T (RadioButtonList[5])
->> 
-<<
-/V /
-/T (RadioButtonList[8])
->> 
-<<
-/V /
 /T (RadioButtonList[0])
 >> 
 <<
 /V /
-/T (RadioButtonList[3])
->> 
-<<
-/V /
-/T (RadioButtonList[6])
->> 
-<<
-/V /
-/T (RadioButtonList[9])
+/T (RadioButtonList[2])
 >>]
 /T (Page9[0])
 >> 
@@ -1379,217 +663,141 @@
 /Kids [
 <<
 /V /
-/T (RadioButtonList[0])
->> 
-<<
-/V ()
-/T (Name__Name_2[0])
->> 
-<<
-/V ()
-/T (EXPIRATION_DATE_MMDDYYYY_7[0])
->> 
-<<
-/V ()
-/T (AMOUNT_OF_COVERAGE_AGGREGATE[0])
->> 
-<<
-/V ()
-/T (POLICY_NUMBER[1])
->> 
-<<
-/V ()
-/T (_3_NAMETITLE[0])
->> 
-<<
-/V ()
-/T (TextField1[8])
->> 
-<<
-/V ()
-/T (PHONE_NUMBER_6[0])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[8])
->> 
-<<
-/V ()
-/T (TextField1[5])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[5])
->> 
-<<
-/V ()
-/T (Name__Specialty_4[0])
->> 
-<<
-/V ()
-/T (TextField1[11])
->> 
-<<
-/V ()
-/T (EFFECTIVE_DATE_MMDDYYYY[0])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[2])
->> 
-<<
-/V ()
-/T (PHONE_NUMBER_7[1])
->> 
-<<
-/V ()
-/T (ADDRESS_12[1])
->> 
-<<
-/V ()
-/T (LENGTH_OF_TIME_WITH_CARRIER[1])
->> 
-<<
-/V /
-/T (RadioButtonList[1])
->> 
-<<
-/V ()
-/T (Name__Specialty_2[0])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[11])
->> 
-<<
-/V /
 /T (PLEASE_LIST_FULL_NAMES_OF_ALL_PARTNERS_IN_YOUR_PRACTICE[0])
->> 
-<<
-/V ()
-/T (Name__Name_3[0])
->> 
-<<
-/V ()
-/T (TextField1[9])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[9])
->> 
-<<
-/V ()
-/T (TextField1[6])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[6])
->> 
-<<
-/V ()
-/T (TextField1[3])
->> 
-<<
-/V ()
-/T (NAME_OF_CURRENT_MALPRACTICE_INSURANCE_CARRIER_OR_SELF-INSURED_ENTITY[0])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[3])
->> 
-<<
-/V ()
-/T (PHONE_NUMBER_7[0])
->> 
-<<
-/V ()
-/T (PHONE_NUMBER_7[3])
->> 
-<<
-/V ()
-/T (ADDRESS_12[2])
->> 
-<<
-/V ()
-/T (LENGTH_OF_TIME_WITH_CARRIER[0])
->> 
-<<
-/V /
-/T (undefined_81[0])
->> 
-<<
-/V /
-/T (RadioButtonList[2])
->> 
-<<
-/V ()
-/T (EXPIRATION_DATE_MMDDYYYY_7[1])
->> 
-<<
-/V ()
-/T (POLICY_NUMBER[0])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[10])
->> 
-<<
-/V ()
-/T (AMOUNT_OF_COVERAGE_AGGREGATE[1])
->> 
-<<
-/V ()
-/T (ADDRESS_15[0])
->> 
-<<
-/V ()
-/T (Name__Specialty[0])
->> 
-<<
-/V ()
-/T (Name__Specialty_3[0])
->> 
-<<
-/V ()
-/T (Name__Name[0])
->> 
-<<
-/V ()
-/T (TextField1[7])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[7])
->> 
-<<
-/V ()
-/T (TextField1[4])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[4])
->> 
-<<
-/V ()
-/T (TextField1[10])
->> 
-<<
-/V ()
-/T (EFFECTIVE_DATE_MMDDYYYY[1])
->> 
-<<
-/V ()
-/T (PLEASE_LIST_NAMES_OF_COLLEAGUES_PROVIDING_REGULAR_COVERAGE_AND_HIS_OR_HER_SPECIALTIES_Name__Specialty[1])
->> 
-<<
-/V ()
-/T (PHONE_NUMBER_7[2])
->> 
-<<
-/V ()
-/T (NAME_OF_PREVIOUS_MALPRACTICE_INSURANCE_CARRIER_IF_WITH_CURRENT_CARRIER_LESS_THAN_5_YEARS[0])
 >>]
 /T (Page5[0])
+>> 
+<<
+/Kids [
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_16[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_22[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_4[0])
+>> 
+<<
+/V ()
+/T (QUESTION_NUMBER__Row_22[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_10[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_17[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_23[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_3[0])
+>> 
+<<
+/V ()
+/T (QUESTION_NUMBER__Row_23[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_11[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_9[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_18[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_2[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_24[0])
+>> 
+<<
+/V ()
+/T (QUESTION_NUMBER__Row_24[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_12[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_8[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_19[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_25[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_1[0])
+>> 
+<<
+/V ()
+/T (QUESTION_NUMBER__Row_25[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_13[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_7[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_26[0])
+>> 
+<<
+/V ()
+/T (QUESTION_NUMBER__Row_26[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_14[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_20[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_6[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_15[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_5[0])
+>> 
+<<
+/V ()
+/T (PLEASE_EXPLAIN__Row_21[0])
+>> 
+<<
+/V ()
+/T (QUESTION_NUMBER__Row_21[0])
+>>]
+/T (Page10[0])
 >> 
 <<
 /Kids [
@@ -2902,1060 +2110,8 @@
 /T (state[0])
 >>]
 /T (Page1[0])
->> 
-<<
-/Kids [
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_19[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_20[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_3[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_24[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_6[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_25[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_8[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_11[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_1[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_12[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_16[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_17[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_1[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_22[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_8[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_23[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_6[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_3[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_10[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_14[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_15[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_19[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_20[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_21[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_4[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_1[1])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_25[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_5[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_26[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_9[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_12[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_13[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_17[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_18[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_2[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_23[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_7[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_24[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_7[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_10[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_11[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_2[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_15[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_16[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_21[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_9[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_22[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_5[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_26[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_1[1])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_4[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_13[0])
->> 
-<<
-/V ()
-/T (QUESTION_NUMBER__Row_14[0])
->> 
-<<
-/V ()
-/T (PLEASE_EXPLAIN__Row_18[0])
->>]
-/T (Page10[0])
->> 
-<<
-/Kids [
-<<
-/V /
-/T (RadioButtonList[1])
->> 
-<<
-/V /
-/T (RadioButtonList[11])
->> 
-<<
-/V /
-/T (RadioButtonList[4])
->> 
-<<
-/V /
-/T (RadioButtonList[7])
->> 
-<<
-/V /
-/T (RadioButtonList[2])
->> 
-<<
-/V /
-/T (RadioButtonList[10])
->> 
-<<
-/V /
-/T (RadioButtonList[5])
->> 
-<<
-/V /
-/T (RadioButtonList[8])
->> 
-<<
-/V /
-/T (RadioButtonList[0])
->> 
-<<
-/V /
-/T (RadioButtonList[3])
->> 
-<<
-/V /
-/T (RadioButtonList[6])
->> 
-<<
-/V /
-/T (RadioButtonList[9])
->>]
-/T (Page8[0])
->> 
-<<
-/Kids [
-<<
-/V ()
-/T (YYYY[0])
->> 
-<<
-/V ()
-/T (PLEASE_INDICATE_MANAGED_CARE_COMPANYS_OR_HOSPITALS_TO_WHICH_YOU_ARE_APPLYING_HEREINAFTER__INDIVIDUALLY_REFERRED_TO_AS_THE__ENTITY[0])
->> 
-<<
-/V ()
-/T (APPLICANT_S_INITIALS_AND_DATE_MM[0])
->>]
-/T (Page11[0])
->> 
-<<
-/Kids [
-<<
-/V /
-/T (CheckBox1[26])
->> 
-<<
-/V ()
-/T (TextField1[22])
->> 
-<<
-/V /
-/T (CheckBox1[10])
->> 
-<<
-/V /
-/T (CheckBox1[16])
->> 
-<<
-/V /
-/T (CheckBox1[5])
->> 
-<<
-/V ()
-/T (TextField1[9])
->> 
-<<
-/V /
-/T (CheckBox1[55])
->> 
-<<
-/V ()
-/T (TextField1[3])
->> 
-<<
-/V /
-/T (CheckBox1[45])
->> 
-<<
-/V ()
-/T (TextField1[19])
->> 
-<<
-/V /
-/T (CheckBox1[35])
->> 
-<<
-/V ()
-/T (TextField1[13])
->> 
-<<
-/V ()
-/T (TextField1[29])
->> 
-<<
-/V /
-/T (CheckBox1[25])
->> 
-<<
-/V ()
-/T (TextField1[23])
->> 
-<<
-/V /
-/T (CheckBox1[15])
->> 
-<<
-/V /
-/T (CheckBox1[4])
->> 
-<<
-/V /
-/T (CheckBox1[54])
->> 
-<<
-/V ()
-/T (TextField1[4])
->> 
-<<
-/V /
-/T (CheckBox1[44])
->> 
-<<
-/V /
-/T (CheckBox1[34])
->> 
-<<
-/V ()
-/T (TextField1[14])
->> 
-<<
-/V /
-/T (CheckBox1[24])
->> 
-<<
-/V ()
-/T (TextField1[24])
->> 
-<<
-/V /
-/T (CheckBox1[14])
->> 
-<<
-/V /
-/T (CheckBox1[3])
->> 
-<<
-/V /
-/T (CheckBox1[9])
->> 
-<<
-/V /
-/T (CheckBox1[53])
->> 
-<<
-/V ()
-/T (TextField1[5])
->> 
-<<
-/V /
-/T (CheckBox1[59])
->> 
-<<
-/V /
-/T (CheckBox1[43])
->> 
-<<
-/V /
-/T (CheckBox1[49])
->> 
-<<
-/V /
-/T (CheckBox1[33])
->> 
-<<
-/V ()
-/T (TextField1[15])
->> 
-<<
-/V /
-/T (CheckBox1[39])
->> 
-<<
-/V /
-/T (CheckBox1[23])
->> 
-<<
-/V ()
-/T (TextField1[25])
->> 
-<<
-/V /
-/T (CheckBox1[29])
->> 
-<<
-/V /
-/T (CheckBox1[13])
->> 
-<<
-/V /
-/T (CheckBox1[2])
->> 
-<<
-/V /
-/T (CheckBox1[19])
->> 
-<<
-/V /
-/T (CheckBox1[8])
->> 
-<<
-/V /
-/T (CheckBox1[52])
->> 
-<<
-/V ()
-/T (TextField1[6])
->> 
-<<
-/V /
-/T (CheckBox1[58])
->> 
-<<
-/V /
-/T (CheckBox1[42])
->> 
-<<
-/V ()
-/T (TextField1[0])
->> 
-<<
-/V /
-/T (CheckBox1[48])
->> 
-<<
-/V /
-/T (CheckBox1[32])
->> 
-<<
-/V ()
-/T (TextField1[16])
->> 
-<<
-/V /
-/T (CheckBox1[38])
->> 
-<<
-/V ()
-/T (TextField1[10])
->> 
-<<
-/V /
-/T (CheckBox1[22])
->> 
-<<
-/V ()
-/T (TextField1[26])
->> 
-<<
-/V /
-/T (CheckBox1[28])
->> 
-<<
-/V /
-/T (CheckBox1[12])
->> 
-<<
-/V ()
-/T (TextField1[20])
->> 
-<<
-/V /
-/T (CheckBox1[1])
->> 
-<<
-/V /
-/T (CheckBox1[18])
->> 
-<<
-/V /
-/T (CheckBox1[7])
->> 
-<<
-/V ()
-/T (TextField1[30])
->> 
-<<
-/V /
-/T (CheckBox1[51])
->> 
-<<
-/V ()
-/T (TextField1[7])
->> 
-<<
-/V /
-/T (CheckBox1[57])
->> 
-<<
-/V /
-/T (CheckBox1[41])
->> 
-<<
-/V ()
-/T (TextField1[1])
->> 
-<<
-/V /
-/T (CheckBox1[47])
->> 
-<<
-/V /
-/T (CheckBox1[31])
->> 
-<<
-/V ()
-/T (TextField1[17])
->> 
-<<
-/V /
-/T (CheckBox1[37])
->> 
-<<
-/V ()
-/T (TextField1[11])
->> 
-<<
-/V /
-/T (CheckBox1[21])
->> 
-<<
-/V ()
-/T (TextField1[27])
->> 
-<<
-/V /
-/T (CheckBox1[27])
->> 
-<<
-/V /
-/T (CheckBox1[11])
->> 
-<<
-/V ()
-/T (TextField1[21])
->> 
-<<
-/V /
-/T (CheckBox1[60])
->> 
-<<
-/V /
-/T (CheckBox1[0])
->> 
-<<
-/V /
-/T (CheckBox1[17])
->> 
-<<
-/V /
-/T (CheckBox1[6])
->> 
-<<
-/V ()
-/T (TextField1[31])
->> 
-<<
-/V /
-/T (CheckBox1[50])
->> 
-<<
-/V ()
-/T (TextField1[8])
->> 
-<<
-/V /
-/T (CheckBox1[56])
->> 
-<<
-/V /
-/T (CheckBox1[40])
->> 
-<<
-/V ()
-/T (TextField1[2])
->> 
-<<
-/V /
-/T (CheckBox1[46])
->> 
-<<
-/V /
-/T (CheckBox1[30])
->> 
-<<
-/V ()
-/T (TextField1[18])
->> 
-<<
-/V /
-/T (CheckBox1[36])
->> 
-<<
-/V ()
-/T (TextField1[12])
->> 
-<<
-/V /
-/T (CheckBox1[20])
->> 
-<<
-/V ()
-/T (TextField1[28])
->>]
-/T (Page7[0])
->> 
-<<
-/Kids [
-<<
-/V ()
-/T (INITIAL_CERTIFICATION_DATE_MMYYYY[5])
->> 
-<<
-/V ()
-/T (INITIAL_CERTIFICATION_DATE_MMYYYY[0])
->> 
-<<
-/V ()
-/T (INITIAL_CERTIFICATION_DATE_MMYYYY[1])
->> 
-<<
-/V ()
-/T (INITIAL_CERTIFICATION_DATE_MMYYYY[2])
->> 
-<<
-/V ()
-/T (INITIAL_CERTIFICATION_DATE_MMYYYY[3])
->> 
-<<
-/V ()
-/T (INITIAL_CERTIFICATION_DATE_MMYYYY[4])
->>]
-/T (Page3[0])
->> 
-<<
-/Kids [
-<<
-/V ()
-/T (NAME_PLEASE_PRINT_OR_TYPE[0])
->> 
-<<
-/V ()
-/T (SIGNATURE[0])
->> 
-<<
-/V /
-/T (Copy_of_workers_compensation_cert[0])
->> 
-<<
-/V /
-/T (Copy_of_current_professional_liab[0])
->> 
-<<
-/V /
-/T (Copy_of_CLIA_certif[0])
->> 
-<<
-/V /
-/T (Cop[0])
->> 
-<<
-/V /
-/T (Copies_of_radio[0])
->> 
-<<
-/V /
-/T (Copy_of_DEA_or_state_DPS_Control[0])
->> 
-<<
-/V /
-/T (Copy_of_other_Control[0])
->> 
-<<
-/V ()
-/T (DATE_MM[0])
->> 
-<<
-/V ()
-/T (Last_4_digits_of_SSN_or_NPI_PLEASE_PRINT_OR_TYPE[0])
->> 
-<<
-/V /
-/T (Copy_of_DD214__record_of_m[0])
->>]
-/T (Page12[0])
 >>]
 /T (topmostSubform[0])
->> 
-<<
-/V ()
-/T (workhistory_2_gap_date)
->> 
-<<
-/V /
-/T (license_0_is_practice_in_state_no)
->> 
-<<
-/V ()
-/T (formerhospital_0_address_line1)
->> 
-<<
-/V ()
-/T (dea_number)
->> 
-<<
-/V ()
-/T (email)
->> 
-<<
-/V ()
-/T (degree_0_attendance_end_date)
->> 
-<<
-/V /
-/T (other_cds_is_practice_in_state_no)
->> 
-<<
-/V ()
-/T (postgrad_1_program_director_now)
->> 
-<<
-/V ()
-/T (work_0_address_city)
->> 
-<<
-/V ()
-/T (service_last_location)
->> 
-<<
-/V ()
-/T (work_0_practice_employer_name)
->> 
-<<
-/V ()
-/T (work_2_address_postal)
->> 
-<<
-/V ()
-/T (work_2_address_country)
->> 
-<<
-/V /
-/T (specialty_2_hmo_listed_yes)
->> 
-<<
-/V ()
-/T (other_cds_state_registration)
->> 
-<<
-/V ()
-/T (degree_0_postal)
->> 
-<<
-/V ()
-/T (address_correspondence_state)
->> 
-<<
-/V ()
-/T (postgrad_0_attendance_start_date)
->> 
-<<
-/V ()
-/T (work_3_start_date)
->> 
-<<
-/V ()
-/T (reference_0_address_country)
->> 
-<<
-/V ()
-/T (address_correspondence_city)
->> 
-<<
-/V ()
-/T (degree_0_address_line1)
->> 
-<<
-/V ()
-/T (degree_0_attendance_start_date)
->> 
-<<
-/V ()
-/T (work_3_address_line1)
->> 
-<<
-/V ()
-/T (speciality_2_date_start)
->> 
-<<
-/V ()
-/T (reference_1_address_postal)
->> 
-<<
-/V ()
-/T (other_cds_issue_date)
->> 
-<<
-/V ()
-/T (citizenship_country)
->> 
-<<
-/V ()
-/T (postgrad_1_address_state)
->> 
-<<
-/V ()
-/T (npi)
->> 
-<<
-/V /
-/T (post_2_is_residency_yes)
->> 
-<<
-/V ()
-/T (reference_1_address_line1)
->> 
-<<
-/V ()
-/T (formerhospital_0_admission_precent)
->> 
-<<
-/V ()
-/T (hospital_0_address_line1)
->> 
-<<
-/V ()
-/T (hospital_1_phone)
->> 
-<<
-/V ()
-/T (license_1_state)
->> 
-<<
-/V ()
-/T (workhistory_1_gap_date)
->> 
-<<
-/V /
-/T (hospital_1_is_have_temp_privileges_no)
->> 
-<<
-/V /
-/T (is_more_degrees_yes)
->> 
-<<
-/V ()
-/T (ecfmg_number)
->> 
-<<
-/V ()
-/T (social_security)
->> 
-<<
-/V ()
-/T (formerhospital_0_address_state)
->> 
-<<
-/V ()
-/T (othergrad_0_address_state)
->> 
-<<
-/V /
-/T (specialty_2_is_not_planning_takeboards_yes)
->> 
-<<
-/V /
-/T (specialty_2_is_takenpart1_eligiblefor2_yes)
->> 
-<<
-/V ()
-/T (work_1_reason_for_discontinuance)
->> 
-<<
-/V ()
-/T (name_other_range_end_date)
->> 
-<<
-/V /
-/T (postgrad_0_is_program_successfully_completed_yes)
->> 
-<<
-/V ()
-/T (postgrad_0_adddress_city)
->> 
-<<
-/V ()
-/T (address_correspondence_line1)
->> 
-<<
-/V ()
-/T (phone_fax)
->> 
-<<
-/V /
-/T (specialty_1_is_board_certified_no)
->> 
-<<
-/V /
-/T (specialty_2_ppo_listed_yes)
->> 
-<<
-/V ()
-/T (postgrad_0_address_postal)
->> 
-<<
-/V /
-/T (is_current_military_yes)
->> 
-<<
-/V ()
-/T (license_0_issue_date)
->> 
-<<
-/V /
-/T (post_2_is_fellowship_yes)
->> 
-<<
-/V ()
-/T (license_2_expiration_date)
->> 
-<<
-/V ()
-/T (reference_1_phone)
->> 
-<<
-/V /
-/T (specialty_1_is_taken_exam_results_pending_yes)
->> 
-<<
-/V ()
-/T (reference_1_address_state)
->> 
-<<
-/V /
-/T (other_cds_is_practice_in_state_yes)
->> 
-<<
-/V ()
-/T (hospital_1_admission_precent)
->> 
-<<
-/V ()
-/T (workhistory_0_gap_date_explanation)
->> 
-<<
-/V ()
-/T (name_maiden)
->> 
-<<
-/V ()
-/T (postgrad_0_institution)
->> 
-<<
-/V ()
-/T (hospital_0_address_postal)
->> 
-<<
-/V /
-/T (hospital_0_is_have_privileges_yes)
->> 
-<<
-/V ()
-/T (hospital_0_address_city)
->> 
-<<
-/V ()
-/T (postgrad_0_attendance_end_date)
->> 
-<<
-/V /
-/T (ecfmg_is_foreign_medical_grad_yes)
->> 
-<<
-/V ()
-/T (birth_place)
->> 
-<<
-/V ()
-/T (work_1_address_postal)
->> 
-<<
-/V ()
-/T (name_other_range_start_date)
->> 
-<<
-/V ()
-/T (speciality_0_expiration_date)
->> 
-<<
-/V ()
-/T (othergrad_0_address_line1)
->> 
-<<
-/V ()
-/T (dea_number_expiration_date)
 >> 
 <<
 /V ()
@@ -3963,23 +2119,139 @@
 >> 
 <<
 /V /
-/T (specialty_1_ppo_listed_no)
+/T (license_0_is_practice_in_state_yes)
 >> 
 <<
 /V ()
-/T (work_0_address_country)
->> 
-<<
-/V ()
-/T (reference_0_address_city)
->> 
-<<
-/V ()
-/T (work_0_start_date)
+/T (disclosure_11_number)
 >> 
 <<
 /V /
-/T (hospital_1_is_have_full_privileges_yes)
+/T (practice_0_hours_monday_is_no)
+>> 
+<<
+/V /
+/T (practice_0_current_practice_location_is_no)
+>> 
+<<
+/V /
+/T (practice_0_is_other_services_yes)
+>> 
+<<
+/V ()
+/T (applicant_signature_date)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_address_city)
+>> 
+<<
+/V ()
+/T (citizenship_status)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_2_license_number)
+>> 
+<<
+/V ()
+/T (disclosure_0_question_explanation)
+>> 
+<<
+/V ()
+/T (partner_3_name)
+>> 
+<<
+/V ()
+/T (work_2_address_postal)
+>> 
+<<
+/V /
+/T (practice_0_is_trans_other_accessible)
+>> 
+<<
+/V /
+/T (practice_0_accepts_new_patients_referral_is_yes)
+>> 
+<<
+/V ()
+/T (reference_0_title)
+>> 
+<<
+/V /
+/T (practice_0_is_services_other_disabled_yes)
+>> 
+<<
+/V /
+/T (disclosure_17_is_no)
+>> 
+<<
+/V /
+/T (specialty_1_is_taken_exam_results_pending_yes)
+>> 
+<<
+/V /
+/T (disclosure_5_is_yes)
+>> 
+<<
+/V /
+/T (specialty_1_ppo_listed_yes)
+>> 
+<<
+/V ()
+/T (work_0_end_date)
+>> 
+<<
+/V /
+/T (previousinsurance_type_coverage_indvidual_yes)
+>> 
+<<
+/V ()
+/T (practice_0_group_name_corresponding_tax_id)
+>> 
+<<
+/V /
+/T (disclosure_6_is_no)
+>> 
+<<
+/V ()
+/T (practice_0_handicapped_access_other)
+>> 
+<<
+/V ()
+/T (reference_0_address_postal)
+>> 
+<<
+/V ()
+/T (practice_0_accepts_vary_by_plan_new_patients_explanation)
+>> 
+<<
+/V /
+/T (is_military_public_health_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_drawing_blood_services_yes)
+>> 
+<<
+/V ()
+/T (disclosure_1_number)
+>> 
+<<
+/V ()
+/T (dea_number_expiration_date)
+>> 
+<<
+/V ()
+/T (other_cds_expiration_date)
+>> 
+<<
+/V /
+/T (practice_0_is_services_TTY_disabled_yes)
+>> 
+<<
+/V /
+/T (disclosure_0_is_yes)
 >> 
 <<
 /V ()
@@ -3987,315 +2259,7 @@
 >> 
 <<
 /V ()
-/T (address_home_postal)
->> 
-<<
-/V ()
-/T (othergrad_0_degree)
->> 
-<<
-/V ()
-/T (work_2_address_state)
->> 
-<<
-/V ()
-/T (reference_1_name)
->> 
-<<
-/V ()
-/T (postgrad_1_address_country)
->> 
-<<
-/V ()
-/T (reference_0_title)
->> 
-<<
-/V ()
-/T (hospital_1_address_country)
->> 
-<<
-/V /
-/T (hospital_1_is_have_full_privileges_no)
->> 
-<<
-/V /
-/T (specialty_2_pos_listed_yes)
->> 
-<<
-/V /
-/T (specialty_2_pos_listed_no)
->> 
-<<
-/V ()
-/T (postgrad_0_program_director_then)
->> 
-<<
-/V /
-/T (specialty_0_hmo_listed_no)
->> 
-<<
-/V ()
-/T (dea_number_issue_date)
->> 
-<<
-/V /
-/T (specialty_2_is_taken_exam_results_pending_yes)
->> 
-<<
-/V /
-/T (specialty_1_hmo_listed_yes)
->> 
-<<
-/V /
-/T (is_current_military_no)
->> 
-<<
-/V ()
-/T (work_1_address_line1)
->> 
-<<
-/V ()
-/T (speciality_0_type)
->> 
-<<
-/V ()
-/T (formerhospital_0_affiliation_start_date)
->> 
-<<
-/V ()
-/T (license_2_issue_date)
->> 
-<<
-/V ()
-/T (dps_number)
->> 
-<<
-/V ()
-/T (hospital_1_email)
->> 
-<<
-/V ()
-/T (name_last)
->> 
-<<
-/V ()
-/T (work_0_address_state)
->> 
-<<
-/V /
-/T (post_1_is_residency_yes)
->> 
-<<
-/V /
-/T (specialty_2_is_intending_sit_boards_yes)
->> 
-<<
-/V ()
-/T (work_2_address_line1)
->> 
-<<
-/V ()
-/T (work_2_reason_for_discontinuance)
->> 
-<<
-/V ()
-/T (postgrad_1_program_director_then)
->> 
-<<
-/V ()
-/T (degree_0_type)
->> 
-<<
-/V ()
-/T (othergrad_0_institution)
->> 
-<<
-/V ()
-/T (license_0_expiration_date)
->> 
-<<
-/V ()
-/T (work_2_address_city)
->> 
-<<
-/V ()
-/T (postgrad_1_address_postal)
->> 
-<<
-/V ()
-/T (work_0_end_date)
->> 
-<<
-/V ()
-/T (ecfmg_issue_date)
->> 
-<<
-/V ()
-/T (birth_date)
->> 
-<<
-/V ()
-/T (reference_0_name)
->> 
-<<
-/V ()
-/T (speciality_2_recertification_date)
->> 
-<<
-/V ()
-/T (address_home_state)
->> 
-<<
-/V ()
-/T (otherfocus_interests)
->> 
-<<
-/V ()
-/T (formerhospital_0_name)
->> 
-<<
-/V ()
-/T (upin)
->> 
-<<
-/V ()
-/T (work_2_start_date)
->> 
-<<
-/V ()
-/T (othergrad_0_address_country)
->> 
-<<
-/V ()
-/T (postgrad_1_speciality)
->> 
-<<
-/V /
-/T (is_female)
->> 
-<<
-/V ()
-/T (work_3_reason_for_discontinuance)
->> 
-<<
-/V /
-/T (specialty_0_ppo_listed_yes)
->> 
-<<
-/V ()
-/T (degree_0_institution)
->> 
-<<
-/V ()
-/T (name_maiden_range_start_date)
->> 
-<<
-/V ()
-/T (hospital_0_start_date)
->> 
-<<
-/V /
-/T (specialty_0_is_taken_exam_results_pending_yes)
->> 
-<<
-/V /
-/T (hospital_0_is_have_full_privileges_yes)
->> 
-<<
-/V ()
-/T (hospital_1_address_postal)
->> 
-<<
-/V ()
-/T (work_1_address_state)
->> 
-<<
-/V /
-/T (hospital_1_is_have_temp_privileges_yes)
->> 
-<<
-/V /
-/T (medicare_is_participating_provider_yes)
->> 
-<<
-/V ()
-/T (specialty_1_certifying_board)
->> 
-<<
-/V /
-/T (is_more_work_history_yes)
->> 
-<<
-/V /
-/T (specialty_0_is_not_planning_takeboards_yes)
->> 
-<<
-/V ()
-/T (hospital_0_phone)
->> 
-<<
-/V /
-/T (specialty_1_is_takenpart1_eligiblefor2_yes)
->> 
-<<
-/V ()
-/T (license_0_state)
->> 
-<<
-/V ()
-/T (license_2_type)
->> 
-<<
-/V /
-/T (specialty_0_is_takenpart1_eligiblefor2_yes)
->> 
-<<
-/V ()
-/T (speciality_1_type)
->> 
-<<
-/V /
-/T (specialty_1_is_not_planning_takeboards_yes)
->> 
-<<
-/V /
-/T (formerhospital_0_is_have_temp_privileges_no)
->> 
-<<
-/V /
-/T (is_more_current_hospitals)
->> 
-<<
-/V ()
-/T (work_0_address_line1)
->> 
-<<
-/V ()
-/T (formerhospital_0_type_of_privileges)
->> 
-<<
-/V ()
-/T (license_1_expiration_date)
->> 
-<<
-/V ()
-/T (medicaid_number)
->> 
-<<
-/V /
-/T (specialty_0_ppo_listed_no)
->> 
-<<
-/V ()
-/T (hospital_1_address_city)
->> 
-<<
-/V /
-/T (post_1_is_internship_yes)
->> 
-<<
-/V /
-/T (license_1_is_practice_in_state_no)
+/T (insurance_address_country)
 >> 
 <<
 /V ()
@@ -4303,27 +2267,167 @@
 >> 
 <<
 /V /
-/T (specialty_1_hmo_listed_no)
->> 
-<<
-/V ()
-/T (address_correspondence_county)
->> 
-<<
-/V ()
-/T (specialty_0_certifying_board)
+/T (disclosure_11_is_no)
 >> 
 <<
 /V /
-/T (specialty_1_pos_listed_no)
->> 
-<<
-/V /
-/T (specialty_0_is_board_certified_yes)
+/T (practice_0_is_iv_hydration_treatments_services_yes)
 >> 
 <<
 /V ()
-/T (phone_correspondence)
+/T (license_0_state)
+>> 
+<<
+/V ()
+/T (speciality_2_recertification_date)
+>> 
+<<
+/V /
+/T (dea_number_is_exist_yes)
+>> 
+<<
+/V ()
+/T (applicant_signature_name)
+>> 
+<<
+/V /
+/T (practice_0_address_is_primary_yes)
+>> 
+<<
+/V ()
+/T (disclosure_6_number)
+>> 
+<<
+/V ()
+/T (reference_0_phone)
+>> 
+<<
+/V /
+/T (is_eligible_to_work_yes)
+>> 
+<<
+/V ()
+/T (previousinsurance_length_time_with_carrier)
+>> 
+<<
+/V ()
+/T (coverage_2_specialty)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_fax)
+>> 
+<<
+/V ()
+/T (citizenship_country)
+>> 
+<<
+/V ()
+/T (partner_2_name)
+>> 
+<<
+/V ()
+/T (birth_place)
+>> 
+<<
+/V ()
+/T (practice_0_office_manager_or_contact)
+>> 
+<<
+/V ()
+/T (type_of_professional)
+>> 
+<<
+/V ()
+/T (name_maiden_range_start_date)
+>> 
+<<
+/V /
+/T (practice_0_is_ada_accessibility_no)
+>> 
+<<
+/V /
+/T (specialty_0_is_takenpart1_eligiblefor2_yes)
+>> 
+<<
+/V /
+/T (ecfmg_is_foreign_medical_grad_yes)
+>> 
+<<
+/V ()
+/T (work_2_address_city)
+>> 
+<<
+/V /
+/T (hospital_0_is_have_privileges_no)
+>> 
+<<
+/V /
+/T (practice_0_is_allergy_injections_services_yes)
+>> 
+<<
+/V ()
+/T (postgrad_1_address_country)
+>> 
+<<
+/V ()
+/T (reference_2_phone)
+>> 
+<<
+/V ()
+/T (work_3_address_state)
+>> 
+<<
+/V ()
+/T (address_home_city)
+>> 
+<<
+/V ()
+/T (phone_fax)
+>> 
+<<
+/V ()
+/T (postgrad_1_program_director_then)
+>> 
+<<
+/V /
+/T (disclosure_16_is_yes)
+>> 
+<<
+/V ()
+/T (degree_0_city)
+>> 
+<<
+/V ()
+/T (practice_0_is_interpreters_4_lang)
+>> 
+<<
+/V ()
+/T (applicant_date)
+>> 
+<<
+/V ()
+/T (hospital_1_address_country)
+>> 
+<<
+/V ()
+/T (reference_1_address_line1)
+>> 
+<<
+/V /
+/T (disclosure_14_is_yes)
+>> 
+<<
+/V ()
+/T (license_2_state)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_billing_representative)
+>> 
+<<
+/V ()
+/T (formerhospital_0_address_postal)
 >> 
 <<
 /V ()
@@ -4331,7 +2435,1083 @@
 >> 
 <<
 /V ()
-/T (workhistory_3_gap_date)
+/T (work_2_address_country)
+>> 
+<<
+/V ()
+/T (practice_0_anesthesia_admin_name)
+>> 
+<<
+/V ()
+/T (hospital_0_address_country)
+>> 
+<<
+/V ()
+/T (work_0_address_state)
+>> 
+<<
+/V ()
+/T (address_correspondence_state)
+>> 
+<<
+/V ()
+/T (name_suffix)
+>> 
+<<
+/V ()
+/T (disclosure_9_number)
+>> 
+<<
+/V ()
+/T (postgrad_0_adddress_city)
+>> 
+<<
+/V /
+/T (practice_0_24hour_coverage_voicemail_service_other_is_yes)
+>> 
+<<
+/V /
+/T (disclosure_2_is_no)
+>> 
+<<
+/V ()
+/T (othergrad_0_address_city)
+>> 
+<<
+/V /
+/T (is_additional_postgrad_yes)
+>> 
+<<
+/V ()
+/T (dea_number)
+>> 
+<<
+/V ()
+/T (reference_2_address_state)
+>> 
+<<
+/V ()
+/T (othergrad_0_end_date)
+>> 
+<<
+/V ()
+/T (work_1_address_postal)
+>> 
+<<
+/V ()
+/T (other_cds_state_registration)
+>> 
+<<
+/V /
+/T (practice_0_limitations_female_only_is_yes)
+>> 
+<<
+/V /
+/T (disclosure_11_is_yes)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_other_expire_date)
+>> 
+<<
+/V ()
+/T (postgrad_1_address_line1)
+>> 
+<<
+/V /
+/T (disclosure_19_is_yes)
+>> 
+<<
+/V /
+/T (disclosure_4_is_no)
+>> 
+<<
+/V /
+/T (disclosure_22_is_no)
+>> 
+<<
+/V /
+/T (practice_0_is_services_mental_physical_disabled_yes)
+>> 
+<<
+/V ()
+/T (partner_1_name)
+>> 
+<<
+/V ()
+/T (name_other_range_start_date)
+>> 
+<<
+/V ()
+/T (disclosure_4_number)
+>> 
+<<
+/V /
+/T (specialty_2_is_intending_sit_boards_yes)
+>> 
+<<
+/V ()
+/T (license_2_number)
+>> 
+<<
+/V ()
+/T (work_1_end_date)
+>> 
+<<
+/V /
+/T (license_0_is_practice_in_state_no)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_other_yes)
+>> 
+<<
+/V ()
+/T (service_branch)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_basic_life_support_yes)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_name)
+>> 
+<<
+/V ()
+/T (degree_0_state)
+>> 
+<<
+/V /
+/T (specialty_1_is_board_certified_yes)
+>> 
+<<
+/V ()
+/T (practice_0_lab_services_cert_list)
+>> 
+<<
+/V ()
+/T (practice_0_is_interpreters_3_lang)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_address_state)
+>> 
+<<
+/V ()
+/T (license_0_type)
+>> 
+<<
+/V ()
+/T (postgrad_1_program_director_now)
+>> 
+<<
+/V /
+/T (other_cds_is_practice_in_state_yes)
+>> 
+<<
+/V ()
+/T (phone_correspondence)
+>> 
+<<
+/V ()
+/T (coverage_4_specialty)
+>> 
+<<
+/V /
+/T (is_male)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_other_yes)
+>> 
+<<
+/V /
+/T (formerhospital_0_is_have_temp_privileges_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_childcare_services_no)
+>> 
+<<
+/V /
+/T (practice_0_is_lab_services_list_cert_yes)
+>> 
+<<
+/V ()
+/T (practice_0_name_IRS)
+>> 
+<<
+/V ()
+/T (hospital_0_address_state)
+>> 
+<<
+/V ()
+/T (address_correspondence_county)
+>> 
+<<
+/V ()
+/T (hospital_0_address_postal)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_5_license_number)
+>> 
+<<
+/V /
+/T (post_2_is_internship_yes)
+>> 
+<<
+/V ()
+/T (applicant_signature_last4_ssn)
+>> 
+<<
+/V /
+/T (disclosure_3_is_yes)
+>> 
+<<
+/V ()
+/T (workhistory_0_gap_date_explanation)
+>> 
+<<
+/V ()
+/T (hospital_0_fax)
+>> 
+<<
+/V ()
+/T (degree_0_address_line1)
+>> 
+<<
+/V /
+/T (practice_0_hours_thurday_is_no)
+>> 
+<<
+/V /
+/T (license_1_is_practice_in_state_no)
+>> 
+<<
+/V ()
+/T (speciality_0_date_start)
+>> 
+<<
+/V ()
+/T (work_2_practice_employer_name)
+>> 
+<<
+/V ()
+/T (insurance_name)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_pediatric_adv_life_support_expire_date)
+>> 
+<<
+/V ()
+/T (degree_0_type)
+>> 
+<<
+/V ()
+/T (partner_0_name)
+>> 
+<<
+/V /
+/T (is_more_formerhospitals)
+>> 
+<<
+/V /
+/T (disclosure_8_is_yes)
+>> 
+<<
+/V /
+/T (practice_0_service_type_solo_specialty_is_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_adv_cardiac_life_support_yes)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_address_state)
+>> 
+<<
+/V ()
+/T (practice_0_trans_other_accessible_explanation)
+>> 
+<<
+/V /
+/T (practice_0_24hour_coverage_none_is_yes)
+>> 
+<<
+/V /
+/T (disclosure_8_is_no)
+>> 
+<<
+/V ()
+/T (disclosure_14_number)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_adv_neonatal_life_support_yes)
+>> 
+<<
+/V ()
+/T (disclosure_15_number)
+>> 
+<<
+/V /
+/T (practice_0_is_trans_bus_accessible)
+>> 
+<<
+/V ()
+/T (postgrad_0_attendance_start_date)
+>> 
+<<
+/V /
+/T (practice_0_service_type_solo_primary_is_yes)
+>> 
+<<
+/V ()
+/T (work_3_address_line1)
+>> 
+<<
+/V ()
+/T (insurance_coverage_per_occurrence)
+>> 
+<<
+/V ()
+/T (practice_0_is_interpreters_2_lang)
+>> 
+<<
+/V /
+/T (insurance_type_coverage_indvidual_yes)
+>> 
+<<
+/V ()
+/T (license_1_type)
+>> 
+<<
+/V /
+/T (disclosure_9_is_yes)
+>> 
+<<
+/V /
+/T (disclosure_18_is_no)
+>> 
+<<
+/V /
+/T (practice_0_accepts_new_medicaid_patients_is_yes)
+>> 
+<<
+/V ()
+/T (reference_1_address_state)
+>> 
+<<
+/V ()
+/T (practice_0_xray_services_cert_list)
+>> 
+<<
+/V /
+/T (specialty_1_pos_listed_no)
+>> 
+<<
+/V ()
+/T (medicaid_number)
+>> 
+<<
+/V ()
+/T (degree_0_attendance_end_date)
+>> 
+<<
+/V ()
+/T (disclosure_19_number)
+>> 
+<<
+/V ()
+/T (postgrad_0_address_postal)
+>> 
+<<
+/V ()
+/T (practice_0_office_phone)
+>> 
+<<
+/V ()
+/T (license_2_expiration_date)
+>> 
+<<
+/V ()
+/T (insurance_effective_date)
+>> 
+<<
+/V /
+/T (disclosure_is_malpractice_claims_last5year_yes)
+>> 
+<<
+/V ()
+/T (work_0_address_line1)
+>> 
+<<
+/V ()
+/T (address_correspondence_line1)
+>> 
+<<
+/V ()
+/T (insurance_address_line1)
+>> 
+<<
+/V ()
+/T (ecfmg_issue_date)
+>> 
+<<
+/V ()
+/T (practice_0_if_hospital_based_department_name)
+>> 
+<<
+/V ()
+/T (workhistory_0_gap_date)
+>> 
+<<
+/V /
+/T (specialty_0_ppo_listed_yes)
+>> 
+<<
+/V ()
+/T (reference_2_address_line1)
+>> 
+<<
+/V /
+/T (specialty_0_hmo_listed_yes)
+>> 
+<<
+/V ()
+/T (address_home_state)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_advanced_ob_life_support_yes)
+>> 
+<<
+/V /
+/T (hospital_1_is_have_full_privileges_no)
+>> 
+<<
+/V /
+/T (specialty_1_hmo_listed_no)
+>> 
+<<
+/V /
+/T (disclosure_4_is_yes)
+>> 
+<<
+/V /
+/T (license_1_is_practice_in_state_yes)
+>> 
+<<
+/V /
+/T (medicaid_is_participating_provider_yes)
+>> 
+<<
+/V ()
+/T (postgrad_1_address_state)
+>> 
+<<
+/V /
+/T (practice_0_hours_sunday_is_no)
+>> 
+<<
+/V ()
+/T (practice_0_group_number_corresponding_tax_id)
+>> 
+<<
+/V /
+/T (disclosure_10_is_no)
+>> 
+<<
+/V ()
+/T (name_middle)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_1_state)
+>> 
+<<
+/V ()
+/T (other_cds_issue_date)
+>> 
+<<
+/V ()
+/T (practice_0_non_english_spokenby_provider)
+>> 
+<<
+/V /
+/T (post_1_is_residency_yes)
+>> 
+<<
+/V /
+/T (practice_0_location_listed_in_dir_is_yes)
+>> 
+<<
+/V /
+/T (ecfmg_is_foreign_medical_grad_no)
+>> 
+<<
+/V ()
+/T (hospital_1_name)
+>> 
+<<
+/V ()
+/T (reference_0_name)
+>> 
+<<
+/V /
+/T (ecfmg_is_foreign_medical_grad_na)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_basic_life_support_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_flexible_sigmoidoscopy_services_yes)
+>> 
+<<
+/V /
+/T (specialty_0_is_taken_exam_results_pending_yes)
+>> 
+<<
+/V /
+/T (is_eligible_to_work_no)
+>> 
+<<
+/V ()
+/T (address_country)
+>> 
+<<
+/V ()
+/T (hospital_1_email)
+>> 
+<<
+/V ()
+/T (practice_0_is_interpreters_1_lang)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_address_city)
+>> 
+<<
+/V ()
+/T (license_2_type)
+>> 
+<<
+/V ()
+/T (specialty_0_certifying_board)
+>> 
+<<
+/V /
+/T (post_1_is_teaching_position_yes)
+>> 
+<<
+/V ()
+/T (hospital_0_admission_precent)
+>> 
+<<
+/V /
+/T (specialty_2_is_board_certified_no)
+>> 
+<<
+/V ()
+/T (disclosure_3_number)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_address_line1)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_adv_cardiac_life_support_expire_date)
+>> 
+<<
+/V ()
+/T (applicant_signature_npi)
+>> 
+<<
+/V /
+/T (specialty_0_pos_listed_yes)
+>> 
+<<
+/V /
+/T (specialty_0_is_not_planning_takeboards_yes)
+>> 
+<<
+/V /
+/T (is_more_degrees_yes)
+>> 
+<<
+/V /
+/T (previousinsurance_type_coverage_shared_yes)
+>> 
+<<
+/V /
+/T (is_military_public_health_no)
+>> 
+<<
+/V ()
+/T (hospital_0_address_line1)
+>> 
+<<
+/V /
+/T (practice_0_is_asthma_treatments_services_yes)
+>> 
+<<
+/V ()
+/T (previousinsurance_coverage_aggregate)
+>> 
+<<
+/V ()
+/T (work_3_reason_for_discontinuance)
+>> 
+<<
+/V /
+/T (practice_0_handicapped_access_building_is_yes)
+>> 
+<<
+/V /
+/T (hospital_1_is_have_temp_privileges_no)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_other_specify)
+>> 
+<<
+/V /
+/T (practice_0_24hour_coverage_answering_service_is_yes)
+>> 
+<<
+/V /
+/T (disclosure_10_is_yes)
+>> 
+<<
+/V ()
+/T (social_security)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_cardio_pulmonary_resuscitation_yes)
+>> 
+<<
+/V /
+/T (practice_0_service_type_group_primary_is_yes)
+>> 
+<<
+/V ()
+/T (disclosure_8_number)
+>> 
+<<
+/V ()
+/T (degree_0_attendance_start_date)
+>> 
+<<
+/V ()
+/T (work_3_start_date)
+>> 
+<<
+/V ()
+/T (previousinsurance_name)
+>> 
+<<
+/V ()
+/T (specialty_2_certifying_board)
+>> 
+<<
+/V /
+/T (post_2_is_fellowship_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_adv_trauma_life_support_yes)
+>> 
+<<
+/V ()
+/T (postgrad_1_institution)
+>> 
+<<
+/V ()
+/T (work_3_address_country)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_1_license_number)
+>> 
+<<
+/V ()
+/T (hospital_0_name)
+>> 
+<<
+/V ()
+/T (reference_1_name)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_address_line1)
+>> 
+<<
+/V /
+/T (practice_0_is_physical_therapies_services_yes)
+>> 
+<<
+/V ()
+/T (practice_0_services_other_disabled_explanation)
+>> 
+<<
+/V /
+/T (disclosure_3_is_no)
+>> 
+<<
+/V ()
+/T (work_2_start_date)
+>> 
+<<
+/V /
+/T (specialty_2_ppo_listed_yes)
+>> 
+<<
+/V /
+/T (specialty_2_hmo_listed_yes)
+>> 
+<<
+/V ()
+/T (dea_number_issue_date)
+>> 
+<<
+/V /
+/T (formerhospital_0_is_have_full_privileges_no)
+>> 
+<<
+/V ()
+/T (coverage_1_specialty)
+>> 
+<<
+/V ()
+/T (previousinsurance_policy_number)
+>> 
+<<
+/V /
+/T (practice_0_is_age_appropriate_immunizations_services_yes)
+>> 
+<<
+/V ()
+/T (postgrad_0_institution)
+>> 
+<<
+/V ()
+/T (work_0_practice_employer_name)
+>> 
+<<
+/V /
+/T (specialty_1_is_intending_sit_boards_yes)
+>> 
+<<
+/V /
+/T (practice_0_limitations_other_is_yes)
+>> 
+<<
+/V ()
+/T (speciality_2_type)
+>> 
+<<
+/V ()
+/T (practice_0_is_interpreters_0_lang)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_5_state)
+>> 
+<<
+/V ()
+/T (postgrad_0_address_country)
+>> 
+<<
+/V ()
+/T (work_1_reason_for_discontinuance)
+>> 
+<<
+/V /
+/T (hospital_0_is_have_full_privileges_yes)
+>> 
+<<
+/V ()
+/T (formerhospital_0_name)
+>> 
+<<
+/V ()
+/T (reference_1_address_postal)
+>> 
+<<
+/V ()
+/T (practice_0_office_manager_or_cantact_phone)
+>> 
+<<
+/V /
+/T (practice_0_is_anesthesia_admin_yes)
+>> 
+<<
+/V /
+/T (hospital_0_is_have_full_privileges_no)
+>> 
+<<
+/V ()
+/T (work_1_start_date)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_phone)
+>> 
+<<
+/V /
+/T (practice_0_handicapped_access_parking_is_yes)
+>> 
+<<
+/V ()
+/T (other_cds_type)
+>> 
+<<
+/V ()
+/T (formerhospital_0_address_country)
+>> 
+<<
+/V ()
+/T (coverage_0_specialty)
+>> 
+<<
+/V ()
+/T (practice_0_office_manager_or_cantact_fax)
+>> 
+<<
+/V ()
+/T (hospital_1_phone)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_address_postal)
+>> 
+<<
+/V /
+/T (practice_0_accepts_existing_patients_payor_change_is_yes)
+>> 
+<<
+/V ()
+/T (disclosure_7_number)
+>> 
+<<
+/V ()
+/T (workhistory_1_gap_date)
+>> 
+<<
+/V ()
+/T (work_0_start_date)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_basic_life_support_expire_date)
+>> 
+<<
+/V ()
+/T (insurance_address_state)
+>> 
+<<
+/V ()
+/T (insurance_address_postal)
+>> 
+<<
+/V /
+/T (specialty_2_pos_listed_yes)
+>> 
+<<
+/V ()
+/T (insurance_phone)
+>> 
+<<
+/V ()
+/T (coverage_0_name)
+>> 
+<<
+/V ()
+/T (address_home_line1)
+>> 
+<<
+/V ()
+/T (applicant_initial)
+>> 
+<<
+/V /
+/T (specialty_2_ppo_listed_no)
+>> 
+<<
+/V /
+/T (practice_0_is_minority_business_no)
+>> 
+<<
+/V /
+/T (specialty_0_is_intending_sit_boards_yes)
+>> 
+<<
+/V ()
+/T (address_correspondence_city)
+>> 
+<<
+/V /
+/T (hospital_1_is_have_full_privileges_yes)
+>> 
+<<
+/V /
+/T (specialty_1_ppo_listed_no)
+>> 
+<<
+/V ()
+/T (practice_0_address_city)
+>> 
+<<
+/V ()
+/T (hospital_1_address_city)
+>> 
+<<
+/V ()
+/T (disclosure_2_number)
+>> 
+<<
+/V ()
+/T (practice_0_address_line1)
+>> 
+<<
+/V /
+/T (specialty_0_is_board_certified_no)
+>> 
+<<
+/V ()
+/T (reference_2_name)
+>> 
+<<
+/V ()
+/T (formerhospital_0_address_line1)
+>> 
+<<
+/V /
+/T (formerhospital_0_is_have_temp_privileges_no)
+>> 
+<<
+/V /
+/T (practice_0_hours_friday_is_no)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_2_state)
+>> 
+<<
+/V /
+/T (is_current_military_yes)
+>> 
+<<
+/V ()
+/T (speciality_0_expiration_date)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_adv_cardiac_life_support_yes)
+>> 
+<<
+/V /
+/T (practice_0_accepts_new_medicare_patients_is_yes)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_3_license_number)
+>> 
+<<
+/V ()
+/T (work_2_address_state)
+>> 
+<<
+/V ()
+/T (speciality_1_type)
+>> 
+<<
+/V ()
+/T (formerhospital_0_address_city)
+>> 
+<<
+/V ()
+/T (work_3_address_postal)
+>> 
+<<
+/V /
+/T (hospital_0_is_have_temp_privileges_no)
+>> 
+<<
+/V /
+/T (disclosure_0_is_no)
+>> 
+<<
+/V /
+/T (medicare_is_participating_provider_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_adv_trauma_life_support_yes)
+>> 
+<<
+/V /
+/T (attached_coverage_list_is_yes)
+>> 
+<<
+/V ()
+/T (previousinsurance_phone)
+>> 
+<<
+/V ()
+/T (previousinsurance_address_city)
+>> 
+<<
+/V ()
+/T (disclosure_10_number)
+>> 
+<<
+/V ()
+/T (practice_0_additional_office_procedures)
+>> 
+<<
+/V /
+/T (disclosure_7_is_no)
+>> 
+<<
+/V /
+/T (disclosure_20_is_no)
+>> 
+<<
+/V /
+/T (practice_0_current_practice_location_is_yes)
+>> 
+<<
+/V ()
+/T (degree_0_postal)
+>> 
+<<
+/V ()
+/T (name_maiden)
+>> 
+<<
+/V /
+/T (practice_0_is_lab_services_following_no)
+>> 
+<<
+/V /
+/T (practice_0_service_type_group_multi_speciality_is_yes)
+>> 
+<<
+/V ()
+/T (practice_0_address_country)
+>> 
+<<
+/V /
+/T (specialty_1_is_not_planning_takeboards_yes)
 >> 
 <<
 /V ()
@@ -4339,7 +3519,979 @@
 >> 
 <<
 /V ()
+/T (insurance_length_time_with_carrier)
+>> 
+<<
+/V /
+/T (disclosure_22_is_yes)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_email)
+>> 
+<<
+/V ()
+/T (license_1_expiration_date)
+>> 
+<<
+/V /
+/T (specialty_0_is_board_certified_yes)
+>> 
+<<
+/V ()
+/T (coverage_1_name)
+>> 
+<<
+/V /
+/T (disclosure_19_is_no)
+>> 
+<<
+/V /
+/T (medicaid_is_participating_provider_no)
+>> 
+<<
+/V ()
+/T (previousinsurance_effective_date)
+>> 
+<<
+/V ()
+/T (hospital_0_start_date)
+>> 
+<<
+/V ()
+/T (hospital_1_fax)
+>> 
+<<
+/V ()
+/T (service_last_location)
+>> 
+<<
+/V ()
+/T (disclosure_18_number)
+>> 
+<<
+/V /
+/T (postgrad_0_is_program_successfully_completed_yes)
+>> 
+<<
+/V /
+/T (specialty_2_is_takenpart1_eligiblefor2_yes)
+>> 
+<<
+/V ()
+/T (othergrad_0_address_country)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_check_payable)
+>> 
+<<
+/V ()
+/T (hospital_1_start_date)
+>> 
+<<
+/V /
+/T (practice_0_non_physician_provider_is_no)
+>> 
+<<
+/V ()
+/T (othergrad_0_address_postal)
+>> 
+<<
+/V ()
+/T (hospital_1_address_line1)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_fax)
+>> 
+<<
+/V ()
+/T (work_3_address_city)
+>> 
+<<
+/V ()
+/T (disclosure_13_number)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_0_state)
+>> 
+<<
+/V ()
+/T (applicant_signature)
+>> 
+<<
+/V ()
+/T (speciality_0_type)
+>> 
+<<
+/V ()
+/T (work_3_practice_employer_name)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_adv_neonatal_life_support_yes)
+>> 
+<<
+/V ()
+/T (practice_0_non_english_spokenby_staff)
+>> 
+<<
+/V /
+/T (is_female)
+>> 
+<<
+/V ()
+/T (reference_2_address_country)
+>> 
+<<
+/V /
+/T (disclosure_20_is_yes)
+>> 
+<<
+/V ()
+/T (partner_7_name)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_cardio_pulmonary_resuscitation_expire_date)
+>> 
+<<
+/V /
+/T (disclosure_7_is_yes)
+>> 
+<<
+/V ()
+/T (speciality_1_date_start)
+>> 
+<<
+/V /
+/T (practice_0_is_radiology_services_yes)
+>> 
+<<
+/V ()
+/T (hospital_1_address_postal)
+>> 
+<<
+/V ()
+/T (name_other_range_end_date)
+>> 
+<<
+/V ()
+/T (hospital_0_email)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_address_postal)
+>> 
+<<
+/V ()
+/T (previousinsurance_expiration_date)
+>> 
+<<
+/V /
+/T (insurance_type_coverage_shared_yes)
+>> 
+<<
+/V ()
+/T (hospital_0_address_city)
+>> 
+<<
+/V /
+/T (license_2_is_practice_in_state_yes)
+>> 
+<<
+/V ()
+/T (coverage_2_name)
+>> 
+<<
+/V ()
+/T (practice_0_email)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_adv_neonatal_life_support_expire_date)
+>> 
+<<
+/V ()
+/T (workhistory_1_gap_date_explanation)
+>> 
+<<
+/V ()
+/T (previousinsurance_address_line1)
+>> 
+<<
+/V /
+/T (post_1_is_internship_yes)
+>> 
+<<
+/V /
+/T (disclosure_2_is_yes)
+>> 
+<<
+/V ()
+/T (speciality_2_date_start)
+>> 
+<<
+/V /
+/T (practice_0_service_type_group_single_specialty_is_yes)
+>> 
+<<
+/V ()
+/T (speciality_0_recertification_date)
+>> 
+<<
+/V /
+/T (practice_0_limitations_male_only_is_yes)
+>> 
+<<
+/V ()
+/T (dps_number_issue_date)
+>> 
+<<
+/V ()
+/T (reference_0_address_city)
+>> 
+<<
+/V /
+/T (practice_0_hours_saturday_is_no)
+>> 
+<<
+/V ()
+/T (email)
+>> 
+<<
+/V /
+/T (specialty_0_hmo_listed_no)
+>> 
+<<
+/V ()
+/T (work_0_address_postal)
+>> 
+<<
+/V ()
+/T (formerhospital_0_affiliation_start_date)
+>> 
+<<
+/V /
+/T (practice_0_is_xray_services_following_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_trans_train_accessible)
+>> 
+<<
+/V ()
+/T (disclosure_0_number)
+>> 
+<<
+/V ()
+/T (practice_0_name)
+>> 
+<<
+/V ()
+/T (othergrad_0_institution)
+>> 
+<<
+/V ()
+/T (practice_0_address_state)
+>> 
+<<
+/V ()
+/T (reference_1_title)
+>> 
+<<
+/V ()
+/T (postgrad_0_address_line1)
+>> 
+<<
+/V ()
+/T (work_1_address_line1)
+>> 
+<<
+/V ()
+/T (degree_0_institution)
+>> 
+<<
+/V ()
+/T (formerhospital_0_address_state)
+>> 
+<<
+/V ()
+/T (phone_home)
+>> 
+<<
+/V ()
+/T (license_2_issue_date)
+>> 
+<<
+/V ()
+/T (practice_0_if_no_current_location_expected_start_date)
+>> 
+<<
+/V ()
+/T (practice_0_anesthesia_admin_classes)
+>> 
+<<
+/V ()
+/T (birth_date)
+>> 
+<<
+/V ()
+/T (othergrad_0_address_state)
+>> 
+<<
+/V /
+/T (practice_0_is_tympanometry_audiometry_services_yes)
+>> 
+<<
+/V /
+/T (specialty_2_pos_listed_no)
+>> 
+<<
+/V /
+/T (post_2_is_teaching_position_yes)
+>> 
+<<
+/V /
+/T (disclosure_5_is_no)
+>> 
+<<
+/V ()
+/T (work_2_address_line1)
+>> 
+<<
+/V ()
+/T (reference_0_address_state)
+>> 
+<<
+/V ()
+/T (hospital_0_ifnotadmit_privileges)
+>> 
+<<
+/V ()
+/T (partner_6_name)
+>> 
+<<
+/V ()
+/T (formerhospital_0_admission_precent)
+>> 
+<<
+/V ()
+/T (license_1_number)
+>> 
+<<
+/V ()
+/T (disclosure_5_number)
+>> 
+<<
+/V ()
+/T (license_1_issue_date)
+>> 
+<<
+/V ()
+/T (practice_0_other_services_explanation)
+>> 
+<<
+/V ()
+/T (npi)
+>> 
+<<
+/V ()
+/T (workhistory_3_gap_date)
+>> 
+<<
+/V /
+/T (specialty_0_pos_listed_no)
+>> 
+<<
+/V ()
+/T (postgrad_0_attendance_end_date)
+>> 
+<<
+/V /
+/T (is_more_work_history_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_services_ASL_disabled_yes)
+>> 
+<<
+/V /
+/T (formerhospital_0_is_have_full_privileges_yes)
+>> 
+<<
+/V ()
+/T (name_last)
+>> 
+<<
+/V ()
+/T (othergrad_0_degree)
+>> 
+<<
+/V ()
+/T (postgrad_1_address_postal)
+>> 
+<<
+/V ()
+/T (practice_0_limitations_other_explanation)
+>> 
+<<
+/V ()
+/T (license_1_state)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_4_state)
+>> 
+<<
+/V /
+/T (disclosure_18_is_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_routine_office_gynecology_services_yes)
+>> 
+<<
+/V ()
+/T (work_2_reason_for_discontinuance)
+>> 
+<<
+/V ()
+/T (license_0_issue_date)
+>> 
+<<
+/V ()
+/T (insurance_policy_number)
+>> 
+<<
+/V /
+/T (disclosure_12_is_yes)
+>> 
+<<
+/V ()
+/T (coverage_3_name)
+>> 
+<<
+/V ()
+/T (previousinsurance_coverage_per_occurance)
+>> 
+<<
+/V /
+/T (post_2_is_residency_yes)
+>> 
+<<
+/V /
+/T (insurance_is_self_insured_yes)
+>> 
+<<
+/V ()
+/T (work_1_address_country)
+>> 
+<<
+/V /
+/T (specialty_2_hmo_listed_no)
+>> 
+<<
+/V /
+/T (medicare_is_participating_provider_no)
+>> 
+<<
+/V /
+/T (practice_0_is_xray_services_following_no)
+>> 
+<<
+/V ()
+/T (reference_1_phone)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_email)
+>> 
+<<
+/V /
+/T (practice_0_is_care_minor_lacerations_services_yes)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_4_license_number)
+>> 
+<<
+/V ()
+/T (previousinsurance_address_postal)
+>> 
+<<
+/V ()
+/T (hospital_0_phone)
+>> 
+<<
+/V /
+/T (practice_0_non_physician_provider_is_yes)
+>> 
+<<
+/V ()
+/T (military_date_of_service_end_date)
+>> 
+<<
+/V ()
+/T (work_0_address_country)
+>> 
+<<
+/V ()
+/T (postgrad_1_attendance_start_date)
+>> 
+<<
+/V ()
+/T (work_0_address_city)
+>> 
+<<
+/V /
+/T (disclosure_13_is_yes)
+>> 
+<<
+/V /
+/T (specialty_2_is_taken_exam_results_pending_yes)
+>> 
+<<
+/V ()
+/T (practice_0_phone)
+>> 
+<<
+/V /
+/T (practice_0_handicapped_access_other_is_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_interpreters_avail_no)
+>> 
+<<
+/V /
+/T (disclosure_17_is_yes)
+>> 
+<<
+/V /
+/T (license_2_is_practice_in_state_no)
+>> 
+<<
+/V ()
+/T (ecfmg_number)
+>> 
+<<
+/V ()
+/T (disclosure_20_number)
+>> 
+<<
+/V ()
+/T (practice_0_billing_company_address_country)
+>> 
+<<
+/V /
+/T (specialty_2_is_board_certified_yes)
+>> 
+<<
+/V ()
+/T (postgrad_1_speciality)
+>> 
+<<
+/V /
+/T (practice_0_is_ada_accessibility_yes)
+>> 
+<<
+/V ()
+/T (hospital_1_address_state)
+>> 
+<<
+/V ()
+/T (address_correspondence_postal)
+>> 
+<<
+/V ()
+/T (practice_0_site_medicaid_number)
+>> 
+<<
+/V ()
+/T (othergrad_0_start_date)
+>> 
+<<
+/V /
+/T (practice_0_is_pulmonary_function_tests_services_yes)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_name_0)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_name_1)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_name_2)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_name_3)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_name_4)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_name_5)
+>> 
+<<
+/V ()
 /T (postgrad_1_address_city)
+>> 
+<<
+/V ()
+/T (formerhospital_0_type_of_privileges)
+>> 
+<<
+/V ()
+/T (license_0_number)
+>> 
+<<
+/V ()
+/T (partner_5_name)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_5_designation)
+>> 
+<<
+/V ()
+/T (insurance_expiration_date)
+>> 
+<<
+/V ()
+/T (postgrad_0_speciality)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_3_state)
+>> 
+<<
+/V /
+/T (disclosure_12_is_no)
+>> 
+<<
+/V ()
+/T (hospital_0_type_of_privileges)
+>> 
+<<
+/V ()
+/T (hospital_1_type_of_privileges)
+>> 
+<<
+/V /
+/T (practice_0_hours_tuesday_is_no)
+>> 
+<<
+/V /
+/T (practice_0_is_allergy_skin_tests_services_yes)
+>> 
+<<
+/V ()
+/T (degree_0_country)
+>> 
+<<
+/V ()
+/T (reference_1_address_city)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_4_designation)
+>> 
+<<
+/V /
+/T (practice_0_is_cardiac_stress_test_services_yes)
+>> 
+<<
+/V /
+/T (disclosure_1_is_no)
+>> 
+<<
+/V ()
+/T (other_cds_number)
+>> 
+<<
+/V ()
+/T (coverage_4_name)
+>> 
+<<
+/V ()
+/T (work_1_practice_employer_name)
+>> 
+<<
+/V ()
+/T (practice_0_fax)
+>> 
+<<
+/V ()
+/T (coverage_3_specialty)
+>> 
+<<
+/V ()
+/T (name_first)
+>> 
+<<
+/V /
+/T (disclosure_21_is_no)
+>> 
+<<
+/V ()
+/T (previousinsurance_address_state)
+>> 
+<<
+/V ()
+/T (speciality_1_recertification_date)
+>> 
+<<
+/V /
+/T (practice_0_24hour_coverage_voicemail_service_is_yes)
+>> 
+<<
+/V /
+/T (specialty_1_is_board_certified_no)
+>> 
+<<
+/V ()
+/T (workhistory_2_gap_date_explanation)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_3_designation)
+>> 
+<<
+/V /
+/T (practice_0_is_anesthesia_admin_no)
+>> 
+<<
+/V /
+/T (disclosure_1_is_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_pediatric_adv_life_support_yes)
+>> 
+<<
+/V /
+/T (disclosure_16_is_no)
+>> 
+<<
+/V /
+/T (practice_0_is_interpreters_avail_yes)
+>> 
+<<
+/V ()
+/T (dps_number)
+>> 
+<<
+/V /
+/T (specialty_1_hmo_listed_yes)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_address_country)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_0_license_number)
+>> 
+<<
+/V /
+/T (insurance_is_self_insured_no)
+>> 
+<<
+/V /
+/T (specialty_1_is_takenpart1_eligiblefor2_yes)
+>> 
+<<
+/V ()
+/T (insurance_coverage_aggregate)
+>> 
+<<
+/V /
+/T (practice_0_handicapped_access_restroom_is_yes)
+>> 
+<<
+/V ()
+/T (practice_0_credentialing_contact_phone)
+>> 
+<<
+/V ()
+/T (insurance_address_city)
+>> 
+<<
+/V ()
+/T (practice_0_tax_id_number)
+>> 
+<<
+/V /
+/T (practice_0_billing_company_bill_electronic_is_yes)
+>> 
+<<
+/V ()
+/T (postgrad_0_address_state)
+>> 
+<<
+/V /
+/T (practice_0_is_staff_cert_pediatric_adv_life_support_yes)
+>> 
+<<
+/V /
+/T (post_1_is_fellowship_yes)
+>> 
+<<
+/V ()
+/T (work_1_address_state)
+>> 
+<<
+/V /
+/T (hospital_0_is_have_privileges_yes)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_2_designation)
+>> 
+<<
+/V ()
+/T (formerhospital_0_affiliation_end_date)
+>> 
+<<
+/V /
+/T (is_more_current_hospitals)
+>> 
+<<
+/V ()
+/T (othergrad_0_address_line1)
+>> 
+<<
+/V ()
+/T (address_home_postal)
+>> 
+<<
+/V /
+/T (other_cds_is_practice_in_state_no)
+>> 
+<<
+/V /
+/T (specialty_2_is_not_planning_takeboards_yes)
+>> 
+<<
+/V /
+/T (practice_0_is_minority_business_yes)
+>> 
+<<
+/V ()
+/T (reference_0_address_country)
+>> 
+<<
+/V /
+/T (disclosure_6_is_yes)
+>> 
+<<
+/V ()
+/T (partner_4_name)
+>> 
+<<
+/V ()
+/T (reference_0_address_line1)
+>> 
+<<
+/V /
+/T (practice_0_is_ekg_yes)
+>> 
+<<
+/V /
+/T (is_current_military_no)
+>> 
+<<
+/V ()
+/T (reference_2_address_postal)
+>> 
+<<
+/V ()
+/T (upin)
+>> 
+<<
+/V ()
+/T (specialty_1_certifying_board)
+>> 
+<<
+/V ()
+/T (workhistory_2_gap_date)
+>> 
+<<
+/V ()
+/T (practice_0_non_physician_provider_1_designation)
+>> 
+<<
+/V /
+/T (specialty_0_ppo_listed_no)
+>> 
+<<
+/V ()
+/T (disclosure_12_number)
+>> 
+<<
+/V ()
+/T (hospital_1_admission_precent)
+>> 
+<<
+/V /
+/T (practice_0_hours_wednesday_is_no)
+>> 
+<<
+/V /
+/T (practice_0_location_listed_in_dir_is_no)
+>> 
+<<
+/V ()
+/T (reference_1_address_country)
+>> 
+<<
+/V ()
+/T (practice_0_provider_cert_advanced_ob_life_support_expire_date)
+>> 
+<<
+/V ()
+/T (previousinsurance_address_country)
+>> 
+<<
+/V /
+/T (practice_0_is_provider_cert_cardio_pulmonary_resuscitation_yes)
+>> 
+<<
+/V ()
+/T (otherfocus_interests)
+>> 
+<<
+/V /
+/T (hospital_0_is_have_temp_privileges_yes)
+>> 
+<<
+/V /
+/T (practice_is_more_practices_yes)
+>> 
+<<
+/V ()
+/T (name_maiden_range_end_date)
+>> 
+<<
+/V /
+/T (dps_number_is_exist_yes)
+>> 
+<<
+/V ()
+/T (medicare_number)
 >>]
 >>
 >>

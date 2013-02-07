@@ -95,11 +95,14 @@ $fdf_url = $fdf_file->CDNUrl();
 
 $local_url = ( (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')) ? 'https://' : 'http://'  . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) ."/";
 
+
+	$download_url = $local_url."download.php?id=$id";
+
 	$result_array = array(
 		'success' => true,
 		'id' => $id,
 		'status_url' => $local_url."status_check.php?id=$id",
-		'local_download_url' => $local_url."download.php?id=$id",
+		'local_download_url' => $download_url,
 		'fdf_url' => $fdf_url,
 		'pdf_url' => $pdf_url,
 	);
@@ -109,7 +112,19 @@ $local_url = ( (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')) ? 'https
 	
 }
 
-	header('Content-type: application/json');
-	echo json_encode($result_array);
+	if(isset($_GET['json'])){
+		header('Content-type: application/json');
+		echo json_encode($result_array);
+	}else{
+	echo "<html><head> </head><body>
+<h1>	
+	<a href='$download_url'>
+	Your pdf
+	</a>
+</h1>
+		</body></html>";
+	}
+
+
 
 ?>

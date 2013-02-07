@@ -18,7 +18,7 @@
 		$new_meta_array = array_merge_recursive($new_meta_array,$an_array);
 	}
 
-	//var_export($new_meta_array);
+	ksort($new_meta_array);
 
 	echo generate_list($new_meta_array);
 
