@@ -122,6 +122,7 @@ $local_url = ( (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')) ? 'https
 	Your pdf
 	</a>
 </h1>
+<p> You might give it a second to ensure that the file is built... </p>
 		</body></html>";
 	}
 
