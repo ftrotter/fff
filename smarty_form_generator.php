@@ -1,6 +1,6 @@
 <?php
 
-	$json_file = "form_fields.json";
+	$json_file = "build/upload_me_to_jsonschema.net.json";
 
 	$form_array = json_decode(file_get_contents($json_file),true);
 

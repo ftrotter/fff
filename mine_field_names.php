@@ -1,5 +1,5 @@
 <?php
-$file_name = "tx_cred.fdf";
+$file_name = "build/tx_cred.map";
 if(isset($argv[1])){
         if(file_exists($argv[1])){
                 $file_name = $argv[1];
@@ -9,10 +9,25 @@ if(isset($argv[1])){
   # URL that generated this code:
   # http://txt2re.com/index-php.php3?s=/T(insitution_address)%3E%3E%3C%3C/V()&2
 
-$txt = file_get_contents('tx_cred.fdf');
+//The old way had us actuall parsing the fdf.. but that does not work because of UTF-16BE BOM madness...
+//http://blog.tremily.us/posts/PDF_forms/ to read all about it...
+//$txt = file_get_contents('tx_cred.fdf');
+//$matches = parse($txt);
+
+$lines = file($file_name);
+
+$matches = array();
+foreach($lines as $line){
+
+	if(strpos($line,'FieldName:') !== false){
+		$line_array = explode(': ',$line);
+		$field = trim($line_array[1]);
+		$matches[] = $field;
+	} 
 
 
-$matches = parse($txt);
+}
+
 
 $fields = array();
 $found_fields = array();
@@ -20,7 +35,7 @@ $form_html = "<html><head></head><body><form action='initPDF.php' method='POST'>
 $form_html .= "\n<h1>Credential Form REST test form</h1>";
 $form_array = array();
 
-foreach($matches as $field => $i_dont_care){
+foreach($matches as $field){
 
 	$field = trim($field);
 	$has_spaces = strpos($field, " ");
@@ -76,8 +91,8 @@ foreach($matches as $field => $i_dont_care){
 			$clipped = str_replace("_yes",'',$clipped);
 			//this is why we squash the keys... so that even when this is there twice..
 			//it does not bork....
-			if(!isset($found_field[$clipped])){
-				$found_field[$clipped] = $clipped;	
+			if(!isset($found_fields[$clipped])){
+				$found_fields[$clipped] = $clipped;	
 				$fields[] = $clipped;
 				$form_array[] = "\n <li><label>$clipped</label>: <input type='checkbox' name='$clipped' id='$clipped' value=''> </li> ";
 			}
@@ -85,8 +100,8 @@ foreach($matches as $field => $i_dont_care){
 		}	
 
 		//if we get here, then it is a normal field then.. isnt it...
-		if(!isset($found_field[$field])){	
-			$found_field[$field] = $field;	
+		if(!isset($found_fields[$field])){	
+			$found_fields[$field] = $field;	
 			$fields[] = $field;
 			$form_array[] = "\n <li><label>$field</label>: <input type='text' name='$field' id='$field' value='$field'></li> ";
 		}
@@ -102,13 +117,17 @@ foreach($form_array as $some_html){
 }
 
 $form_html .= "\n<br><input type='submit' value='Call Form REST'></form></body></html>";
-$form_file = 'form_field.html';
+$form_file = 'test_form.html'; //we save an extraone to our current directory... just cause...
+$form_build_file = 'build/test_form.html';
 $fh = fopen($form_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
+$fh = fopen($form_build_file,'w');
+fwrite($fh,$form_html);
+fclose($fh);
 
-$json = json_encode(array('fields' => $found_field));
-$json_file = 'form_fields.json';
+$json = json_encode(array('fields' => $found_fields),JSON_PRETTY_PRINT);
+$json_file = 'build/upload_me_to_jsonschema.net.json';
 $fh = fopen($json_file,'w');
 fwrite($fh,$json);
 fclose($fh);
