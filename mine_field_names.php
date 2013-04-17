@@ -132,6 +132,147 @@ $fh = fopen($json_file,'w');
 fwrite($fh,$json);
 fclose($fh);
 
+//now lets create some useful php arrays!!
+
+$provider_stuff = array(
+	'name',
+	'type', //type_of_professional
+	'social', //social_security..
+);
+
+
+$field_dump = array();
+$words = array();
+//lets start by creating a two dimensional array!!
+foreach($found_fields as $field_name){
+
+	$field_array = explode('_',$field_name);
+
+	$number_count = 0;
+	foreach($field_array as $a_word){
+
+		if(!is_numeric($a_word)){
+			if(isset($words[$a_word])){
+			 	$words[$a_word]++;
+			}else{
+			 	$words[$a_word] = 1;
+			}
+		}else{
+			$number_count++;
+		}
+
+	}
+
+	//lets ignore the numbers for completely reptitive fields!!
+
+	$is_section = false;	
+
+	$prefix = array_shift($field_array); //now we have something like 'hospital' in prefix!!
+	
+	if($prefix == 'post'){
+
+			$prefix = 'postgrad';
+			
+			if($field_array[0] == 'grad'){
+				$throw_away_grad = array_shift($field_array);
+			}
+		
+
+	}
+
+
+	if(isset($field_array[0])){ //there are some single word fields like 'npi' etc...
+		if(is_numeric($field_array[0])){ //then this is something like hospital_0 a repeated section..
+			//we do just want the structure.. not the sections for now...
+			$is_section = true;
+			$throw_away_the_number = array_shift($field_array);
+		}
+		
+		$key = $prefix;
+		$sub_key  = implode('_',$field_array);
+
+	}else{
+		//so its a single word... something like 'npi' or 'upin'
+		// in that case... lets pretend it goes directly under 'provider' cause it usually does!!
+		$key = 'provider';
+		$sub_key = $prefix;
+
+	}
+	
+	if(in_array($prefix,$provider_stuff)){
+
+		//then this should end up in the provider file...
+		$sub_key = $prefix .'_'.$sub_key; //lets put the prefix back in the value
+		$key = 'provider';
+	}	
+
+	if(strpos($field_name,'_email') !== false){
+		//well then 
+		$field_dump[$key]['_has_email'] = true;
+		continue;
+	}
+
+	if(strpos($field_name,'phone') !== false){
+		//well then 
+		$field_dump[$key]['_has_phone'] = true;
+		continue;
+	}
+
+	if(strpos($field_name,'fax') !== false){
+		//well then 
+		$field_dump[$key]['_has_fax'] = true;
+		continue;
+	}
+
+	if(strpos($field_name,'address') !== false){
+		//well then 
+		$field_dump[$key]['_has_address'] = true;
+		continue;
+	}
+
+	$field_dump[$key]['_is_section'] = $is_section;
+	$field_dump[$key][$sub_key] = $field_name;
+
+}
+
+	$word_file = "build/arrays/all.php";
+	$fh = fopen($word_file,'w');
+
+	$output = var_export($field_dump,true);
+	$output_string = "<?php\n\n $output \n\n ?>";	
+
+	fwrite($fh,$output_string);
+	fclose($fh);
+
+
+foreach($field_dump as $file_name => $out_array){
+
+	$word_file = "build/arrays/$file_name.php";
+	$fh = fopen($word_file,'w');
+
+	$output = var_export($out_array,true);
+	$output_string = "<?php\n\n $output \n\n ?>";	
+
+	fwrite($fh,$output_string);
+	fclose($fh);
+
+}
+
+//this section is going to generate a file that can be easily spell checked and reviewed 
+//to ensure that our variable naming is sane. 
+ksort($words);
+$word_counts = array();
+foreach($words as $word => $this_word_count){
+	$word_counts[] = "$word ($this_word_count)";
+}
+
+$word_file_txt = implode("\n",$word_counts);
+$word_file = 'build/field_words.txt';
+$fh = fopen($word_file,'w');
+fwrite($fh,$word_file_txt);
+fclose($fh);
+
+
 
 function parse($text_from_file) {
                 if (!preg_match_all("/<<\s*\/V([^>]*)>>/x",
