@@ -31,7 +31,7 @@ foreach($lines as $line){
 
 $fields = array();
 $found_fields = array();
-$form_html = "<html><head></head><body><form action='initPDF.php' method='POST'><ul>";
+$form_html = "<html><head></head><body><form action='../initPDF.php' method='POST'><ul>";
 $form_html .= "\n<h1>Credential Form REST test form</h1>";
 $form_array = array();
 
@@ -120,11 +120,7 @@ foreach($form_array as $some_html){
 }
 
 $form_html .= "\n<br><input type='submit' value='Call Form REST'></form></body></html>";
-$form_file = 'test_form.html'; //we save an extraone to our current directory... just cause...
 $form_build_file = 'build/test_form.html';
-$fh = fopen($form_file,'w');
-fwrite($fh,$form_html);
-fclose($fh);
 $fh = fopen($form_build_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
