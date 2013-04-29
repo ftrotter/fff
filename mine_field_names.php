@@ -1,5 +1,5 @@
 <?php
-$file_name = "tx_cred.fdf";
+$file_name = "build/tx_cred.map";
 if(isset($argv[1])){
         if(file_exists($argv[1])){
                 $file_name = $argv[1];
@@ -9,10 +9,25 @@ if(isset($argv[1])){
   # URL that generated this code:
   # http://txt2re.com/index-php.php3?s=/T(insitution_address)%3E%3E%3C%3C/V()&2
 
-$txt = file_get_contents('tx_cred.fdf');
+//The old way had us actuall parsing the fdf.. but that does not work because of UTF-16BE BOM madness...
+//http://blog.tremily.us/posts/PDF_forms/ to read all about it...
+//$txt = file_get_contents('tx_cred.fdf');
+//$matches = parse($txt);
+
+$lines = file($file_name);
+
+$matches = array();
+foreach($lines as $line){
+
+	if(strpos($line,'FieldName:') !== false){
+		$line_array = explode(': ',$line);
+		$field = trim($line_array[1]);
+		$matches[] = $field;
+	} 
 
 
-$matches = parse($txt);
+}
+
 
 $fields = array();
 $found_fields = array();
@@ -20,7 +35,7 @@ $form_html = "<html><head></head><body><form action='initPDF.php' method='POST'>
 $form_html .= "\n<h1>Credential Form REST test form</h1>";
 $form_array = array();
 
-foreach($matches as $field => $i_dont_care){
+foreach($matches as $field){
 
 	$field = trim($field);
 	$has_spaces = strpos($field, " ");
@@ -76,8 +91,8 @@ foreach($matches as $field => $i_dont_care){
 			$clipped = str_replace("_yes",'',$clipped);
 			//this is why we squash the keys... so that even when this is there twice..
 			//it does not bork....
-			if(!isset($found_field[$clipped])){
-				$found_field[$clipped] = $clipped;	
+			if(!isset($found_fields[$clipped])){
+				$found_fields[$clipped] = $clipped;	
 				$fields[] = $clipped;
 				$form_array[] = "\n <li><label>$clipped</label>: <input type='checkbox' name='$clipped' id='$clipped' value=''> </li> ";
 			}
@@ -85,8 +100,8 @@ foreach($matches as $field => $i_dont_care){
 		}	
 
 		//if we get here, then it is a normal field then.. isnt it...
-		if(!isset($found_field[$field])){	
-			$found_field[$field] = $field;	
+		if(!isset($found_fields[$field])){	
+			$found_fields[$field] = $field;	
 			$fields[] = $field;
 			$form_array[] = "\n <li><label>$field</label>: <input type='text' name='$field' id='$field' value='$field'></li> ";
 		}
@@ -102,16 +117,161 @@ foreach($form_array as $some_html){
 }
 
 $form_html .= "\n<br><input type='submit' value='Call Form REST'></form></body></html>";
-$form_file = 'form_field.html';
+$form_file = 'test_form.html'; //we save an extraone to our current directory... just cause...
+$form_build_file = 'build/test_form.html';
 $fh = fopen($form_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
+$fh = fopen($form_build_file,'w');
+fwrite($fh,$form_html);
+fclose($fh);
 
-$json = json_encode(array('fields' => $found_field));
-$json_file = 'form_fields.json';
+$json = json_encode(array('fields' => $found_fields),JSON_PRETTY_PRINT);
+$json_file = 'build/upload_me_to_jsonschema.net.json';
 $fh = fopen($json_file,'w');
 fwrite($fh,$json);
 fclose($fh);
+
+//now lets create some useful php arrays!!
+
+$provider_stuff = array(
+	'name',
+	'type', //type_of_professional
+	'social', //social_security..
+);
+
+
+$field_dump = array();
+$words = array();
+//lets start by creating a two dimensional array!!
+foreach($found_fields as $field_name){
+
+	$field_array = explode('_',$field_name);
+
+	$number_count = 0;
+	foreach($field_array as $a_word){
+
+		if(!is_numeric($a_word)){
+			if(isset($words[$a_word])){
+			 	$words[$a_word]++;
+			}else{
+			 	$words[$a_word] = 1;
+			}
+		}else{
+			$number_count++;
+		}
+
+	}
+
+	//lets ignore the numbers for completely reptitive fields!!
+
+	$is_section = false;	
+
+	$prefix = array_shift($field_array); //now we have something like 'hospital' in prefix!!
+	
+	if($prefix == 'post'){
+
+			$prefix = 'postgrad';
+			
+			if($field_array[0] == 'grad'){
+				$throw_away_grad = array_shift($field_array);
+			}
+		
+
+	}
+
+
+	if(isset($field_array[0])){ //there are some single word fields like 'npi' etc...
+		if(is_numeric($field_array[0])){ //then this is something like hospital_0 a repeated section..
+			//we do just want the structure.. not the sections for now...
+			$is_section = true;
+			$throw_away_the_number = array_shift($field_array);
+		}
+		
+		$key = $prefix;
+		$sub_key  = implode('_',$field_array);
+
+	}else{
+		//so its a single word... something like 'npi' or 'upin'
+		// in that case... lets pretend it goes directly under 'provider' cause it usually does!!
+		$key = 'provider';
+		$sub_key = $prefix;
+
+	}
+	
+	if(in_array($prefix,$provider_stuff)){
+
+		//then this should end up in the provider file...
+		$sub_key = $prefix .'_'.$sub_key; //lets put the prefix back in the value
+		$key = 'provider';
+	}	
+
+	if(strpos($field_name,'_email') !== false){
+		//well then 
+		$field_dump[$key]['_has_email'] = true;
+		continue;
+	}
+
+	if(strpos($field_name,'phone') !== false){
+		//well then 
+		$field_dump[$key]['_has_phone'] = true;
+		continue;
+	}
+
+	if(strpos($field_name,'fax') !== false){
+		//well then 
+		$field_dump[$key]['_has_fax'] = true;
+		continue;
+	}
+
+	if(strpos($field_name,'address') !== false){
+		//well then 
+		$field_dump[$key]['_has_address'] = true;
+		continue;
+	}
+
+	$field_dump[$key]['_is_section'] = $is_section;
+	$field_dump[$key][$sub_key] = $field_name;
+
+}
+
+	$word_file = "build/arrays/all.php";
+	$fh = fopen($word_file,'w');
+
+	$output = var_export($field_dump,true);
+	$output_string = "<?php\n\n $output \n\n ?>";	
+
+	fwrite($fh,$output_string);
+	fclose($fh);
+
+
+foreach($field_dump as $file_name => $out_array){
+
+	$word_file = "build/arrays/$file_name.php";
+	$fh = fopen($word_file,'w');
+
+	$output = var_export($out_array,true);
+	$output_string = "<?php\n\n $output \n\n ?>";	
+
+	fwrite($fh,$output_string);
+	fclose($fh);
+
+}
+
+//this section is going to generate a file that can be easily spell checked and reviewed 
+//to ensure that our variable naming is sane. 
+ksort($words);
+$word_counts = array();
+foreach($words as $word => $this_word_count){
+	$word_counts[] = "$word ($this_word_count)";
+}
+
+$word_file_txt = implode("\n",$word_counts);
+$word_file = 'build/field_words.txt';
+$fh = fopen($word_file,'w');
+fwrite($fh,$word_file_txt);
+fclose($fh);
+
 
 
 function parse($text_from_file) {
