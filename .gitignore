@@ -1,3 +1,4 @@
 *.yaml
 tmp/*.pdf
 tmp/*.fdf
+*.swp

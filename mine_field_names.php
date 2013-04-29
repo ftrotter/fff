@@ -48,8 +48,10 @@ foreach($matches as $field){
 		} else {
 			//this is really two variables...
 			//a start date and an end date
+			
 			$start_date = $field . "_start_date";	
 			$end_date = $field . "_end_date";
+			echo "Splitting $field into $start_date and $end_date\n";
 			if(!isset($found_fields[$start_date])){
 				$found_fields[$start_date] = $start_date;
 				$found_fields[$end_date] = $end_date;
@@ -87,8 +89,9 @@ foreach($matches as $field){
 			//this is really just one variable...
 			//but we need checkboxes!! dammit!! checkboxes!!
 			//its true false, but we need to remove the _yes or _no from the end...
-			$clipped = str_replace("_no",'',$field);
-			$clipped = str_replace("_yes",'',$clipped);
+			$clipped = preg_replace('/\_no$/', '', $field);
+			$clipped = preg_replace('/\_yes$/', '', $clipped);
+			//echo "Clipping yes/no $field into $clipped\n";
 			//this is why we squash the keys... so that even when this is there twice..
 			//it does not bork....
 			if(!isset($found_fields[$clipped])){
@@ -107,7 +110,7 @@ foreach($matches as $field){
 		}
 
 	}else{
-		echo "$field is cruft\t it has spaces or brackets\n";
+		//echo "$field is cruft\t it has spaces or brackets\n";
 	}
 }
 

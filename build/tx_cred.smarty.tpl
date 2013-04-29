@@ -3,57 +3,6 @@
 SubmitForm:<input type='text' name='SubmitForm' id='SubmitForm'value='{$SubmitForm}'> 
 	</li>
 	<li>
-address:<ul>
-	<li>
-home:<ul>
-	<li>
-line1:<input type='text' name='address_home_line1' id='address_home_line1'value='{$address_home_line1}'> 
-	</li>
-	<li>
-city:<input type='text' name='address_home_city' id='address_home_city'value='{$address_home_city}'> 
-	</li>
-	<li>
-state:<input type='text' name='address_home_state' id='address_home_state'value='{$address_home_state}'> 
-	</li>
-	<li>
-postal:<input type='text' name='address_home_postal' id='address_home_postal'value='{$address_home_postal}'> 
-	</li>
-	<li>
-country:<input type='text' name='address_home_country' id='address_home_country'value='{$address_home_country}'> 
-	</li>
-</ul>
-	</li>
-	<li>
-correspondence:<ul>
-	<li>
-line1:<input type='text' name='address_correspondence_line1' id='address_correspondence_line1'value='{$address_correspondence_line1}'> 
-	</li>
-	<li>
-city:<input type='text' name='address_correspondence_city' id='address_correspondence_city'value='{$address_correspondence_city}'> 
-	</li>
-	<li>
-postal:<input type='text' name='address_correspondence_postal' id='address_correspondence_postal'value='{$address_correspondence_postal}'> 
-	</li>
-	<li>
-state:<input type='text' name='address_correspondence_state' id='address_correspondence_state'value='{$address_correspondence_state}'> 
-	</li>
-	<li>
-county:<input type='text' name='address_correspondence_county' id='address_correspondence_county'value='{$address_correspondence_county}'> 
-	</li>
-	<li>
-email:<input type='text' name='address_correspondence_email' id='address_correspondence_email'value='{$address_correspondence_email}'> 
-	</li>
-	<li>
-phone:<input type='text' name='address_correspondence_phone' id='address_correspondence_phone'value='{$address_correspondence_phone}'> 
-	</li>
-	<li>
-fax:<input type='text' name='address_correspondence_fax' id='address_correspondence_fax'value='{$address_correspondence_fax}'> 
-	</li>
-</ul>
-	</li>
-</ul>
-	</li>
-	<li>
 applicant:<ul>
 	<li>
 date:<input type='date' name='applicant_date' id='applicant_date' value='{$applicant_date}'>
@@ -105,6 +54,34 @@ place:<input type='text' name='citizenship_birth_place' id='citizenship_birth_pl
 date:<input type='date' name='citizenship_birth_date' id='citizenship_birth_date' value='{$citizenship_birth_date}'>
 	</li>
 </ul>
+	</li>
+</ul>
+	</li>
+	<li>
+correspondence:address:<ul>
+	<li>
+line1:<input type='text' name='correspondence_address_line1' id='correspondence_address_line1'value='{$correspondence_address_line1}'> 
+	</li>
+	<li>
+state:<input type='text' name='correspondence_address_state' id='correspondence_address_state'value='{$correspondence_address_state}'> 
+	</li>
+	<li>
+county:<input type='text' name='correspondence_address_county' id='correspondence_address_county'value='{$correspondence_address_county}'> 
+	</li>
+	<li>
+postal:<input type='text' name='correspondence_address_postal' id='correspondence_address_postal'value='{$correspondence_address_postal}'> 
+	</li>
+	<li>
+phone:<input type='text' name='correspondence_address_phone' id='correspondence_address_phone'value='{$correspondence_address_phone}'> 
+	</li>
+	<li>
+fax:<input type='text' name='correspondence_address_fax' id='correspondence_address_fax'value='{$correspondence_address_fax}'> 
+	</li>
+	<li>
+email:<input type='text' name='correspondence_address_email' id='correspondence_address_email'value='{$correspondence_address_email}'> 
+	</li>
+	<li>
+city:<input type='text' name='correspondence_address_city' id='correspondence_address_city'value='{$correspondence_address_city}'> 
 	</li>
 </ul>
 	</li>
@@ -1071,6 +1048,25 @@ privileges:temporary:is:<input type='text' name='formerhospital_6_privileges_tem
 </ul>
 	</li>
 	<li>
+home:address:<ul>
+	<li>
+line1:<input type='text' name='home_address_line1' id='home_address_line1'value='{$home_address_line1}'> 
+	</li>
+	<li>
+city:<input type='text' name='home_address_city' id='home_address_city'value='{$home_address_city}'> 
+	</li>
+	<li>
+state:<input type='text' name='home_address_state' id='home_address_state'value='{$home_address_state}'> 
+	</li>
+	<li>
+country:<input type='text' name='home_address_country' id='home_address_country'value='{$home_address_country}'> 
+	</li>
+	<li>
+postal:<input type='text' name='home_address_postal' id='home_address_postal'value='{$home_address_postal}'> 
+	</li>
+</ul>
+	</li>
+	<li>
 hospital:<ul>
 	<li>
 [0]:<ul>
@@ -1978,109 +1974,25 @@ partner:<ul>
 phone:home:<input type='text' name='phone_home' id='phone_home'value='{$phone_home}'> 
 	</li>
 	<li>
-post:<ul>
-	<li>
-[1]:is:<ul>
-	<li>
-internship:<input type='checkbox' name='post_1_is_internship' id='post_1_is_internship' {if $post_1_is_internship}CHECKED{/if}>
-	</li>
-	<li>
-residency:<input type='checkbox' name='post_1_is_residency' id='post_1_is_residency' {if $post_1_is_residency}CHECKED{/if}>
-	</li>
-	<li>
-fellowship:<input type='checkbox' name='post_1_is_fellowship' id='post_1_is_fellowship' {if $post_1_is_fellowship}CHECKED{/if}>
-	</li>
-	<li>
-teaching:position:<input type='checkbox' name='post_1_is_teaching_position' id='post_1_is_teaching_position' {if $post_1_is_teaching_position}CHECKED{/if}>
-	</li>
-</ul>
-	</li>
-	<li>
-[2]:is:<ul>
-	<li>
-internship:<input type='checkbox' name='post_2_is_internship' id='post_2_is_internship' {if $post_2_is_internship}CHECKED{/if}>
-	</li>
-	<li>
-residency:<input type='checkbox' name='post_2_is_residency' id='post_2_is_residency' {if $post_2_is_residency}CHECKED{/if}>
-	</li>
-	<li>
-fellowship:<input type='checkbox' name='post_2_is_fellowship' id='post_2_is_fellowship' {if $post_2_is_fellowship}CHECKED{/if}>
-	</li>
-	<li>
-teaching:position:<input type='checkbox' name='post_2_is_teaching_position' id='post_2_is_teaching_position' {if $post_2_is_teaching_position}CHECKED{/if}>
-	</li>
-</ul>
-	</li>
-	<li>
-grad:<ul>
-	<li>
-[2]:program:completed:yes:<input type='text' name='post_grad_2_program_completed_yes' id='post_grad_2_program_completed_yes'value='{$post_grad_2_program_completed_yes}'> 
-	</li>
-	<li>
-[3]:program:completed:yes:<input type='text' name='post_grad_3_program_completed_yes' id='post_grad_3_program_completed_yes'value='{$post_grad_3_program_completed_yes}'> 
-	</li>
-	<li>
-[4]:program:completed:yes:<input type='text' name='post_grad_4_program_completed_yes' id='post_grad_4_program_completed_yes'value='{$post_grad_4_program_completed_yes}'> 
-	</li>
-	<li>
-[5]:program:completed:yes:<input type='text' name='post_grad_5_program_completed_yes' id='post_grad_5_program_completed_yes'value='{$post_grad_5_program_completed_yes}'> 
-	</li>
-	<li>
-[6]:program:completed:yes:<input type='text' name='post_grad_6_program_completed_yes' id='post_grad_6_program_completed_yes'value='{$post_grad_6_program_completed_yes}'> 
-	</li>
-</ul>
-	</li>
-</ul>
-	</li>
-	<li>
 postgrad:<ul>
 	<li>
-[0]:<ul>
-	<li>
-speciality:<input type='text' name='postgrad_0_speciality' id='postgrad_0_speciality'value='{$postgrad_0_speciality}'> 
-	</li>
-	<li>
-institution:<input type='text' name='postgrad_0_institution' id='postgrad_0_institution'value='{$postgrad_0_institution}'> 
-	</li>
-	<li>
-is:program:successfully:completed:<input type='checkbox' name='postgrad_0_is_program_successfully_completed' id='postgrad_0_is_program_successfully_completed' {if $postgrad_0_is_program_successfully_completed}CHECKED{/if}>
-	</li>
-	<li>
-attendance:<ul>
-	<li>
-start:date:<input type='date' name='postgrad_0_attendance_start_date' id='postgrad_0_attendance_start_date' value='{$postgrad_0_attendance_start_date}'>
-	</li>
-	<li>
-end:date:<input type='date' name='postgrad_0_attendance_end_date' id='postgrad_0_attendance_end_date' value='{$postgrad_0_attendance_end_date}'>
-	</li>
-</ul>
-	</li>
-	<li>
-program:director:then:<input type='text' name='postgrad_0_program_director_then' id='postgrad_0_program_director_then'value='{$postgrad_0_program_director_then}'> 
-	</li>
-	<li>
-address:<ul>
-	<li>
-line1:<input type='text' name='postgrad_0_address_line1' id='postgrad_0_address_line1'value='{$postgrad_0_address_line1}'> 
-	</li>
-	<li>
-postal:<input type='text' name='postgrad_0_address_postal' id='postgrad_0_address_postal'value='{$postgrad_0_address_postal}'> 
-	</li>
-	<li>
-country:<input type='text' name='postgrad_0_address_country' id='postgrad_0_address_country'value='{$postgrad_0_address_country}'> 
-	</li>
-	<li>
-state:<input type='text' name='postgrad_0_address_state' id='postgrad_0_address_state'value='{$postgrad_0_address_state}'> 
-	</li>
-</ul>
-	</li>
-	<li>
-adddress:city:<input type='text' name='postgrad_0_adddress_city' id='postgrad_0_adddress_city'value='{$postgrad_0_adddress_city}'> 
-	</li>
-</ul>
-	</li>
-	<li>
 [1]:<ul>
+	<li>
+is:<ul>
+	<li>
+fellowship:<input type='checkbox' name='postgrad_1_is_fellowship' id='postgrad_1_is_fellowship' {if $postgrad_1_is_fellowship}CHECKED{/if}>
+	</li>
+	<li>
+internship:<input type='checkbox' name='postgrad_1_is_internship' id='postgrad_1_is_internship' {if $postgrad_1_is_internship}CHECKED{/if}>
+	</li>
+	<li>
+residency:<input type='checkbox' name='postgrad_1_is_residency' id='postgrad_1_is_residency' {if $postgrad_1_is_residency}CHECKED{/if}>
+	</li>
+	<li>
+teaching:position:<input type='checkbox' name='postgrad_1_is_teaching_position' id='postgrad_1_is_teaching_position' {if $postgrad_1_is_teaching_position}CHECKED{/if}>
+	</li>
+</ul>
+	</li>
 	<li>
 speciality:<input type='text' name='postgrad_1_speciality' id='postgrad_1_speciality'value='{$postgrad_1_speciality}'> 
 	</li>
@@ -2129,6 +2041,51 @@ now:<input type='text' name='postgrad_1_program_director_now' id='postgrad_1_pro
 </ul>
 	</li>
 	<li>
+[0]:<ul>
+	<li>
+speciality:<input type='text' name='postgrad_0_speciality' id='postgrad_0_speciality'value='{$postgrad_0_speciality}'> 
+	</li>
+	<li>
+institution:<input type='text' name='postgrad_0_institution' id='postgrad_0_institution'value='{$postgrad_0_institution}'> 
+	</li>
+	<li>
+is:program:successfully:completed:<input type='checkbox' name='postgrad_0_is_program_successfully_completed' id='postgrad_0_is_program_successfully_completed' {if $postgrad_0_is_program_successfully_completed}CHECKED{/if}>
+	</li>
+	<li>
+attendance:<ul>
+	<li>
+start:date:<input type='date' name='postgrad_0_attendance_start_date' id='postgrad_0_attendance_start_date' value='{$postgrad_0_attendance_start_date}'>
+	</li>
+	<li>
+end:date:<input type='date' name='postgrad_0_attendance_end_date' id='postgrad_0_attendance_end_date' value='{$postgrad_0_attendance_end_date}'>
+	</li>
+</ul>
+	</li>
+	<li>
+program:director:then:<input type='text' name='postgrad_0_program_director_then' id='postgrad_0_program_director_then'value='{$postgrad_0_program_director_then}'> 
+	</li>
+	<li>
+address:<ul>
+	<li>
+line1:<input type='text' name='postgrad_0_address_line1' id='postgrad_0_address_line1'value='{$postgrad_0_address_line1}'> 
+	</li>
+	<li>
+postal:<input type='text' name='postgrad_0_address_postal' id='postgrad_0_address_postal'value='{$postgrad_0_address_postal}'> 
+	</li>
+	<li>
+country:<input type='text' name='postgrad_0_address_country' id='postgrad_0_address_country'value='{$postgrad_0_address_country}'> 
+	</li>
+	<li>
+state:<input type='text' name='postgrad_0_address_state' id='postgrad_0_address_state'value='{$postgrad_0_address_state}'> 
+	</li>
+</ul>
+	</li>
+	<li>
+adddress:city:<input type='text' name='postgrad_0_adddress_city' id='postgrad_0_adddress_city'value='{$postgrad_0_adddress_city}'> 
+	</li>
+</ul>
+	</li>
+	<li>
 is:additional:postgrad:<input type='checkbox' name='postgrad_is_additional_postgrad' id='postgrad_is_additional_postgrad' {if $postgrad_is_additional_postgrad}CHECKED{/if}>
 	</li>
 	<li>
@@ -2166,12 +2123,19 @@ start:date:<input type='date' name='postgrad_2_attendance_start_date' id='postgr
 </ul>
 	</li>
 	<li>
-program:director:<ul>
+program:<ul>
+	<li>
+director:<ul>
 	<li>
 now:<input type='text' name='postgrad_2_program_director_now' id='postgrad_2_program_director_now'value='{$postgrad_2_program_director_now}'> 
 	</li>
 	<li>
 then:<input type='text' name='postgrad_2_program_director_then' id='postgrad_2_program_director_then'value='{$postgrad_2_program_director_then}'> 
+	</li>
+</ul>
+	</li>
+	<li>
+completed:yes:<input type='text' name='postgrad_2_program_completed_yes' id='postgrad_2_program_completed_yes'value='{$postgrad_2_program_completed_yes}'> 
 	</li>
 </ul>
 	</li>
@@ -2186,6 +2150,22 @@ fellowship:is:<input type='text' name='postgrad_2_fellowship_is' id='postgrad_2_
 	</li>
 	<li>
 teaching:appointment:is:<input type='text' name='postgrad_2_teaching_appointment_is' id='postgrad_2_teaching_appointment_is'value='{$postgrad_2_teaching_appointment_is}'> 
+	</li>
+	<li>
+is:<ul>
+	<li>
+fellowship:<input type='checkbox' name='postgrad_2_is_fellowship' id='postgrad_2_is_fellowship' {if $postgrad_2_is_fellowship}CHECKED{/if}>
+	</li>
+	<li>
+internship:<input type='checkbox' name='postgrad_2_is_internship' id='postgrad_2_is_internship' {if $postgrad_2_is_internship}CHECKED{/if}>
+	</li>
+	<li>
+residency:<input type='checkbox' name='postgrad_2_is_residency' id='postgrad_2_is_residency' {if $postgrad_2_is_residency}CHECKED{/if}>
+	</li>
+	<li>
+teaching:position:<input type='checkbox' name='postgrad_2_is_teaching_position' id='postgrad_2_is_teaching_position' {if $postgrad_2_is_teaching_position}CHECKED{/if}>
+	</li>
+</ul>
 	</li>
 </ul>
 	</li>
@@ -2217,12 +2197,19 @@ postal:<input type='text' name='postgrad_3_address_postal' id='postgrad_3_addres
 </ul>
 	</li>
 	<li>
-program:director:<ul>
+program:<ul>
+	<li>
+director:<ul>
 	<li>
 now:<input type='text' name='postgrad_3_program_director_now' id='postgrad_3_program_director_now'value='{$postgrad_3_program_director_now}'> 
 	</li>
 	<li>
 then:<input type='text' name='postgrad_3_program_director_then' id='postgrad_3_program_director_then'value='{$postgrad_3_program_director_then}'> 
+	</li>
+</ul>
+	</li>
+	<li>
+completed:yes:<input type='text' name='postgrad_3_program_completed_yes' id='postgrad_3_program_completed_yes'value='{$postgrad_3_program_completed_yes}'> 
 	</li>
 </ul>
 	</li>
@@ -2275,12 +2262,19 @@ postal:<input type='text' name='postgrad_4_address_postal' id='postgrad_4_addres
 </ul>
 	</li>
 	<li>
-program:director:<ul>
+program:<ul>
+	<li>
+director:<ul>
 	<li>
 now:<input type='text' name='postgrad_4_program_director_now' id='postgrad_4_program_director_now'value='{$postgrad_4_program_director_now}'> 
 	</li>
 	<li>
 then:<input type='text' name='postgrad_4_program_director_then' id='postgrad_4_program_director_then'value='{$postgrad_4_program_director_then}'> 
+	</li>
+</ul>
+	</li>
+	<li>
+completed:yes:<input type='text' name='postgrad_4_program_completed_yes' id='postgrad_4_program_completed_yes'value='{$postgrad_4_program_completed_yes}'> 
 	</li>
 </ul>
 	</li>
@@ -2333,12 +2327,19 @@ postal:<input type='text' name='postgrad_5_address_postal' id='postgrad_5_addres
 </ul>
 	</li>
 	<li>
-program:director:<ul>
+program:<ul>
+	<li>
+director:<ul>
 	<li>
 now:<input type='text' name='postgrad_5_program_director_now' id='postgrad_5_program_director_now'value='{$postgrad_5_program_director_now}'> 
 	</li>
 	<li>
 then:<input type='text' name='postgrad_5_program_director_then' id='postgrad_5_program_director_then'value='{$postgrad_5_program_director_then}'> 
+	</li>
+</ul>
+	</li>
+	<li>
+completed:yes:<input type='text' name='postgrad_5_program_completed_yes' id='postgrad_5_program_completed_yes'value='{$postgrad_5_program_completed_yes}'> 
 	</li>
 </ul>
 	</li>
@@ -2391,12 +2392,19 @@ postal:<input type='text' name='postgrad_6_address_postal' id='postgrad_6_addres
 </ul>
 	</li>
 	<li>
-program:director:<ul>
+program:<ul>
+	<li>
+director:<ul>
 	<li>
 now:<input type='text' name='postgrad_6_program_director_now' id='postgrad_6_program_director_now'value='{$postgrad_6_program_director_now}'> 
 	</li>
 	<li>
 then:<input type='text' name='postgrad_6_program_director_then' id='postgrad_6_program_director_then'value='{$postgrad_6_program_director_then}'> 
+	</li>
+</ul>
+	</li>
+	<li>
+completed:yes:<input type='text' name='postgrad_6_program_completed_yes' id='postgrad_6_program_completed_yes'value='{$postgrad_6_program_completed_yes}'> 
 	</li>
 </ul>
 	</li>
@@ -2656,9 +2664,7 @@ sunday:is:<input type='text' name='practice_0_hours_sunday_is' id='practice_0_ho
 </ul>
 	</li>
 	<li>
-24hour:<ul>
-	<li>
-coverage:<ul>
+24hour:coverage:<ul>
 	<li>
 answering:service:is:<input type='text' name='practice_0_24hour_coverage_answering_service_is' id='practice_0_24hour_coverage_answering_service_is'value='{$practice_0_24hour_coverage_answering_service_is}'> 
 	</li>
@@ -2672,10 +2678,8 @@ other:is:<input type='text' name='practice_0_24hour_coverage_voicemail_service_o
 	</li>
 </ul>
 	</li>
-</ul>
-	</li>
 	<li>
-coveragene:is:<input type='text' name='practice_0_24hour_coveragene_is' id='practice_0_24hour_coveragene_is'value='{$practice_0_24hour_coveragene_is}'> 
+none:is:<input type='text' name='practice_0_24hour_coverage_none_is' id='practice_0_24hour_coverage_none_is'value='{$practice_0_24hour_coverage_none_is}'> 
 	</li>
 </ul>
 	</li>
@@ -2732,6 +2736,9 @@ explanation:<input type='text' name='practice_0_limitations_other_explanation' i
 non:<ul>
 	<li>
 physician:provider:<ul>
+	<li>
+is:<input type='text' name='practice_0_non_physician_provider_is' id='practice_0_non_physician_provider_is'value='{$practice_0_non_physician_provider_is}'> 
+	</li>
 	<li>
 name:<ul>
 	<li>
@@ -3145,9 +3152,6 @@ name:<input type='text' name='practice_0_anesthesia_admin_name' id='practice_0_a
 </ul>
 	</li>
 	<li>
-0n:physician:provider:is:<input type='text' name='practice_0n_physician_provider_is' id='practice_0n_physician_provider_is'value='{$practice_0n_physician_provider_is}'> 
-	</li>
-	<li>
 is:more:practices:<input type='checkbox' name='practice_is_more_practices' id='practice_is_more_practices' {if $practice_is_more_practices}CHECKED{/if}>
 	</li>
 	<li>
@@ -3467,6 +3471,9 @@ state:<input type='text' name='practice_1_non_physician_provider_5_state' id='pr
 license:number:<input type='text' name='practice_1_non_physician_provider_5_license_number' id='practice_1_non_physician_provider_5_license_number'value='{$practice_1_non_physician_provider_5_license_number}'> 
 	</li>
 </ul>
+	</li>
+	<li>
+is:<input type='text' name='practice_1_non_physician_provider_is' id='practice_1_non_physician_provider_is'value='{$practice_1_non_physician_provider_is}'> 
 	</li>
 </ul>
 	</li>
@@ -3823,9 +3830,7 @@ sunday:is:<input type='text' name='practice_1_hours_sunday_is' id='practice_1_ho
 </ul>
 	</li>
 	<li>
-24hour:<ul>
-	<li>
-coverage:<ul>
+24hour:coverage:<ul>
 	<li>
 answering:service:is:<input type='text' name='practice_1_24hour_coverage_answering_service_is' id='practice_1_24hour_coverage_answering_service_is'value='{$practice_1_24hour_coverage_answering_service_is}'> 
 	</li>
@@ -3839,17 +3844,12 @@ other:is:<input type='text' name='practice_1_24hour_coverage_voicemail_service_o
 	</li>
 </ul>
 	</li>
-</ul>
-	</li>
 	<li>
-coveragene:is:<input type='text' name='practice_1_24hour_coveragene_is' id='practice_1_24hour_coveragene_is'value='{$practice_1_24hour_coveragene_is}'> 
+none:is:<input type='text' name='practice_1_24hour_coverage_none_is' id='practice_1_24hour_coverage_none_is'value='{$practice_1_24hour_coverage_none_is}'> 
 	</li>
 </ul>
 	</li>
 </ul>
-	</li>
-	<li>
-1n:physician:provider:is:<input type='text' name='practice_1n_physician_provider_is' id='practice_1n_physician_provider_is'value='{$practice_1n_physician_provider_is}'> 
 	</li>
 </ul>
 	</li>
@@ -4012,52 +4012,6 @@ name:<input type='text' name='reference_2_name' id='reference_2_name'value='{$re
 social:security:<input type='text' name='social_security' id='social_security'value='{$social_security}'> 
 	</li>
 	<li>
-speciality:<ul>
-	<li>
-[0]:<ul>
-	<li>
-type:<input type='text' name='speciality_0_type' id='speciality_0_type'value='{$speciality_0_type}'> 
-	</li>
-	<li>
-date:start:<input type='date' name='speciality_0_date_start' id='speciality_0_date_start' value='{$speciality_0_date_start}'>
-	</li>
-	<li>
-recertification:date:<input type='date' name='speciality_0_recertification_date' id='speciality_0_recertification_date' value='{$speciality_0_recertification_date}'>
-	</li>
-	<li>
-expiration:date:<input type='date' name='speciality_0_expiration_date' id='speciality_0_expiration_date' value='{$speciality_0_expiration_date}'>
-	</li>
-</ul>
-	</li>
-	<li>
-[1]:<ul>
-	<li>
-type:<input type='text' name='speciality_1_type' id='speciality_1_type'value='{$speciality_1_type}'> 
-	</li>
-	<li>
-date:start:<input type='date' name='speciality_1_date_start' id='speciality_1_date_start' value='{$speciality_1_date_start}'>
-	</li>
-	<li>
-recertification:date:<input type='date' name='speciality_1_recertification_date' id='speciality_1_recertification_date' value='{$speciality_1_recertification_date}'>
-	</li>
-</ul>
-	</li>
-	<li>
-[2]:<ul>
-	<li>
-type:<input type='text' name='speciality_2_type' id='speciality_2_type'value='{$speciality_2_type}'> 
-	</li>
-	<li>
-date:start:<input type='date' name='speciality_2_date_start' id='speciality_2_date_start' value='{$speciality_2_date_start}'>
-	</li>
-	<li>
-recertification:date:<input type='date' name='speciality_2_recertification_date' id='speciality_2_recertification_date' value='{$speciality_2_recertification_date}'>
-	</li>
-</ul>
-	</li>
-</ul>
-	</li>
-	<li>
 specialty:<ul>
 	<li>
 [0]:<ul>
@@ -4078,10 +4032,10 @@ takenpart1:eligiblefor2:<input type='checkbox' name='specialty_0_is_takenpart1_e
 	<li>
 intending:sit:boards:<input type='checkbox' name='specialty_0_is_intending_sit_boards' id='specialty_0_is_intending_sit_boards' {if $specialty_0_is_intending_sit_boards}CHECKED{/if}>
 	</li>
-</ul>
-	</li>
 	<li>
-ist:planning:takeboards:<input type='text' name='specialty_0_ist_planning_takeboards' id='specialty_0_ist_planning_takeboards'value='{$specialty_0_ist_planning_takeboards}'> 
+not:planning:takeboards:<input type='checkbox' name='specialty_0_is_not_planning_takeboards' id='specialty_0_is_not_planning_takeboards' {if $specialty_0_is_not_planning_takeboards}CHECKED{/if}>
+	</li>
+</ul>
 	</li>
 	<li>
 hmo:listed:<ul>
@@ -4113,6 +4067,18 @@ no:<input type='text' name='specialty_0_pos_listed_no' id='specialty_0_pos_liste
 	</li>
 </ul>
 	</li>
+	<li>
+date:start:<input type='date' name='specialty_0_date_start' id='specialty_0_date_start' value='{$specialty_0_date_start}'>
+	</li>
+	<li>
+recertification:date:<input type='date' name='specialty_0_recertification_date' id='specialty_0_recertification_date' value='{$specialty_0_recertification_date}'>
+	</li>
+	<li>
+expiration:date:<input type='date' name='specialty_0_expiration_date' id='specialty_0_expiration_date' value='{$specialty_0_expiration_date}'>
+	</li>
+	<li>
+type:<input type='text' name='specialty_0_type' id='specialty_0_type'value='{$specialty_0_type}'> 
+	</li>
 </ul>
 	</li>
 	<li>
@@ -4134,10 +4100,10 @@ takenpart1:eligiblefor2:<input type='checkbox' name='specialty_1_is_takenpart1_e
 	<li>
 intending:sit:boards:<input type='checkbox' name='specialty_1_is_intending_sit_boards' id='specialty_1_is_intending_sit_boards' {if $specialty_1_is_intending_sit_boards}CHECKED{/if}>
 	</li>
-</ul>
-	</li>
 	<li>
-ist:planning:takeboards:<input type='text' name='specialty_1_ist_planning_takeboards' id='specialty_1_ist_planning_takeboards'value='{$specialty_1_ist_planning_takeboards}'> 
+not:planning:takeboards:<input type='checkbox' name='specialty_1_is_not_planning_takeboards' id='specialty_1_is_not_planning_takeboards' {if $specialty_1_is_not_planning_takeboards}CHECKED{/if}>
+	</li>
+</ul>
 	</li>
 	<li>
 hmo:listed:<ul>
@@ -4169,6 +4135,15 @@ no:<input type='text' name='specialty_1_pos_listed_no' id='specialty_1_pos_liste
 	</li>
 </ul>
 	</li>
+	<li>
+date:start:<input type='date' name='specialty_1_date_start' id='specialty_1_date_start' value='{$specialty_1_date_start}'>
+	</li>
+	<li>
+recertification:date:<input type='date' name='specialty_1_recertification_date' id='specialty_1_recertification_date' value='{$specialty_1_recertification_date}'>
+	</li>
+	<li>
+type:<input type='text' name='specialty_1_type' id='specialty_1_type'value='{$specialty_1_type}'> 
+	</li>
 </ul>
 	</li>
 	<li>
@@ -4190,10 +4165,10 @@ takenpart1:eligiblefor2:<input type='checkbox' name='specialty_2_is_takenpart1_e
 	<li>
 intending:sit:boards:<input type='checkbox' name='specialty_2_is_intending_sit_boards' id='specialty_2_is_intending_sit_boards' {if $specialty_2_is_intending_sit_boards}CHECKED{/if}>
 	</li>
-</ul>
-	</li>
 	<li>
-ist:planning:takeboards:<input type='text' name='specialty_2_ist_planning_takeboards' id='specialty_2_ist_planning_takeboards'value='{$specialty_2_ist_planning_takeboards}'> 
+not:planning:takeboards:<input type='checkbox' name='specialty_2_is_not_planning_takeboards' id='specialty_2_is_not_planning_takeboards' {if $specialty_2_is_not_planning_takeboards}CHECKED{/if}>
+	</li>
+</ul>
 	</li>
 	<li>
 hmo:listed:<ul>
@@ -4224,6 +4199,15 @@ yes:<input type='text' name='specialty_2_pos_listed_yes' id='specialty_2_pos_lis
 no:<input type='text' name='specialty_2_pos_listed_no' id='specialty_2_pos_listed_no'value='{$specialty_2_pos_listed_no}'> 
 	</li>
 </ul>
+	</li>
+	<li>
+type:<input type='text' name='specialty_2_type' id='specialty_2_type'value='{$specialty_2_type}'> 
+	</li>
+	<li>
+date:start:<input type='date' name='specialty_2_date_start' id='specialty_2_date_start' value='{$specialty_2_date_start}'>
+	</li>
+	<li>
+recertification:date:<input type='date' name='specialty_2_recertification_date' id='specialty_2_recertification_date' value='{$specialty_2_recertification_date}'>
 	</li>
 </ul>
 	</li>

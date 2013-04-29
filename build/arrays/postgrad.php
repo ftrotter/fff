@@ -2,10 +2,6 @@
 
  array (
   '_is_section' => true,
-  'is_internship' => 'post_2_is_internship',
-  'is_residency' => 'post_2_is_residency',
-  'is_fellowship' => 'post_2_is_fellowship',
-  'is_teaching_position' => 'post_2_is_teaching_position',
   'speciality' => 'postgrad_6_speciality',
   'institution' => 'postgrad_6_institution',
   'is_program_successfully_completed' => 'postgrad_0_is_program_successfully_completed',
@@ -20,7 +16,11 @@
   'residency_is' => 'postgrad_2_residency_is',
   'fellowship_is' => 'postgrad_6_fellowship_is',
   'teaching_appointment_is' => 'postgrad_6_teaching_appointment_is',
-  'program_completed_yes' => 'post_grad_6_program_completed_yes',
+  'is_internship' => 'postgrad_2_is_internship',
+  'is_residency' => 'postgrad_2_is_residency',
+  'is_teaching_position' => 'postgrad_2_is_teaching_position',
+  'is_fellowship' => 'postgrad_1_is_fellowship',
+  'program_completed_yes' => 'postgrad_6_program_completed_yes',
 ) 
 
  ?>
