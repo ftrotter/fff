@@ -660,70 +660,6 @@ FieldNameAlt: TYPE OF PROFESSIONAL
 FieldFlags: 0
 FieldJustification: Left
 ---
-FieldType: Button
-FieldName: post_1_is_internship_yes
-FieldNameAlt: Post Graduate Education - Internship
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_1_is_residency_yes
-FieldNameAlt: Post Graduate Education - Residency
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_1_is_fellowship_yes
-FieldNameAlt: Post Graduate Education - Fellowship
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_1_is_teaching_position_yes
-FieldNameAlt: Post Graduate Education - Teaching Appointment
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_2_is_internship_yes
-FieldNameAlt: Post Graduate Education - Internship
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_2_is_residency_yes
-FieldNameAlt: Post Graduate Education - Residency
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_2_is_fellowship_yes
-FieldNameAlt: Post Graduate Education - Fellowship
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_2_is_teaching_position_yes
-FieldNameAlt: Post Graduate Education - Teaching Appointment
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
 FieldType: Text
 FieldName: name_last
 FieldNameAlt: Last Name
@@ -783,30 +719,6 @@ FieldFlags: 0
 FieldJustification: Left
 ---
 FieldType: Text
-FieldName: address_home_line1
-FieldNameAlt: Home Mailing Address
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_home_city
-FieldNameAlt: Home Mailing Address City
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_home_state
-FieldNameAlt: Home Mailing Address State / Country
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_home_postal
-FieldNameAlt: Home Mailing Address Postal Code
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
 FieldName: phone_home
 FieldNameAlt: Home Phone Number
 FieldFlags: 0
@@ -815,36 +727,6 @@ FieldJustification: Left
 FieldType: Text
 FieldName: social_security
 FieldNameAlt: Social Security Number
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_line1
-FieldNameAlt: Correspondence Address
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_city
-FieldNameAlt: Correspondence Address City
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_postal
-FieldNameAlt: Correspondence Address Postal Code
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_state
-FieldNameAlt: Correspondence Address State / Country
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_county
-FieldNameAlt: Correspondence Address State / Country
 FieldFlags: 0
 FieldJustification: Left
 ---
@@ -1422,47 +1304,6 @@ FieldFlags: 0
 FieldJustification: Left
 ---
 FieldType: Text
-FieldName: speciality_0_type
-FieldNameAlt: Primary Specialty 
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_0_date_start
-FieldNameAlt: Initial Certification Date (MM/YYYY)
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_0_recertification_date
-FieldNameAlt: Recertification Date(s), if applicable (MM/YYYY)
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_0_expiration_date
-FieldNameAlt: Expiration Date, if applicable (MM/YYYY)
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_1_type
-FieldNameAlt: Secondary Specialty 
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_1_date_start
-FieldNameAlt: Initial Certification Date (MM/YYYY)
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_1_recertification_date
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
 FieldName: specialty_0_certifying_board
 FieldNameAlt: Name of Certifying Board
 FieldFlags: 0
@@ -1667,25 +1508,8 @@ FieldStateOption: 2
 FieldStateOption: Off
 ---
 FieldType: Text
-FieldName: speciality_2_type
-FieldNameAlt: Additional Specialty 
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_2_date_start
-FieldNameAlt: Initial Certification Date (MM/YYYY)
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
 FieldName: specialty_2_certifying_board
 FieldNameAlt: BOARD CERTIFIED? Yes No Name of Certifying Board:
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: speciality_2_recertification_date
 FieldFlags: 0
 FieldJustification: Left
 ---
@@ -4506,11 +4330,6 @@ FieldStateOption: Off
 FieldStateOption: On
 ---
 FieldType: Text
-FieldName: address_home_country
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
 FieldName: applicant_signature_initial
 FieldNameAlt: Applicant's Initials - Understanding of Section III–Standard Authorization, Attestation and Release
 FieldFlags: 0
@@ -4529,24 +4348,6 @@ FieldFlags: 0
 FieldJustification: Left
 FieldStateOption: Off
 FieldStateOption: On
----
-FieldType: Text
-FieldName: address_correspondence_email
-FieldNameAlt: E-mail
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_phone
-FieldNameAlt: Correspondence Address' Phone Number
-FieldFlags: 0
-FieldJustification: Left
----
-FieldType: Text
-FieldName: address_correspondence_fax
-FieldNameAlt: Fax Number
-FieldFlags: 0
-FieldJustification: Left
 ---
 FieldType: Text
 FieldName: citizenship_birth_date
@@ -7431,46 +7232,6 @@ FieldStateOption: 4
 FieldStateOption: Off
 ---
 FieldType: Button
-FieldName: post_grad_2_program_completed_yes
-FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_grad_3_program_completed_yes
-FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_grad_4_program_completed_yes
-FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_grad_5_program_completed_yes
-FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
-FieldName: post_grad_6_program_completed_yes
-FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
-FieldFlags: 0
-FieldJustification: Left
-FieldStateOption: Off
-FieldStateOption: On
----
-FieldType: Button
 FieldName: hospital_2_full_unrestricted_privileges_is_yes
 FieldNameAlt: Gender - Male
 FieldFlags: 49152
@@ -8710,3 +8471,242 @@ FieldType: Button
 FieldName: SubmitForm
 FieldFlags: 65536
 FieldJustification: Left
+---
+FieldType: Text
+FieldName: home_address_line1
+FieldNameAlt: Home Mailing Address
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: home_address_city
+FieldNameAlt: Home Mailing Address City
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: home_address_state
+FieldNameAlt: Home Mailing Address State / Country
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: home_address_country
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: home_address_postal
+FieldNameAlt: Home Mailing Address Postal Code
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_line1
+FieldNameAlt: Correspondence Address
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_state
+FieldNameAlt: Correspondence Address State / Country
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_county
+FieldNameAlt: Correspondence Address State / Country
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_postal
+FieldNameAlt: Correspondence Address Postal Code
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_phone
+FieldNameAlt: Correspondence Address' Phone Number
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_fax
+FieldNameAlt: Fax Number
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_email
+FieldNameAlt: E-mail
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: correspondence_address_city
+FieldNameAlt: Correspondence Address City
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_0_date_start
+FieldNameAlt: Initial Certification Date (MM/YYYY)
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_0_recertification_date
+FieldNameAlt: Recertification Date(s), if applicable (MM/YYYY)
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_0_expiration_date
+FieldNameAlt: Expiration Date, if applicable (MM/YYYY)
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_0_type
+FieldNameAlt: Primary Specialty 
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_1_date_start
+FieldNameAlt: Initial Certification Date (MM/YYYY)
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_1_recertification_date
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_2_type
+FieldNameAlt: Additional Specialty 
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_2_date_start
+FieldNameAlt: Initial Certification Date (MM/YYYY)
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_2_recertification_date
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: specialty_1_type
+FieldNameAlt: Secondary Specialty 
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: postgrad_1_is_internship_yes
+FieldNameAlt: Post Graduate Education - Internship
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_1_is_residency_yes
+FieldNameAlt: Post Graduate Education - Residency
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_1_is_teaching_position_yes
+FieldNameAlt: Post Graduate Education - Teaching Appointment
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_2_is_fellowship_yes
+FieldNameAlt: Post Graduate Education - Fellowship
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_2_is_internship_yes
+FieldNameAlt: Post Graduate Education - Internship
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_2_is_residency_yes
+FieldNameAlt: Post Graduate Education - Residency
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_2_is_teaching_position_yes
+FieldNameAlt: Post Graduate Education - Teaching Appointment
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_2_program_completed_yes
+FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_3_program_completed_yes
+FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_4_program_completed_yes
+FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_5_program_completed_yes
+FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_6_program_completed_yes
+FieldNameAlt: Program Successfully Completed at the above mentioned post graduate institute 
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On
+---
+FieldType: Button
+FieldName: postgrad_1_is_fellowship_yes
+FieldNameAlt: Post Graduate Education - Fellowship
+FieldFlags: 0
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: On

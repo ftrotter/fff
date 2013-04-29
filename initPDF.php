@@ -42,6 +42,48 @@ if (!$validator->isValid()) {
 	$nothing = array();
 	
 //	var_export($_POST);
+
+
+	foreach($_POST as $key => $value){ //we have to handle our _is and _date_range logic here...
+
+		//first we handle possible collapses to _date_range
+		$pos = strpos($key, "_start_date");
+		if ($pos === false) {
+			//do nothing...
+		} else {
+
+			$clipped = preg_replace('/\_start_date$/', '', $field);
+			$end_date = $clipped . "_end_date";
+			if(isset($_POST[$end_date])){
+				//then we have both _start_date and _end_date
+				//in the post. It is possible that this should appear to the pdf as 
+				//just one variable _date_range ... so we add that here..
+				$start_date = $value;
+				$end_date = $_POST[$end_date];
+				$_POST[$clipped . "_date_range"] = "$start_date - $end_date";
+
+			}
+		}
+
+		//expand _is to _yes and _no
+		$pos = strpos($key, "_is");
+		if ($pos === false) {
+			//do nothing...
+		} else {
+			//this might seem pointless, but it lets us target checkboxes with a "yes" and a "no"
+			//on a paper form
+			if($value){
+				$_POST[$key. "_yes"] = true;
+				$_POST[$key. "_no"] = false;
+			}else{
+				$_POST[$key. "_yes"] = false;
+				$_POST[$key. "_no"] = true;	
+			}
+		
+
+		}
+	}
+
 	$file = forge_fdf(	
 				'',
 				$_POST,

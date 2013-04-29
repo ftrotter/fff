@@ -37,7 +37,7 @@
   '24hour_coverage_answering_service_is' => 'practice_1_24hour_coverage_answering_service_is',
   '24hour_coverage_voicemail_service_is' => 'practice_1_24hour_coverage_voicemail_service_is',
   '24hour_coverage_voicemail_service_other_is' => 'practice_1_24hour_coverage_voicemail_service_other_is',
-  '24hour_coveragene_is' => 'practice_1_24hour_coveragene_is',
+  '24hour_coverage_none_is' => 'practice_1_24hour_coverage_none_is',
   'accepts_all_new_patients_is' => 'practice_1_accepts_all_new_patients_is',
   'accepts_existing_patients_payor_change_is' => 'practice_1_accepts_existing_patients_payor_change_is',
   'accepts_new_patients_referral_is' => 'practice_1_accepts_new_patients_referral_is',
@@ -49,7 +49,7 @@
   'limitations_age_top' => 'practice_1_limitations_age_top',
   'limitations_other_is' => 'practice_1_limitations_other_is',
   'limitations_other_explanation' => 'practice_1_limitations_other_explanation',
-  '0n_physician_provider_is' => 'practice_0n_physician_provider_is',
+  'non_physician_provider_is' => 'practice_1_non_physician_provider_is',
   'non_physician_provider_name_0' => 'practice_1_non_physician_provider_name_0',
   'non_physician_provider_name_1' => 'practice_1_non_physician_provider_name_1',
   'non_physician_provider_name_3' => 'practice_1_non_physician_provider_name_3',
@@ -153,7 +153,6 @@
   'is_interpreters_4_lang' => 'practice_1_is_interpreters_4_lang',
   'provider_cert_other_specify' => 'practice_1_provider_cert_other_specify',
   'hours_thursday_is' => 'practice_1_hours_thursday_is',
-  '1n_physician_provider_is' => 'practice_1n_physician_provider_is',
   'is_cardiac_stress_test_services' => 'practice_0_is_cardiac_stress_test_services',
 ) 
 

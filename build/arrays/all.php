@@ -22,36 +22,6 @@
     'name_is_male' => 'name_is_male',
     'SubmitForm' => 'SubmitForm',
   ),
-  'postgrad' => 
-  array (
-    '_is_section' => true,
-    'is_internship' => 'post_2_is_internship',
-    'is_residency' => 'post_2_is_residency',
-    'is_fellowship' => 'post_2_is_fellowship',
-    'is_teaching_position' => 'post_2_is_teaching_position',
-    'speciality' => 'postgrad_6_speciality',
-    'institution' => 'postgrad_6_institution',
-    'is_program_successfully_completed' => 'postgrad_0_is_program_successfully_completed',
-    'attendance_start_date' => 'postgrad_6_attendance_start_date',
-    'attendance_end_date' => 'postgrad_1_attendance_end_date',
-    'program_director_then' => 'postgrad_6_program_director_then',
-    '_has_address' => true,
-    'adddress_city' => 'postgrad_0_adddress_city',
-    'program_director_now' => 'postgrad_6_program_director_now',
-    'is_additional_postgrad' => 'postgrad_is_additional_postgrad',
-    'internship_is' => 'postgrad_6_internship_is',
-    'residency_is' => 'postgrad_2_residency_is',
-    'fellowship_is' => 'postgrad_6_fellowship_is',
-    'teaching_appointment_is' => 'postgrad_6_teaching_appointment_is',
-    'program_completed_yes' => 'post_grad_6_program_completed_yes',
-  ),
-  'address' => 
-  array (
-    '_has_address' => true,
-    '_has_email' => true,
-    '_has_phone' => true,
-    '_has_fax' => true,
-  ),
   'phone' => 
   array (
     '_has_phone' => true,
@@ -75,6 +45,29 @@
     'service_last_location' => 'military_service_last_location',
     'service_branch' => 'military_service_branch',
     'is_current_military' => 'military_is_current_military',
+  ),
+  'postgrad' => 
+  array (
+    '_is_section' => true,
+    'speciality' => 'postgrad_6_speciality',
+    'institution' => 'postgrad_6_institution',
+    'is_program_successfully_completed' => 'postgrad_0_is_program_successfully_completed',
+    'attendance_start_date' => 'postgrad_6_attendance_start_date',
+    'attendance_end_date' => 'postgrad_1_attendance_end_date',
+    'program_director_then' => 'postgrad_6_program_director_then',
+    '_has_address' => true,
+    'adddress_city' => 'postgrad_0_adddress_city',
+    'program_director_now' => 'postgrad_6_program_director_now',
+    'is_additional_postgrad' => 'postgrad_is_additional_postgrad',
+    'internship_is' => 'postgrad_6_internship_is',
+    'residency_is' => 'postgrad_2_residency_is',
+    'fellowship_is' => 'postgrad_6_fellowship_is',
+    'teaching_appointment_is' => 'postgrad_6_teaching_appointment_is',
+    'is_internship' => 'postgrad_2_is_internship',
+    'is_residency' => 'postgrad_2_is_residency',
+    'is_teaching_position' => 'postgrad_2_is_teaching_position',
+    'is_fellowship' => 'postgrad_1_is_fellowship',
+    'program_completed_yes' => 'postgrad_6_program_completed_yes',
   ),
   'degree' => 
   array (
@@ -155,14 +148,6 @@
     'is_foreign_medical_grad' => 'ecfmg_is_foreign_medical_grad',
     'is_foreign_medical_grad_na' => 'ecfmg_is_foreign_medical_grad_na',
   ),
-  'speciality' => 
-  array (
-    '_is_section' => true,
-    'type' => 'speciality_2_type',
-    'date_start' => 'speciality_2_date_start',
-    'recertification_date' => 'speciality_2_recertification_date',
-    'expiration_date' => 'speciality_0_expiration_date',
-  ),
   'specialty' => 
   array (
     '_is_section' => true,
@@ -171,13 +156,17 @@
     'is_taken_exam_results_pending' => 'specialty_2_is_taken_exam_results_pending',
     'is_takenpart1_eligiblefor2' => 'specialty_2_is_takenpart1_eligiblefor2',
     'is_intending_sit_boards' => 'specialty_2_is_intending_sit_boards',
-    'ist_planning_takeboards' => 'specialty_2_ist_planning_takeboards',
+    'is_not_planning_takeboards' => 'specialty_2_is_not_planning_takeboards',
     'hmo_listed_yes' => 'specialty_2_hmo_listed_yes',
     'hmo_listed_no' => 'specialty_2_hmo_listed_no',
     'ppo_listed_yes' => 'specialty_2_ppo_listed_yes',
     'ppo_listed_no' => 'specialty_2_ppo_listed_no',
     'pos_listed_yes' => 'specialty_2_pos_listed_yes',
     'pos_listed_no' => 'specialty_2_pos_listed_no',
+    'date_start' => 'specialty_2_date_start',
+    'recertification_date' => 'specialty_2_recertification_date',
+    'expiration_date' => 'specialty_0_expiration_date',
+    'type' => 'specialty_1_type',
   ),
   'otherfocus' => 
   array (
@@ -323,7 +312,7 @@
     '24hour_coverage_answering_service_is' => 'practice_1_24hour_coverage_answering_service_is',
     '24hour_coverage_voicemail_service_is' => 'practice_1_24hour_coverage_voicemail_service_is',
     '24hour_coverage_voicemail_service_other_is' => 'practice_1_24hour_coverage_voicemail_service_other_is',
-    '24hour_coveragene_is' => 'practice_1_24hour_coveragene_is',
+    '24hour_coverage_none_is' => 'practice_1_24hour_coverage_none_is',
     'accepts_all_new_patients_is' => 'practice_1_accepts_all_new_patients_is',
     'accepts_existing_patients_payor_change_is' => 'practice_1_accepts_existing_patients_payor_change_is',
     'accepts_new_patients_referral_is' => 'practice_1_accepts_new_patients_referral_is',
@@ -335,7 +324,7 @@
     'limitations_age_top' => 'practice_1_limitations_age_top',
     'limitations_other_is' => 'practice_1_limitations_other_is',
     'limitations_other_explanation' => 'practice_1_limitations_other_explanation',
-    '0n_physician_provider_is' => 'practice_0n_physician_provider_is',
+    'non_physician_provider_is' => 'practice_1_non_physician_provider_is',
     'non_physician_provider_name_0' => 'practice_1_non_physician_provider_name_0',
     'non_physician_provider_name_1' => 'practice_1_non_physician_provider_name_1',
     'non_physician_provider_name_3' => 'practice_1_non_physician_provider_name_3',
@@ -439,7 +428,6 @@
     'is_interpreters_4_lang' => 'practice_1_is_interpreters_4_lang',
     'provider_cert_other_specify' => 'practice_1_provider_cert_other_specify',
     'hours_thursday_is' => 'practice_1_hours_thursday_is',
-    '1n_physician_provider_is' => 'practice_1n_physician_provider_is',
     'is_cardiac_stress_test_services' => 'practice_0_is_cardiac_stress_test_services',
   ),
   'disclosure' => 
@@ -504,6 +492,17 @@
     'is_judgement_plaintiffs_resolution' => 'malpractice_1_is_judgement_plaintiffs_resolution',
     'is_mediation_resolution' => 'malpractice_1_is_mediation_resolution',
     'is_case_in_data_bank' => 'malpractice_1_is_case_in_data_bank',
+  ),
+  'home' => 
+  array (
+    '_has_address' => true,
+  ),
+  'correspondence' => 
+  array (
+    '_has_address' => true,
+    '_has_phone' => true,
+    '_has_fax' => true,
+    '_has_email' => true,
   ),
 ) 
 
