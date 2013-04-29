@@ -52,7 +52,7 @@ if (!$validator->isValid()) {
 			//do nothing...
 		} else {
 
-			$clipped = preg_replace('/\_start_date$/', '', $field);
+			$clipped = preg_replace('/\_start_date$/', '', $key);
 			$end_date = $clipped . "_end_date";
 			if(isset($_POST[$end_date])){
 				//then we have both _start_date and _end_date
@@ -101,7 +101,8 @@ if (!$validator->isValid()) {
 	$merged_file = "merged_$time.pdf";
 	$merged_file_location = "tmp/$merged_file";
 
-	$pid = exec("pdftk tx_cred.pdf fill_form tmp/$time.fdf output - > $merged_file_location & echo $! ");
+	$pdftk_command = "pdftk pdfsrc/tx_cred.pdf fill_form tmp/$time.fdf output - > $merged_file_location ";
+	$pid = exec("$pdftk_command & echo $! ");
 
 	$id = "$time-$pid";
 
@@ -164,7 +165,12 @@ $local_url = ( (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')) ? 'https
 	Your pdf
 	</a>
 </h1>
-<p> You might give it a second to ensure that the file is built... </p>
+
+<p> 
+Running command<br><br>
+ $pdftk_command <br>
+<br>
+You might give it a second to ensure that the file is built... </p>
 		</body></html>";
 	}
 
