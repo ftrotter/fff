@@ -17,21 +17,30 @@ if(isset($argv[1])){
 $lines = file($file_name);
 
 $matches = array();
+$descriptions = array();
 foreach($lines as $line){
 
 	if(strpos($line,'FieldName:') !== false){
 		$line_array = explode(': ',$line);
 		$field = trim($line_array[1]);
 		$matches[] = $field;
+		$last_field_name = $field;
+		$descriptions[$last_field_name] = $last_field_name;
 	} 
 
+	
+	if(strpos($line,'FieldNameAlt:') !== false){
+		$line_array = explode(': ',$line);
+		$description = trim($line_array[1]);
+		$descriptions[$last_field_name] = $description;
+	}
 
 }
 
 
 $fields = array();
 $found_fields = array();
-$form_html = "<html><head></head><body><form action='../initPDF.php' method='POST'><ul>";
+$form_html = "<html><head></head><body><form action='initPDF.php' method='POST'><ul>";
 $form_html .= "\n<h1>Credential Form REST test form</h1>";
 $form_array = array();
 
@@ -55,10 +64,11 @@ foreach($matches as $field){
 			if(!isset($found_fields[$start_date])){
 				$found_fields[$start_date] = $start_date;
 				$found_fields[$end_date] = $end_date;
-				$fields[] = $start_date;
-				$fields[] = $end_date;			
-				$form_array[] = "\n <li><label>$start_date</label>: <input type='date' name='$start_date' id='$start_date' value='2000-01-01'> </li>";
-				$form_array[] = "\n <li><label>$end_date</label>: <input type='date' name='$end_date' id='$end_date' value='2000-01-01'> </li>";
+				$this_description = $descriptions[$field];
+				$fields[$start_date] = $this_description;
+				$fields[$end_date] = $this_description;
+				$form_array[] = "\n <li><label>$this_description Start</label>: <input type='date' name='$start_date' id='$start_date' value='2000-01-01'> </li>";
+				$form_array[] = "\n <li><label>$this_description End</label>: <input type='date' name='$end_date' id='$end_date' value='2000-01-01'> </li>";
 			}
 
 
@@ -72,8 +82,9 @@ foreach($matches as $field){
                 } else {
                         if(!isset($found_fields[$field])){
                                 $found_fields[$field] = $field;
-                                $fields[] = $field;
-                                $form_array[] = "\n <li><label>$field</label>: <input type='date' name='$field' id='$field' value='2000-01-01'> </li>";
+                                $this_description = $descriptions[$field];
+                                $fields[$field] = $this_description;
+                                $form_array[] = "\n <li><label>$this_description</label>: <input type='date' name='$field' id='$field' value='2000-01-01'> </li>";
                         }
 
 
@@ -96,8 +107,9 @@ foreach($matches as $field){
 			//it does not bork....
 			if(!isset($found_fields[$clipped])){
 				$found_fields[$clipped] = $clipped;	
-				$fields[] = $clipped;
-				$form_array[] = "\n <li><label>$clipped</label>: <input type='checkbox' name='$clipped' id='$clipped' value=''> </li> ";
+				$this_description = $descriptions[$field];
+				$fields[$clipped] = $this_description;
+				$form_array[] = "\n <li><label>$this_description</label>: <input type='checkbox' name='$clipped' id='$clipped' value=''> </li> ";
 			}
 			continue;
 		}	
@@ -105,8 +117,9 @@ foreach($matches as $field){
 		//if we get here, then it is a normal field then.. isnt it...
 		if(!isset($found_fields[$field])){	
 			$found_fields[$field] = $field;	
-			$fields[] = $field;
-			$form_array[] = "\n <li><label>$field</label>: <input type='text' name='$field' id='$field' value='$field'></li> ";
+			$this_description = $descriptions[$field];
+			$fields[$field] = $this_description;
+			$form_array[] = "\n <li><label>$this_description</label>: <input type='text' name='$field' id='$field' value='$field'></li> ";
 		}
 
 	}else{
@@ -125,7 +138,7 @@ $fh = fopen($form_build_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
 
-$json = json_encode(array('fields' => $found_fields),JSON_PRETTY_PRINT);
+$json = json_encode(array('fields' => $fields),JSON_PRETTY_PRINT);
 $json_file = 'build/upload_me_to_jsonschema.net.json';
 $fh = fopen($json_file,'w');
 fwrite($fh,$json);
@@ -143,7 +156,7 @@ $provider_stuff = array(
 $field_dump = array();
 $words = array();
 //lets start by creating a two dimensional array!!
-foreach($found_fields as $field_name){
+foreach($found_fields as $field_name => $this_description){
 
 	$field_array = explode('_',$field_name);
 
@@ -230,7 +243,7 @@ foreach($found_fields as $field_name){
 	}
 
 	$field_dump[$key]['_is_section'] = $is_section;
-	$field_dump[$key][$sub_key] = $field_name;
+	$field_dump[$key][$sub_key] = $this_description;
 
 }
 
@@ -272,27 +285,6 @@ fwrite($fh,$word_file_txt);
 fclose($fh);
 
 
-
-function parse($text_from_file) {
-                if (!preg_match_all("/<<\s*\/V([^>]*)>>/x",
-$text_from_file,$out,PREG_SET_ORDER))
-                        return;
-                for ($i=0;$i<count($out);$i++) {
-                        $pattern = "<<.*/V\s*(.*)\s*/T\s*(.*)\s*>>";
-                        $thing = $out[$i][1];
-                        if (eregi($pattern,$out[$i][0],$regs)) {
-                                $key = $regs[2];
-                                $val = $regs[1];
-                                $key = preg_replace("/^\s*\(/","",$key);
-                                $key = preg_replace("/\)$/","",$key);
-                                $key = preg_replace("/\\\/","",$key);
-                                $val = preg_replace("/^\s*\(/","",$val);
-                                $val = preg_replace("/\)$/","",$val);
-                                $matches[$key] = $val;
-                        }
-                }
-                return $matches;
-        }
 
 
 ?>
