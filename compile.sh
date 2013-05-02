@@ -6,7 +6,11 @@ mkdir build
 mkdir build/arrays
 
 else
-echo "build directories found"
+
+echo "build directories found... building"
+rm build/* -f
+rm build/arrays/* -f
+
 fi
 		#This line greates the fdf from the original pdf
 		#eventually this needs to broadened beyond texas but for now the input to this process must be named tx_cred.pdf
