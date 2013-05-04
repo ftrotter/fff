@@ -2,7 +2,7 @@
 
         require_once('config.php');
 
-	$pdftk = "./pdftk"; //use the one included in git to create fdf files..
+	$pdftk = "pdftk"; //use the one included in git to create fdf files..
 
 	if(count($_POST) < 1){
 		echo "Requires a POST???";

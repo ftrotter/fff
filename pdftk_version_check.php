@@ -11,7 +11,7 @@
 
       if($float1 < 1.45){
 		echo "Your version of pdftk is $float1 which is less than 1.45 Your going to have a bad time.\n";
-		echo "stop everything and start over with the right version of pdftk";
+		echo "stop everything and start over with the right version of pdftk\n";
 		
 	}else{
 
