@@ -2,19 +2,28 @@
 
         require_once('config.php');
 
+	$pdftk = "./pdftk"; //use the one included in git to create fdf files..
 
-	if(!isset($_POST['name_last'])){
+	if(count($_POST) < 1){
 		echo "Requires a POST???";
 		exit();
 	}
+
+	$name_space = mysql_real_escape_string(urldecode($_GET['form']));
 
 	$json = json_encode(array( "fields" => $_POST));
 	$fields_object = json_decode($json);
 
 	require_once('json-schema-master/vendor/autoload.php');
 
+$schema_file = "schema/$name_space.form_schema.json";
+
+if(!file_exists($schema_file)){
+	$schema_file = "template.form_schema.json";	
+}
+
 $validator = new JsonSchema\Validator();
-$validator->check($fields_object, json_decode(file_get_contents('form_schema.json')));
+$validator->check($fields_object, json_decode(file_get_contents($schema_file)));
 
 if (!$validator->isValid()) {
 
@@ -44,6 +53,9 @@ if (!$validator->isValid()) {
 //	var_export($_POST);
 
 
+	ksort($_POST);
+	$forge_sent = var_export($_POST,true);
+
 	foreach($_POST as $key => $value){ //we have to handle our _is and _date_range logic here...
 
 		//first we handle possible collapses to _date_range
@@ -72,22 +84,29 @@ if (!$validator->isValid()) {
 		} else {
 			//this might seem pointless, but it lets us target checkboxes with a "yes" and a "no"
 			//on a paper form
+			//when a checkbox is checked, it looks like '' in the post, which evaluates to false..
+			if($value == ''){$value = true;}
 			if($value){
-				$_POST[$key. "_yes"] = true;
-				$_POST[$key. "_no"] = false;
+				$_POST[$key] = 'Yes';
+				$_POST[$key. "_yes"] = 'Yes';
+				$_POST[$key. "_no"] = 'Off';
 			}else{
-				$_POST[$key. "_yes"] = false;
-				$_POST[$key. "_no"] = true;	
+				$_POST[$key] = 'Off';
+				$_POST[$key. "_yes"] = 'Off';
+				$_POST[$key. "_no"] = 'Yes';	
 			}
 		
 
 		}
 	}
 
+	ksort($_POST);
+	$forge_sent .= var_export($_POST,true);
+
 	$file = forge_fdf(	
 				'',
 				$_POST,
-				$nothing,
+				$_POST,
 				$nothing,
 				$nothing);
 
@@ -101,7 +120,7 @@ if (!$validator->isValid()) {
 	$merged_file = "merged_$time.pdf";
 	$merged_file_location = "tmp/$merged_file";
 
-	$pdftk_command = "pdftk pdfsrc/tx_cred.pdf fill_form tmp/$time.fdf output - > $merged_file_location ";
+	$pdftk_command = "$pdftk pdfsrc/$name_space.pdf fill_form tmp/$time.fdf output - > $merged_file_location ";
 	$pid = exec("$pdftk_command & echo $! ");
 
 	$id = "$time-$pid";
@@ -170,6 +189,12 @@ $local_url = ( (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on')) ? 'https
 Running command<br><br>
  $pdftk_command <br>
 <br>
+we sent in the following data to our fdf build process...
+
+<pre>
+$forge_sent
+</pre>
+
 You might give it a second to ensure that the file is built... </p>
 		</body></html>";
 	}
