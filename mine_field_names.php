@@ -138,7 +138,7 @@ $fh = fopen($form_build_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
 
-$json = json_encode(array('fields' => $fields),JSON_PRETTY_PRINT);
+$json = json_encode(array('fields' => $fields));
 $json_file = 'build/upload_me_to_jsonschema.net.json';
 $fh = fopen($json_file,'w');
 fwrite($fh,$json);
