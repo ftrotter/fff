@@ -1,9 +1,15 @@
 <?php
 $file_name = "build/tx_cred.map";
-if(isset($argv[1])){
-        if(file_exists($argv[1])){
-                $file_name = $argv[1];
+if(isset($argv[2])){
+        if(file_exists($argv[2])){
+                $file_name = $argv[2];
         }
+}
+
+if(isset($argv[1])){
+	$name_space = $argv[1];
+}else{
+	$name_space = 'tx_cred';
 }
 
   # URL that generated this code:
@@ -20,12 +26,18 @@ $matches = array();
 $descriptions = array();
 foreach($lines as $line){
 
+	if(strpos($line,'FieldType:') !== false){
+		$line_array = explode(': ',$line);
+		$this_type = trim($line_array[1]);
+	}
+
 	if(strpos($line,'FieldName:') !== false){
 		$line_array = explode(': ',$line);
 		$field = trim($line_array[1]);
 		$matches[] = $field;
 		$last_field_name = $field;
 		$descriptions[$last_field_name] = $last_field_name;
+		
 	} 
 
 	
@@ -40,7 +52,7 @@ foreach($lines as $line){
 
 $fields = array();
 $found_fields = array();
-$form_html = "<html><head></head><body><form action='initPDF.php' method='POST'><ul>";
+$form_html = "<html><head></head><body><form action='../initPDF.php?form=$name_space' method='POST'><ul>";
 $form_html .= "\n<h1>Credential Form REST test form</h1>";
 $form_array = array();
 
@@ -67,8 +79,8 @@ foreach($matches as $field){
 				$this_description = $descriptions[$field];
 				$fields[$start_date] = $this_description;
 				$fields[$end_date] = $this_description;
-				$form_array[] = "\n <li><label>$this_description Start</label>: <input type='date' name='$start_date' id='$start_date' value='2000-01-01'> </li>";
-				$form_array[] = "\n <li><label>$this_description End</label>: <input type='date' name='$end_date' id='$end_date' value='2000-01-01'> </li>";
+				$form_array[] = "\n <li><label>$this_description Start ($start_date)</label>: <input type='date' name='$start_date' id='$start_date' value='2011-11-12'> </li>";
+				$form_array[] = "\n <li><label>$this_description End ($end_date)</label>: <input type='date' name='$end_date' id='$end_date' value='2011-11-13'> </li>";
 			}
 
 
@@ -84,7 +96,7 @@ foreach($matches as $field){
                                 $found_fields[$field] = $field;
                                 $this_description = $descriptions[$field];
                                 $fields[$field] = $this_description;
-                                $form_array[] = "\n <li><label>$this_description</label>: <input type='date' name='$field' id='$field' value='2000-01-01'> </li>";
+                                $form_array[] = "\n <li><label>$this_description ($field)</label>: <input type='date' name='$field' id='$field' value='2011-11-11'> </li>";
                         }
 
 
@@ -108,8 +120,11 @@ foreach($matches as $field){
 			if(!isset($found_fields[$clipped])){
 				$found_fields[$clipped] = $clipped;	
 				$this_description = $descriptions[$field];
+
 				$fields[$clipped] = $this_description;
-				$form_array[] = "\n <li><label>$this_description</label>: <input type='checkbox' name='$clipped' id='$clipped' value=''> </li> ";
+				$form_array[] = "\n <li>
+<input type='hidden' name='$clipped' value='0'>
+<label>$this_description ($clipped)</label>: <input type='checkbox' name='$clipped' id='$clipped' value=''> </li> ";
 			}
 			continue;
 		}	
@@ -119,7 +134,7 @@ foreach($matches as $field){
 			$found_fields[$field] = $field;	
 			$this_description = $descriptions[$field];
 			$fields[$field] = $this_description;
-			$form_array[] = "\n <li><label>$this_description</label>: <input type='text' name='$field' id='$field' value='$field'></li> ";
+			$form_array[] = "\n <li><label>$this_description ($field)</label>: <input type='text' name='$field' id='$field' value='$field'></li> ";
 		}
 
 	}else{
@@ -133,13 +148,18 @@ foreach($form_array as $some_html){
 }
 
 $form_html .= "\n<br><input type='submit' value='Call Form REST'></form></body></html>";
-$form_build_file = 'build/test_form.html';
+$form_build_file = "build/$name_space.test_form.html";
 $fh = fopen($form_build_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
 
+<<<<<<< Updated upstream
 $json = json_encode(array('fields' => $fields));
 $json_file = 'build/upload_me_to_jsonschema.net.json';
+=======
+$json = json_encode(array('fields' => $fields),JSON_PRETTY_PRINT);
+$json_file = "build/$name_space.upload_me_to_jsonschema.net.json";
+>>>>>>> Stashed changes
 $fh = fopen($json_file,'w');
 fwrite($fh,$json);
 fclose($fh);
@@ -243,11 +263,13 @@ foreach($found_fields as $field_name => $this_description){
 	}
 
 	$field_dump[$key]['_is_section'] = $is_section;
-	$field_dump[$key][$sub_key] = $this_description;
+	$field_dump[$key][$sub_key] = array(
+				'field' => $field_name,
+				'description' => '');
 
 }
 
-	$word_file = "build/arrays/all.php";
+	$word_file = "build/arrays/$name_space.all.php";
 	$fh = fopen($word_file,'w');
 
 	$output = var_export($field_dump,true);
@@ -259,7 +281,7 @@ foreach($found_fields as $field_name => $this_description){
 
 foreach($field_dump as $file_name => $out_array){
 
-	$word_file = "build/arrays/$file_name.php";
+	$word_file = "build/arrays/$name_space.$file_name.php";
 	$fh = fopen($word_file,'w');
 
 	$output = var_export($out_array,true);
@@ -279,7 +301,7 @@ foreach($words as $word => $this_word_count){
 }
 
 $word_file_txt = implode("\n",$word_counts);
-$word_file = 'build/field_words.txt';
+$word_file = "build/$name_space.field_words.txt";
 $fh = fopen($word_file,'w');
 fwrite($fh,$word_file_txt);
 fclose($fh);
