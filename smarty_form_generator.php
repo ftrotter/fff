@@ -1,6 +1,13 @@
 <?php
 
-	$json_file = "build/upload_me_to_jsonschema.net.json";
+if(isset($argv[1])){
+        $name_space = $argv[1];
+}else{
+        $name_space = 'tx_cred';
+}
+
+
+	$json_file = "build/$name_space.upload_me_to_jsonschema.net.json";
 
 	$form_array = json_decode(file_get_contents($json_file),true);
 

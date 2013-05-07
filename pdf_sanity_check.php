@@ -119,7 +119,7 @@
 		}
 
 		//
-		//	Rules to enforce for the text types
+		//	TEXT
 		//
 
 		if($type == 'Text'){ //its a text field
@@ -127,11 +127,23 @@
 				$has_error = true;
                                 //this should not happen.. everything will assume
 				//that it is a logic
-                                echo "$field: Error. this Text field, but it has the string 'is_ in it... making the compiler think it is a checkbox \n";
+                                echo "$field: Error. This is a Text field, but it has the string 'is_ in it... making the compiler think it is a checkbox \n";
 
                         }
 			//see if its a date...
 
+                        if(strpos($field,'_date') !== false){
+
+			//
+			// 	DATE
+			//
+
+				
+                        	if(strpos($desc,'YYYY') !== false){
+				//	$has_error = true;
+				//	echo "$field: Error. This is a date field, but its description has YYYY still in it. This means that the Tooltip will not be useful in the final form.\n";
+				}
+			}
 
 		}
 
