@@ -153,18 +153,12 @@ $fh = fopen($form_build_file,'w');
 fwrite($fh,$form_html);
 fclose($fh);
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-$json = json_encode(array('fields' => $fields));
-$json_file = 'build/upload_me_to_jsonschema.net.json';
-=======
-$json = json_encode(array('fields' => $fields),JSON_PRETTY_PRINT);
+if(version_compare(phpversion(),"5.4.0",">=")){
+	$json = json_encode(array('fields' => $fields),JSON_PRETTY_PRINT);
+}else{
+	$json = json_encode(array('fields' => $fields));
+}
 $json_file = "build/$name_space.upload_me_to_jsonschema.net.json";
->>>>>>> Stashed changes
-=======
-$json = json_encode(array('fields' => $fields),JSON_PRETTY_PRINT);
-$json_file = "build/$name_space.upload_me_to_jsonschema.net.json";
->>>>>>> Stashed changes
 $fh = fopen($json_file,'w');
 fwrite($fh,$json);
 fclose($fh);
