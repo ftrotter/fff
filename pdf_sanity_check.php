@@ -140,7 +140,7 @@
 		}
 
 		if($has_desc && $enforce_page_tags && ! $ignore_the_brackets){ //rule applies only to fields that have a description...
-			if(strpos(strtolower($desc),'(page ') === false && true){
+			if(strpos(strtolower($desc),'(page ') === false){
 				//then we do not have a page number...
 				$has_error = true;
                                 echo "$field: ERROR. This field has a description, but no page number in it..\n";
@@ -168,7 +168,7 @@
 		}
 
                 if($has_desc && $enforce_field_tag_sanity && ! $ignore_the_brackets){ //rule applies only to fields that have a description...
-                        if(strpos(strtolower($desc),'(field ') === false && true){
+                        if(strpos(strtolower($desc),'(field ') === false){
                                 //then we do not have a page number...
 				if($enforce_field_tags){
                                 	$has_error = true;
