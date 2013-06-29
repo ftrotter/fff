@@ -12,6 +12,7 @@
 
 	}
 
+
         require_once('config.php');
 
 	$pdftk = "pdftk"; //use the one included in git to create fdf files..
@@ -21,6 +22,10 @@
 		exit();
 	}
 
+	if(isset($_POST['run_pdf_test'])){ //then we should test this post, instead of running it..
+		require_once('post_check.php');
+		exit();
+	}
 
 	$name_space = mysql_real_escape_string(urldecode($_GET['form']));
 
