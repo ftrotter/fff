@@ -3,35 +3,60 @@
 if(isset($argv[1])){
         $name_space = $argv[1];
 }else{
-        $name_space = 'tx_cred';
+        $name_space = 'tx_cred.merged';
 }
 
 
 	$json_file = "build/$name_space.upload_me_to_jsonschema.net.json";
 
-	$form_array = json_decode(file_get_contents($json_file),true);
+	if(!file_exists($json_file)){
+		echo "need a proper namespace like tx_cred.merged\n\n";
+		exit();
+	}
+	
 
-  	$re1='.*?';   # Non-greedy match on filler
-  	$re2='(\\d+)';        # Pulls '20' out of (Page 20)
+	$form_array = json_decode(file_get_contents($json_file),true);
 
 	$meta_array = array();
 	$page_number = 1;
 	$page_map = array();
 	$label_array = $form_array['fields'];
+	$form_order_array = array();
+	$form_custom_order_array = array();
 	foreach($label_array as $field => $label){
+
+		if(strcmp($field,'npi') == 0){
+			continue;
+		}
 
 		if(strcmp(strtolower($field),'submitform') == 0){
 			continue;
 		}
 
-  		if ($c=preg_match_all ("/".$re1.$re2."/is", $label, $matches)){
-      			$page_number=$matches[1][0];
-			$last_page_field = $field;
-			
-  		}else{
-			//echo "$field \t\t$page_number\n$last_page_field \n\n";
-			// we will just assume page_number is always valid!!
-		}	
+                        if(strpos(strtolower($label),'(page ') === false){
+                                //then we do not have a page number...
+				//we just keep using the last one...
+                        }else{
+
+                                $desc_split = explode('(page ',strtolower($label));
+                                $number_and = $desc_split[1];
+                                list($this_page, $throw_away) = explode(')',$number_and);
+				$last_page_field = $field;
+
+                        	if(strpos(strtolower($label),'(field ') !== false){
+
+					$desc_split = explode('(field ',strtolower($label));
+                                	$number_and = $desc_split[1];
+                                	list($this_field_num, $throw_away) = explode(')',$number_and);
+
+					$form_custom_order_array[$this_page][$this_field_num] = $field;
+
+				}
+			}
+	
+		$form_order_array[$this_page][] = $field;
+		
+
 
 		$field_array = explode('_',$field);
 		$start = $field_array[0];
@@ -54,25 +79,39 @@ if(isset($argv[1])){
 	//lets split these pages into much smaller groups..
 	//so that we can have reasonable tabs in the end...
 	$pages = array();
+	//logic to recurse each array no longer needed
+	/*
 	foreach($new_meta_array as $group_name => $group_contents){
 		$this_page = $page_map[$group_name];
 		$pages[$this_page][$group_name] = $group_contents;
 	}
+	*/
 
 	//for debugging....
 	$original_field_html = var_export($form_array['fields'],true); 
 	$html_array = var_export($new_meta_array,true);
 
 	$form_pages = array();
-	foreach($pages as $this_page_number => $groups){
-		ksort($groups);
-		$form_pages[$this_page_number] = generate_list($groups,$label_array);
+	foreach($form_order_array as $this_page_number => $this_page_auto_generated_fields){
+		ksort($this_page_auto_generated_fields);
+		if(isset($form_order_custom_array[$this_page_number])){
+			$send_this_field_list = $form_order_custom_array[$this_page_number]; //we have hand coded field ordering and we should use it!!
+		}else{
+			$send_this_field_list = $this_page_auto_generated_fields;
+		}
+		$form_pages[$this_page_number] = generate_list_flat($send_this_field_list,$label_array);
 	}
 
 	$form_html = "  
 <div class='container'>
 <h1> Form Generated from $name_space.pdf </h1>
 <form class='form-horizontal' method='POST'>
+  <div class='control-group'>
+    <label class='control-label' for='npi'>National Provider Identifier (npi)</label>
+    <div class='controls'>
+        <input type='text' name='npi' id='npi' value='{\$npi}'>
+    </div>
+  </div>
 <ul class='nav nav-tabs'>
 	";
 
@@ -140,8 +179,31 @@ function arr_to_keys($keys, $val){
     return array($new_key => arr_to_keys(array_slice($keys,1), $val));
 }
 
+function generate_list_flat($input_array,$label_array){
 
-function generate_list($input_array,$label_array){
+	$return_me = '';
+
+	foreach($input_array as $field_name){
+		
+               $label = pretty_label($label_array[$field_name]);
+
+               $input =  generate_input($field_name);
+$return_me .= "
+  <div class='control-group'>
+    <label class='control-label' for='$field_name'>$label</label>
+    <div class='controls'>
+        $input
+    </div>
+  </div>
+";
+
+	}
+
+	return($return_me);
+
+}
+
+function generate_list_recursive($input_array,$label_array){
 
 	$return_me = '';
 
@@ -162,12 +224,12 @@ function generate_list($input_array,$label_array){
 			}
 	//		$return_me .= "$key:";
 			if(is_array($sub)){
-				$return_me .= generate_list($sub,$label_array);
+				$return_me .= generate_list_recursive($sub,$label_array);
 			}else{
 				$field_name = $sub;
 				$label = pretty_label($label_array[$field_name]);
 			
-				$input =  generate_input($field_name,$label_array);
+				$input =  generate_input($field_name);
 			//	$return_me .= "<label for='$field_name'> $label </label>";
 $return_me .= "
   <div class='control-group'>
@@ -208,7 +270,7 @@ function pretty_label($label){
 	}
 }
 
-function generate_input($field_name,$label_array){
+function generate_input($field_name){
 
 	//set the default with smarty tags..
 	$return_me = "<input type='text' name='$field_name' id='$field_name' value='{\$$field_name}'> \n";
