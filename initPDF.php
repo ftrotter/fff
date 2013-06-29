@@ -1,5 +1,17 @@
 <?php
 
+	//This is intended to take really enourmous POST forms...
+	//This php.ini setting must be right...
+	$post_size = ini_get('max_input_vars');
+	if($post_size < 20000){
+
+		echo "<html><body><title>bad time</title><body>
+<h1> Your max_input_vars is too low. (currently $post_size) Change it to 20000 in /etc/php.ini and restart your httpd server</h1>
+<img src='http://i.imgur.com/at9QoA1.png'></body></html>";
+		exit();
+
+	}
+
         require_once('config.php');
 
 	$pdftk = "pdftk"; //use the one included in git to create fdf files..
@@ -9,6 +21,7 @@
 		exit();
 	}
 
+
 	$name_space = mysql_real_escape_string(urldecode($_GET['form']));
 
 	$json = json_encode(array( "fields" => $_POST));
@@ -16,9 +29,11 @@
 
 	require_once('json-schema-master/vendor/autoload.php');
 
-$schema_file = "schema/$name_space.form_schema.json";
+$schema_file = "schemas/$name_space.form_schema.json";
 
 if(!file_exists($schema_file)){
+	echo "using wrong file could not find $schema_file<br>";
+	exit();
 	$schema_file = "template.form_schema.json";	
 }
 
@@ -41,6 +56,13 @@ if (!$validator->isValid()) {
 
 	$result_array['fails'] = $fails;
 
+	
+	echo "<h1> Epic fail on validation </h1>";
+	echo "<pre>";	
+	var_export($result_array);
+	var_export($_POST);
+	echo "</pre>";
+	exit();
 
 } else {
 	//we have a valid code... lets build
@@ -101,7 +123,8 @@ if (!$validator->isValid()) {
 	}
 
 	ksort($_POST);
-	$forge_sent .= var_export($_POST,true);
+	//overwrite the entire array, so we see things only after processing..
+	$forge_sent = var_export($_POST,true);
 
 	$file = forge_fdf(	
 				'',
