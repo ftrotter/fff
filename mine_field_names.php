@@ -153,6 +153,7 @@ foreach($form_array as $some_html){
 }
 
 $form_html .= "
+<li> Do you want to run an anlysis on this post, instead of processing it? <input type='checkbox' name='run_pdf_test'> </li>
 <li><input type='submit' value='Call Form REST'></li>
 </ul></form></body></html>";
 
