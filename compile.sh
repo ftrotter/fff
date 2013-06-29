@@ -17,7 +17,7 @@ rm build/arrays/$1.* -f
 fi
 if [ -z "$1" ]
   then
-    echo "No argument supplied. Normally you should use 'tx_cred' or 'tx_cred.page_1' but there should be a .pdf in the pdfsrc folder for the prefix that you choose"
+    echo "No argument supplied. Normally you should use 'tx_cred.merged' or 'tx_cred.page_1' but there should be a .pdf in the pdfsrc folder for the prefix that you choose"
 else
 #this only happens if there is an argument
 
