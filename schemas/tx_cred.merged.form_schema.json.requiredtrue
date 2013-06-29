@@ -1284,9 +1284,9 @@
 					"id": "http://jsonschema.net/fields/hospital_1_address_state",
 					"required":true
 				},
-				"hospital_1_admission_precent": {
+				"hospital_1_admission_percent": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/hospital_1_admission_precent",
+					"id": "http://jsonschema.net/fields/hospital_1_admission_percent",
 					"required":true
 				},
 				"hospital_1_email": {
@@ -1949,9 +1949,9 @@
 					"id": "http://jsonschema.net/fields/malpractice_0_is_settled_without_prejudice_resolution",
 					"required":true
 				},
-				"malpractice_0_liability_carrier": {
+				"malpractice_0_carrier_name": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/malpractice_0_liability_carrier",
+					"id": "http://jsonschema.net/fields/malpractice_0_carrier_name",
 					"required":true
 				},
 				"malpractice_0_number_of_other_codefendants": {
@@ -1959,9 +1959,9 @@
 					"id": "http://jsonschema.net/fields/malpractice_0_number_of_other_codefendants",
 					"required":true
 				},
-				"malpractice_0_phone_number": {
+				"malpractice_0_carrier_phone_number": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/malpractice_0_phone_number",
+					"id": "http://jsonschema.net/fields/malpractice_0_carrier_phone_number",
 					"required":true
 				},
 				"malpractice_0_policy_number": {
@@ -1979,9 +1979,9 @@
 					"id": "http://jsonschema.net/fields/malpractice_0_your_involvement",
 					"required":true
 				},
-				"malpractice_1_address": {
+				"malpractice_1_carrier_address": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/malpractice_1_address",
+					"id": "http://jsonschema.net/fields/malpractice_1_carrier_address",
 					"required":true
 				},
 				"malpractice_1_amount_paid": {
@@ -2004,7 +2004,7 @@
 					"id": "http://jsonschema.net/fields/malpractice_1_carrier_phone_number",
 					"required":true
 				},
-				"malpractice_1_carrier_policy_number": {
+				"malpractice_1_policy_number": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/malpractice_1_carrier_policy_number",
 					"required":true
@@ -2024,9 +2024,9 @@
 					"id": "http://jsonschema.net/fields/malpractice_1_claim_case_status",
 					"required":true
 				},
-				"malpractice_1_country": {
+				"malpractice_1_carrier_country": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/malpractice_1_country",
+					"id": "http://jsonschema.net/fields/malpractice_1_carrier_country",
 					"required":true
 				},
 				"malpractice_1_date_claim_filed": {
@@ -2064,9 +2064,9 @@
 					"id": "http://jsonschema.net/fields/malpractice_1_is_judgement_defendant_resolution",
 					"required":true
 				},
-				"malpractice_1_is_judgement_plaintiffs_resolution": {
+				"malpractice_1_is_judgement_plaintiff_resolution": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/malpractice_1_is_judgement_plaintiffs_resolution",
+					"id": "http://jsonschema.net/fields/malpractice_1_is_judgement_plaintiff_resolution",
 					"required":true
 				},
 				"malpractice_1_is_mediation_resolution": {
@@ -2084,9 +2084,9 @@
 					"id": "http://jsonschema.net/fields/malpractice_1_is_settled_without_prejudice_resolution",
 					"required":true
 				},
-				"malpractice_1_liability_carrier": {
+				"malpractice_1_carrier_name": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/malpractice_1_liability_carrier",
+					"id": "http://jsonschema.net/fields/malpractice_1_carrier_name",
 					"required":true
 				},
 				"malpractice_1_number_of_other_codefendants": {
@@ -2344,9 +2344,9 @@
 					"id": "http://jsonschema.net/fields/phone_home",
 					"required":true
 				},
-				"postgrad_0_adddress_city": {
+				"postgrad_0_address_city": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_0_adddress_city",
+					"id": "http://jsonschema.net/fields/postgrad_0_address_city",
 					"required":true
 				},
 				"postgrad_0_address_country": {
@@ -2409,14 +2409,14 @@
 					"id": "http://jsonschema.net/fields/postgrad_0_is_teaching_position",
 					"required":true
 				},
-				"postgrad_0_program_director_current_if_known": {
+				"postgrad_0_program_director_now": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_0_program_director_current_if_known",
+					"id": "http://jsonschema.net/fields/postgrad_0_program_director_now",
 					"required":true
 				},
-				"postgrad_0_program_director": {
+				"postgrad_0_program_director_then": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_0_program_director",
+					"id": "http://jsonschema.net/fields/postgrad_0_program_director_then",
 					"required":true
 				},
 				"postgrad_0_specialty": {
@@ -2489,14 +2489,14 @@
 					"id": "http://jsonschema.net/fields/postgrad_1_is_teaching_position",
 					"required":true
 				},
-				"postgrad_1_program_director_current_if_known": {
+				"postgrad_1_program_director_now": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_1_program_director_current_if_known",
+					"id": "http://jsonschema.net/fields/postgrad_1_program_director_now",
 					"required":true
 				},
-				"postgrad_1_program_director": {
+				"postgrad_1_program_director_then": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_1_program_director",
+					"id": "http://jsonschema.net/fields/postgrad_1_program_director_then",
 					"required":true
 				},
 				"postgrad_1_specialty": {
@@ -2579,9 +2579,9 @@
 					"id": "http://jsonschema.net/fields/postgrad_2_program_director_then",
 					"required":true
 				},
-				"postgrad_2_speciality": {
+				"postgrad_2_specialty": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_2_speciality",
+					"id": "http://jsonschema.net/fields/postgrad_2_specialty",
 					"required":true
 				},
 				"postgrad_3_address_city": {
@@ -2659,9 +2659,9 @@
 					"id": "http://jsonschema.net/fields/postgrad_3_program_director_then",
 					"required":true
 				},
-				"postgrad_3_speciality": {
+				"postgrad_3_specialty": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_3_speciality",
+					"id": "http://jsonschema.net/fields/postgrad_3_specialty",
 					"required":true
 				},
 				"postgrad_4_address_city": {
@@ -2739,9 +2739,9 @@
 					"id": "http://jsonschema.net/fields/postgrad_4_program_director_then",
 					"required":true
 				},
-				"postgrad_4_speciality": {
+				"postgrad_4_specialty": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_4_speciality",
+					"id": "http://jsonschema.net/fields/postgrad_4_specialty",
 					"required":true
 				},
 				"postgrad_5_address_city": {
@@ -2819,9 +2819,9 @@
 					"id": "http://jsonschema.net/fields/postgrad_5_program_director_then",
 					"required":true
 				},
-				"postgrad_5_speciality": {
+				"postgrad_5_specialty": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_5_speciality",
+					"id": "http://jsonschema.net/fields/postgrad_5_specialty",
 					"required":true
 				},
 				"postgrad_6_address_city": {
@@ -2899,9 +2899,9 @@
 					"id": "http://jsonschema.net/fields/postgrad_6_program_director_then",
 					"required":true
 				},
-				"postgrad_6_speciality": {
+				"postgrad_6_specialty": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/postgrad_6_speciality",
+					"id": "http://jsonschema.net/fields/postgrad_6_specialty",
 					"required":true
 				},
 				"postgrad_is_additional_postgrad": {
@@ -3244,9 +3244,9 @@
 					"id": "http://jsonschema.net/fields/practice_0_hours_sunday_morning_time_range",
 					"required":true
 				},
-				"practice_0_hours_thurday_is": {
+				"practice_0_hours_thursday_is": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_hours_thurday_is",
+					"id": "http://jsonschema.net/fields/practice_0_hours_thursday_is",
 					"required":true
 				},
 				"practice_0_hours_thursday_afternoon_time_range": {
@@ -3414,9 +3414,9 @@
 					"id": "http://jsonschema.net/fields/practice_0_is_lab_services_following",
 					"required":true
 				},
-				"practice_0_is_lab_services_list_cert": {
+				"practice_0_is_lab_services_list_certs": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_is_lab_services_list_cert",
+					"id": "http://jsonschema.net/fields/practice_0_is_lab_services_list_certs",
 					"required":true
 				},
 				"practice_0_is_minority_business": {
@@ -3579,14 +3579,14 @@
 					"id": "http://jsonschema.net/fields/practice_0_is_xray_services_following",
 					"required":true
 				},
-				"practice_0_is_xray_services_list_cert": {
+				"practice_0_is_xray_services_list_certs": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_is_xray_services_list_cert",
+					"id": "http://jsonschema.net/fields/practice_0_is_xray_services_list_certs",
 					"required":true
 				},
-				"practice_0_lab_services_cert_list": {
+				"practice_0_lab_services_certs_list": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_lab_services_cert_list",
+					"id": "http://jsonschema.net/fields/practice_0_lab_services_certs_list",
 					"required":true
 				},
 				"practice_0_limitations_age_top": {
@@ -3619,9 +3619,9 @@
 					"id": "http://jsonschema.net/fields/practice_0_location_listed_in_dir_is",
 					"required":true
 				},
-				"practice_0_name_IRS": {
+				"practice_0_IRS_name": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_name_IRS",
+					"id": "http://jsonschema.net/fields/practice_0_IRS_name",
 					"required":true
 				},
 				"practice_0_name": {
@@ -3764,14 +3764,14 @@
 					"id": "http://jsonschema.net/fields/practice_0_non_physician_provider_name_5",
 					"required":true
 				},
-				"practice_0_office_manager_or_cantact_fax": {
+				"practice_0_office_manager_or_contact_fax": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_office_manager_or_cantact_fax",
+					"id": "http://jsonschema.net/fields/practice_0_office_manager_or_contact_fax",
 					"required":true
 				},
-				"practice_0_office_manager_or_cantact_phone": {
+				"practice_0_office_manager_or_contact_phone": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_office_manager_or_cantact_phone",
+					"id": "http://jsonschema.net/fields/practice_0_office_manager_or_contact_phone",
 					"required":true
 				},
 				"practice_0_office_manager_or_contact": {
@@ -3839,9 +3839,9 @@
 					"id": "http://jsonschema.net/fields/practice_0_provider_cert_pediatric_adv_life_support_expire_date",
 					"required":true
 				},
-				"practice_0_service_type_group_multi_speciality_is": {
+				"practice_0_service_type_group_multi_specialty_is": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_service_type_group_multi_speciality_is",
+					"id": "http://jsonschema.net/fields/practice_0_service_type_group_multi_specialty_is",
 					"required":true
 				},
 				"practice_0_service_type_group_primary_is": {
@@ -3889,9 +3889,9 @@
 					"id": "http://jsonschema.net/fields/practice_0_trans_other_accessible_explanation",
 					"required":true
 				},
-				"practice_0_xray_services_cert_list": {
+				"practice_0_xray_services_certs_list": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_xray_services_cert_list",
+					"id": "http://jsonschema.net/fields/practice_0_xray_services_certs_list",
 					"required":true
 				},
 				"practice_1_24hour_coverage_answering_service_is": {
@@ -4564,9 +4564,9 @@
 					"id": "http://jsonschema.net/fields/practice_1_lab_services_certs_list",
 					"required":true
 				},
-				"practice_1_lab_services_is": {
+				"practice_1_is_lab_services_list_certs": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_1_lab_services_is",
+					"id": "http://jsonschema.net/fields/practice_1_is_lab_services_list_certs",
 					"required":true
 				},
 				"practice_1_limitations_age_top": {
@@ -4599,9 +4599,9 @@
 					"id": "http://jsonschema.net/fields/practice_1_location_listed_in_dir_is",
 					"required":true
 				},
-				"practice_1_name_IRS": {
+				"practice_1_IRS_name": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_1_name_IRS",
+					"id": "http://jsonschema.net/fields/practice_1_IRS_name",
 					"required":true
 				},
 				"practice_1_name": {
@@ -4819,9 +4819,9 @@
 					"id": "http://jsonschema.net/fields/practice_1_provider_cert_pediatric_adv_life_support_expire_date",
 					"required":true
 				},
-				"practice_1_service_type_group_multi_speciality_is": {
+				"practice_1_service_type_group_multi_specialty_is": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_1_service_type_group_multi_speciality_is",
+					"id": "http://jsonschema.net/fields/practice_1_service_type_group_multi_specialty_is",
 					"required":true
 				},
 				"practice_1_service_type_group_primary_is": {
@@ -4874,19 +4874,19 @@
 					"id": "http://jsonschema.net/fields/practice_1_xray_services_certs_list",
 					"required":true
 				},
-				"practice_1_xray_services_is": {
+				"practice_1_is_xray_services_list_certs": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_1_xray_services_is",
+					"id": "http://jsonschema.net/fields/practice_1_is_xray_services_list_certs",
 					"required":true
 				},
-				"practice_is_more_practices_attachment_F": {
+				"practice_0_is_more_practices": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_is_more_practices_attachment_F",
+					"id": "http://jsonschema.net/fields/practice_0_is_more_practices",
 					"required":true
 				},
-				"practice_is_more_practices": {
+				"practice_1_is_more_practices": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_is_more_practices",
+					"id": "http://jsonschema.net/fields/practice_1_is_more_practices",
 					"required":true
 				},
 				"previousinsurance_address_city": {
@@ -5169,9 +5169,9 @@
 					"id": "http://jsonschema.net/fields/specialty_0_is_taken_exam_results_pending",
 					"required":true
 				},
-				"specialty_0_is_taken_part1_eligible_for2": {
+				"specialty_0_is_takenpart1_eligiblefor2": {
 					"type":"string",
-					"id": "http://jsonschema.net/fields/specialty_0_is_taken_part1_eligible_for2",
+					"id": "http://jsonschema.net/fields/specialty_0_is_takenpart1_eligiblefor2",
 					"required":true
 				},
 				"specialty_0_pos_is_listed": {
@@ -5869,21 +5869,31 @@
 					"id": "http://jsonschema.net/fields/workhistory_0_gap_date_explanation",
 					"required":true
 				},
-				"workhistory_0_gap_date": {
+				"workhistory_0_gap_start_date": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/workhistory_0_gap_date",
 					"required":true
 				},
+                                "workhistory_0_gap_end_date": {
+                                        "type":"string",
+                                        "id": "http://jsonschema.net/fields/workhistory_0_gap_date",
+                                        "required":true
+                                },
 				"workhistory_1_gap_date_explanation": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/workhistory_1_gap_date_explanation",
 					"required":true
 				},
-				"workhistory_1_gap_date": {
+				"workhistory_1_gap_start_date": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/workhistory_1_gap_date",
 					"required":true
 				},
+                                "workhistory_1_gap_end_date": {
+                                        "type":"string",
+                                        "id": "http://jsonschema.net/fields/workhistory_0_gap_date",
+                                        "required":true
+                                },
 				"workhistory_2_gap_date_explanation": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/workhistory_2_gap_date_explanation",
