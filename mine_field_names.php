@@ -52,8 +52,13 @@ foreach($lines as $line){
 
 $fields = array();
 $found_fields = array();
-$form_html = "<html><head></head><body><form action='../initPDF.php?form=$name_space' method='POST'><ul>";
-$form_html .= "\n<h1>Credential Form REST test form</h1>";
+$form_html = "<!DOCTYPE html><html>
+<head><title>$name_space test form</title></head>
+<body><form action='../initPDF.php?form=$name_space' method='POST'>
+<h1>Credential Form REST test form</h1>
+<ul>
+";
+
 $form_array = array();
 
 foreach($matches as $field){
@@ -147,7 +152,10 @@ foreach($form_array as $some_html){
 	$form_html .= $some_html;
 }
 
-$form_html .= "\n<br><input type='submit' value='Call Form REST'></form></body></html>";
+$form_html .= "
+<li><input type='submit' value='Call Form REST'></li>
+</ul></form></body></html>";
+
 $form_build_file = "build/$name_space.test_form.html";
 $fh = fopen($form_build_file,'w');
 fwrite($fh,$form_html);
