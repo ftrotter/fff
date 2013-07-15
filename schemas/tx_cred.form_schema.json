@@ -3629,16 +3629,6 @@
 					"id": "http://jsonschema.net/fields/practice_0_name",
 					"required":false
 				},
-				"practice_0_non_english_spokenby_provider": {
-					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_non_english_spokenby_provider",
-					"required":false
-				},
-				"practice_0_non_english_spokenby_staff": {
-					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_0_non_english_spokenby_staff",
-					"required":false
-				},
 				"practice_0_non_physician_provider_0_designation": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/practice_0_non_physician_provider_0_designation",
@@ -4607,16 +4597,6 @@
 				"practice_1_name": {
 					"type":"string",
 					"id": "http://jsonschema.net/fields/practice_1_name",
-					"required":false
-				},
-				"practice_1_non_english_spokenby_provider": {
-					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_1_non_english_spokenby_provider",
-					"required":false
-				},
-				"practice_1_non_english_spokenby_staff": {
-					"type":"string",
-					"id": "http://jsonschema.net/fields/practice_1_non_english_spokenby_staff",
 					"required":false
 				},
 				"practice_1_non_physician_provider_0_designation": {
