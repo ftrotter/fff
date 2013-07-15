@@ -12,7 +12,7 @@ $schema_file = "schemas/$name_space.form_schema.json";
 if(!file_exists($schema_file)){
         echo "using wrong file could not find $schema_file<br>";
         exit();
-        $schema_file = "template.form_schema.json";
+        $schema_file = "schemas/template.form_schema.json";
 }
 
 $validator = new JsonSchema\Validator();
